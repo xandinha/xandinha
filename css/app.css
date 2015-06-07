@@ -277,7 +277,7 @@ fieldset[disabled] .btn-primary.active {
 	font-weight: 300;
 	letter-spacing: 1px;
 	color: #fff;
-	/*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
+	text-shadow: 1px 1px 1px rgba(44, 62, 80, .9);
 	/*opacity: 0.65;*/
 	/*filter: alpha(opacity=65);*/
 	display: block;
@@ -1023,11 +1023,11 @@ display: none;
 #full-width-slider .car-descrizione p {
 	color: white;
 	margin-top: 10px;
-	text-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 1px rgba(44, 62, 80, .9);
 }
 
 #full-width-slider .car-descrizione h6 {
-	text-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 1px rgba(44, 62, 80, .9);
 }
 
 #full-width-slider .car-descrizione h2 {
@@ -1037,8 +1037,8 @@ display: none;
 
 #full-width-slider .car-descrizione h2 a {
 	color: white;
-	  font-family: 'Handlee';
-
+	font-family: 'Handlee';
+	text-shadow: 1px 1px 1px rgba(44, 62, 80, .9);
 	-webkit-transition: all 0.2s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.2s ease-out;  /* Firefox 4-15 */
 	-o-transition: all 0.2s ease-out;  /* Opera 10.50–12.00 */
@@ -1211,6 +1211,10 @@ display: none;
 	/*margin-left: -20px;*/
 	/*width: 234px;*/
 }
+.alt {
+  position: relative!important;
+  top: -511px!important;
+}
 .home .grigio .media-img img {
 	/*width: 600px;*/
 	height: 300px;
@@ -1224,7 +1228,7 @@ display: none;
 }
 
 .home .grigio {
-	padding-bottom: 30px;
+	margin-bottom: -392px;
 }
 
 /* ==========================================================================
@@ -3402,7 +3406,7 @@ div.wpcf7-response-output {
 	width: 170px;
 	margin-left: 0;
 }
-}
+
 
 
 /* immagini ad alta risoluzione */
@@ -3420,4 +3424,4 @@ div.wpcf7-response-output {
 .single-post .navbar .brand {
 	background-image: url(../img/rd-logo-nero@2x.png);
 }
-}
+
