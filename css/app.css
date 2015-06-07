@@ -693,6 +693,9 @@ section.blu p {
 
 .media a:hover {
 	text-decoration: none;
+	color: rgb(243, 156, 18);
+  border-bottom: solid 1px;
+  transition: all,500ms;
 }
 
 .media-body {
