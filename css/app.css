@@ -693,9 +693,6 @@ section.blu p {
 
 .media a:hover {
 	text-decoration: none;
-	color: rgb(243, 156, 18);
-  border-bottom: solid 1px;
-  transition: all,500ms;
 }
 
 .media-body {
@@ -1060,7 +1057,9 @@ display: none;
 	position: relative;
 	font-size: 1.5em;
 }
-
+#recreio{
+		top: 20px!important;
+}
 /***************
 *
 *  1. Arrows
@@ -1215,8 +1214,8 @@ display: none;
 	/*width: 234px;*/
 }
 .alt {
-  position: relative!important;
-  top: -511px!important;
+  position: relative;
+  top: -511px;
 }
 .home .grigio .media-img img {
 	/*width: 600px;*/
