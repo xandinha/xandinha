@@ -693,12 +693,6 @@ h1 {
     font-size: 1rem;
   }
 
-  .blurb {
-    position: relative;
-    top: -100px;
-    font-size: 0.875rem;
-  }
-
   .skill-lockup {
     position: relative;
     top: -90px;
@@ -781,22 +775,26 @@ h1 {
   }
 }
 .face-lockup {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0 0 0 85px;
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -moz-box;
   display: box;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
-  display: flex;
-  position: relative;
+  display: flex;*/
+  /*position: relative;*/
   /*flex-wrap: wrap;*/
 }
-
-.icon {
-  margin: 10px;
+@media (max-width: 750px) {
+  .face-lockup {
+		margin: 0px;
+  }
 }
+/*.icon {
+  margin: 10px;
+}*/
 
 strong {
   color: #545454;
@@ -822,7 +820,7 @@ strong {
   max-width: 143px;
 }
 
-.icon-mouse {
+/*.icon-mouse {
   flex: 1 0 auto;
   -webkit-box-ordinal-group: 2;
   -moz-box-ordinal-group: 2;
@@ -864,18 +862,17 @@ strong {
   -moz-order: 5;
   order: 5;
   -ms-flex-order: 5;
-}
+}*/
 
-.icon-mouse, .icon-pencil, .icon-browser, .icon-video {
+/*.icon-mouse, .icon-pencil, .icon-browser, .icon-video {
   position: relative;
   top: 25px;
   height: 126px;
   width: 0px;
   /*margin: 48px;*/
   /*border-radius: 50%*/
-  cursor: pointer;
   /*background: #666;*/
-}
+}*/
 
 /*.svg:hover .svg-fill {
   fill: #181818;
@@ -898,39 +895,58 @@ strong {
   z-index: 1;
 }
 
-.about_me{
+/*.about_me{
   height: 709px;
   clear: right;
   width: 95px;
-}
+}*/
 .my_photo{
   position: relative;
-  left: -14px;
-  height: 337px;
+  left: 39px;
+  height: 343px;
   background: url(../img/about_me/self_three.jpg)top center no-repeat;
+  bottom: 2px;
+}
+@media (max-width: 750px) {
+  .my_photo {
+		left: 4px;
+		width: 351px;
+		margin-bottom: 5px;
+  }
 }
 .my_photo_one{
   position: relative;
   left: -28px;
-  height: 337px;
-  background: url(../img/about_me/competition_six_better.jpg)top center no-repeat;
+  height: 350px;
+  background: url(../img/about_me/competition_six_better_one.jpg)top center no-repeat;
+  bottom: 2.5px;
 }
-
+@media (max-width: 750px) {
+  .my_photo_one {
+		left: 5px;
+		width: 350px;
+		margin-bottom: -11px;
+  }
+}
 .blurb {
   width: 704px;
-  height: 364px;
+  height: 385px;
   /*padding: 0 15px;*/
   margin: 50px auto;
   font-size: 1.25rem;
   text-align: center;
   font-weight: 300;
-  background: url(../img/about_me/face_better_one.jpg)top center no-repeat;
+  background: url(../img/about_me/selfie_four_maybe_one.jpg)top center no-repeat;
   background-size: cover;
   position: relative;
-  left: 221px;
-  top:-400px;
+  right: -75px;
+  top: -57px;
 }
-
+@media (max-width: 750px) {
+  .blurb {
+		width: 350px;
+		right: -5px;
+  }
 /*.blurb a {
   text-decoration: none;
   color: #c8c8c8;
@@ -1082,12 +1098,17 @@ strong {
 }
 /* Work */
 .alt-section {
-  background: rgba(44, 62, 80, .1);
+ /* background: rgba(44, 62, 80, .1);*/
 }
 
 .section-work {
-  overflow-X: hidden;
+  /*overflow-X: hidden;*/
   margin-top: -350px;
+}
+@media (max-width: 750px) {
+  .section-work {
+		margin-top: -438px;
+  }
 }
 
 .work-belt {
@@ -1304,6 +1325,11 @@ strong {
 .section-clients {
   position: relative;
 }
+@media (max-width: 750px) {
+  .section-clients {
+		top: -19px;
+  }
+}
 
 .clients-belt {
   width: 100%;
@@ -1330,6 +1356,9 @@ strong {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
+}
+.col-lg-8{
+	float: none!important;
 }
 .clients-belt .client-unit .client-face {
   min-width: 300px;
@@ -1360,6 +1389,13 @@ strong {
   color: rgb(44, 62, 80);
   margin-top: 1px;
   margin-left: 150px;
+}
+@media (max-width: 750px) {
+  .clients-belt .client-unit .client-content {
+		left: 4px;
+		width: 351px;
+		margin-bottom: 5px;
+  }
 }
 p {
   color: rgb(44, 62, 80);
@@ -1451,12 +1487,26 @@ p {
   z-index: 1;
   color: rgb(44, 62, 80);
 }
+@media (max-width: 750px) {
+  .quote_xan {
+		left: -1px;
+  }
+ }
 .xan_sobre_mim{
   color: rgb(44, 62, 80);
   font-family: 'Handlee', Helvetica, Arial, sans-serif;
   font-size: 20px;
   /*padding: 10px;*/
+  margin: 0 -55px 0 -12px;
 }
+@media (max-width: 750px) {
+  .xan_sobre_mim {
+		max-width: 571px;
+		padding: 0 154px 0 6px;
+		font-size: 16px;
+		margin: 0 -164px 0 -12px;
+  }
+ }
 .xan_header{
   color: rgb(243, 156, 18)
 }
@@ -1474,7 +1524,7 @@ p {
 }
 .client-controls .client-control-next{
   position: absolute;
-  top: 220px;
+  top: 49px;
   right: 35px;
   cursor: pointer;
 }
@@ -1554,6 +1604,7 @@ p {
 .section-contact {
   text-align: center;
   height: 580px;
+  background: rgba(44, 62, 80, .1);
 }
 
 .social-links {
@@ -1744,6 +1795,10 @@ a.copyright {
   font-family: 'Handlee';
   font-size: 16px !important;
 }
+a.copyright:hover {
+  color: rgb(243, 156, 18);
+  border-bottom: solid 1px;
+}
 [class^="rodape"]{
   float: right;
   color: #fff;
@@ -1812,4 +1867,13 @@ a:hover, a:focus {
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: transparent; 
+}
+.carousel-control.left{
+	background-image: none;	
+	background: url(../img/icons/arrow_left_dark.png)center no-repeat;
+
+}
+.carousel-control.right{
+	background-image: none;
+	background: url(../img/icons/arrow_right_dark.png)center no-repeat;
 }
