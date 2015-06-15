@@ -712,6 +712,14 @@ h1 {
   top: 20px;
 }
 
+@media (max-width: 750px) {
+  .nav-effect img {
+  	position: relative;
+  	right: 27px;
+		top: 55px;
+  }
+}
+
 .nav-effect a span {
   position: relative;
   display: inline-block;
@@ -797,7 +805,7 @@ h1 {
 }*/
 
 strong {
-  color: #545454;
+  color: rgb(44, 62, 80);
   font-weight: 600;
 }
 
@@ -904,7 +912,7 @@ strong {
   position: relative;
   left: 39px;
   height: 343px;
-  background: url(../img/about_me/self_three.jpg)top center no-repeat;
+  background: url(../img/about_me/xan_bikini_one.jpg)top center no-repeat;
   bottom: 2px;
 }
 @media (max-width: 750px) {
@@ -918,7 +926,7 @@ strong {
   position: relative;
   left: -28px;
   height: 350px;
-  background: url(../img/about_me/competition_six_better_one.jpg)top center no-repeat;
+  background: url(../img/about_me/xan.jpg)top center no-repeat;
   bottom: 2.5px;
 }
 @media (max-width: 750px) {
@@ -946,6 +954,7 @@ strong {
   .blurb {
 		width: 350px;
 		right: -5px;
+		top: -46px;
   }
 /*.blurb a {
   text-decoration: none;
@@ -1108,6 +1117,7 @@ strong {
 @media (max-width: 750px) {
   .section-work {
 		margin-top: -438px;
+		margin-bottom: 1137px;
   }
 }
 
@@ -1606,7 +1616,12 @@ p {
   height: 580px;
   background: rgba(44, 62, 80, .1);
 }
-
+@media (max-width: 750px) {
+  .section-contact {
+		height: 863px;
+		margin-top:2995px;
+  }
+}
 .social-links {
   max-width: 700px;
   margin: 0px auto 50px;
@@ -1643,6 +1658,11 @@ p {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+@media (max-width: 750px) {
+  .social-links {
+		margin: 0 0 0 100px;
+  }
+}
 .social-links a {
   display: block;
   /*border: 2px solid #575757;*/
@@ -1655,7 +1675,24 @@ p {
   height: 80px;
   width: 80px;
 }
-
+.social_links {
+  position: relative;
+  left: -89px;
+}
+@media (max-width: 750px){.social_links {
+  left: -1px;
+	}
+}
+.social-links .xan_email a{
+	width: 736px;
+}
+@media (max-width: 750px) {
+  .social-links .xan_email a {
+		right: 274px;
+		position: relative;
+		font-size: 29px!important;
+  }
+}
 .social {
   position: relative;
   top: 14px;
@@ -1669,12 +1706,45 @@ p {
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-
+.xan_email {
+  position: relative;
+  top: 20px;
+  right: 48px;
+ }
+ a.jnr_email {
+  position: relative;
+  top: 118px;
+  font-size: 16px!important;
+  color: #fff;
+  right: 453px;
+}
+a.jnr_email:hover {
+  color: rgb(243, 156, 18);
+  border-bottom: solid 1px;
+  transition: all, 500ms;
+}
+ @media (max-width: 750px) {
+  .jnr_email {
+		position: relative;
+		top: 560px;
+		color: #fff;
+		font-size: 14px!important;
+		left: -33px;
+  }
+}
 .bar {
   width: 250px;
   height: 0px;
   border: 1px solid rgb(44, 62, 80);
-  margin: 0px auto 50px;
+  /*margin: 0px auto 50px;*/
+  position: relative;
+  top: 20px;
+}
+@media (max-width: 750px) {
+  .bar {
+		right: 66px;
+		width: 258px;
+  }
 }
 
 [href^='mailto'] {
@@ -1687,6 +1757,16 @@ p {
   -webkit-transition: all, 500ms;
   -moz-transition: all, 500ms;
   transition: all, 500ms;
+}
+
+@media (max-width: 750px) {
+  #lockup .jnr_email {
+		position: relative;
+		top: 560px;
+		color: #fff;
+		font-size: 14px!important;
+		left: -33px;
+  }
 }
 [href^='mailto']:hover {
   color: rgba(44,62,80,.3);
@@ -1752,6 +1832,11 @@ footer {
   background-size: cover;
   background-position-y: 52%;
 }
+@media (max-width: 750px) {
+  footer {
+		height: 641px;
+  }
+}
 
 .lockup {
   margin: 30px;
@@ -1806,12 +1891,17 @@ a.copyright:hover {
   font-family: 'Handlee';
   position: relative;
   right: 10px;
-  top: 48px;
+  top: 70px;
   line-height: 1.2 !important;
   transition: all, 500ms;
-    border-bottom: solid 1px;
-
+  border-bottom: solid 1px;
 }
+@media (max-width: 750px) {
+  a.rodape {
+		top: 512px;
+  }
+}
+
 .rodape:hover, .rodape:focus{
   color: rgb(243, 156, 18);
   border-bottom: solid 1px;
@@ -1871,9 +1961,19 @@ a:hover, a:focus {
 .carousel-control.left{
 	background-image: none;	
 	background: url(../img/icons/arrow_left_dark.png)center no-repeat;
-
 }
 .carousel-control.right{
 	background-image: none;
 	background: url(../img/icons/arrow_right_dark.png)center no-repeat;
+}
+.navbar-toggle .icon-bar {
+  width: 25px;
+  height: 2px;
+  border-radius: 0;
+}
+@media (max-width: 750px) {
+  .navbar-inner li:hover, .navbar-inner li:active, .navbar-inner li:focus, .navbar-inner li:visited {
+  background: rgb(243, 156, 18);
+  opacity: .8
+	}
 }

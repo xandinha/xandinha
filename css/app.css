@@ -241,17 +241,14 @@ fieldset[disabled] .btn-primary.active {
 
 .navbar-default .navbar-toggle {
 	margin-right: 0;
-	border-color: none;
+	border: none!important;
 	margin-top: 8px;
 	margin-bottom: 8px;
+	outline: none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: none;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: none;
+	background-color: #fff!important;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -436,7 +433,8 @@ pager {
 h2 a:hover,
 h3 a:hover,
 h4 a:hover {
-	color: #4f8db4;
+	color: rgb(243, 156, 18);
+  border-bottom: solid 1px rgb(243, 156, 18);;
 }
 
 .pager .previous > a,
@@ -1203,6 +1201,11 @@ display: none;
 	text-align: center;
 	margin-bottom: 35px;
 }
+@media (max-width: 750px) {
+  .home .presentazione {
+		margin-top: -36px;
+  }
+}
 
 .home .presentazione h2 {
 	margin-top: 0;
@@ -1216,6 +1219,12 @@ display: none;
 .alt {
   position: relative;
   top: -511px;
+}
+@media (max-width: 750px) {
+  .alt {
+		position: relative!important;
+		top: -1px!important;
+  }
 }
 .home .grigio .media-img img {
 	/*width: 600px;*/
@@ -1232,7 +1241,13 @@ display: none;
 .home .grigio {
 	margin-bottom: -392px;
 }
-
+@media (max-width: 750px){
+	.home .grigio{
+		position:relative!important;
+		top:2604px!important;
+		background: rgba(44, 62, 80, -0.9);
+	}
+}
 /* ==========================================================================
    ABOUT
    ========================================================================== */
@@ -3360,6 +3375,7 @@ section.foto {
 .post-type-archive-portfolio .media-post {
 	padding: 60px 60px;
 }
+
 
 /* ==========================================================================
    CONTATTI @ 1200
