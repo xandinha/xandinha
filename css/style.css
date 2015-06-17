@@ -1488,7 +1488,7 @@ p {
   opacity: 0.3;
 }
 .client-quote-mark path {
-  fill: #2C3E50;
+  fill: #F39C12;
 }
 .quote_xan{
   position: absolute;
@@ -1960,11 +1960,11 @@ a:hover, a:focus {
 }
 .carousel-control.left{
 	background-image: none;	
-	background: url(../img/icons/arrow_left_dark.png)center no-repeat;
+	background: url(../img/icons/arrow_left_more_little.png)center no-repeat;
 }
 .carousel-control.right{
 	background-image: none;
-	background: url(../img/icons/arrow_right_dark.png)center no-repeat;
+	background: url(../img/icons/arrow_right_more_little.png)center no-repeat;
 }
 .navbar-toggle .icon-bar {
   width: 25px;
@@ -1976,4 +1976,64 @@ a:hover, a:focus {
   background: rgb(243, 156, 18);
   opacity: .8
 	}
+}
+div#begin {
+  position: relative;
+  top: -499px;
+}
+.carousel-control {
+  bottom: 700px;
+}
+h3.mobile_one {
+  position: relative;
+  top: 298px;
+  color: #fff;
+  left:-295px;
+}
+p.interview_mbl{
+	margin-top: -52px;
+	color:#fff;
+	width:50%;
+	float:right;
+}
+h2.header_interview{
+	position:relative;
+	font-family: 'handlee';
+	background: #fff;
+	top: -160px;
+	padding: 2px 0 0 350px;
+	height: 58px;
+	font-size: 54px;
+}
+.color{
+	background:rgba(44,62,80,.4);
+	position: relative;
+	top: -130px;
+	right: -68px;
+}
+p.background{
+	background:rgba(44,62,80,.4);
+	color:#fff;
+	height:auto;
+	width:50%;
+	float:right;
+	position:relative;
+	top:-154px;
+	right:-68px;
+	padding:0 2px 0 2px;
+}
+.date{
+	color:rgb(243, 156, 18);
+}
+p.background strong{
+	color: rgb(243, 156, 18);
+}
+h2.header_interview.center {
+  padding-left: 400px;
+}
+.client-quote-mark.quote_xan {
+  /* position: relative; */
+  right: -129px;
+	color: rgb(243, 156, 18);
+  top: -149px;
 }
