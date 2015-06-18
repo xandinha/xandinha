@@ -1240,6 +1240,7 @@ display: none;
 
 .home .grigio {
 	margin-bottom: -392px;
+	margin-top: -684px;
 }
 @media (max-width: 750px){
 	.home .grigio{
