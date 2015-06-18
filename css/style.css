@@ -1490,15 +1490,18 @@ p {
 .client-quote-mark path {
   fill: #F39C12;
 }
-.quote_xan{
+.quote_xan_one{
   position: absolute;
   top: -12px;
   /* left: 50px; */
   z-index: 1;
   color: rgb(44, 62, 80);
 }
+.quote_xan_one path {
+  fill: rgb(44, 62, 80);
+}
 @media (max-width: 750px) {
-  .quote_xan {
+  .quote_xan_one {
 		left: -1px;
   }
  }
