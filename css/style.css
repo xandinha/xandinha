@@ -1947,14 +1947,15 @@ a.copyright:hover {
 #ex2 img:hover { cursor: url(../img/icons/grab.cur), default; }
 #ex2 img:active { cursor: url(../img/icons/grabbed.cur), default; }
 
-.tooltip-inner{color:rgb(243, 156, 18);background-color:rgb(44, 62, 80);font-family:'Handlee';font-size:16px;
+.tooltip-inner{color:rgb(44, 62, 80);background-color:rgb(255, 255, 255);font-family:'Handlee';font-size:16px;
 }
-.tooltip.top .tooltip-arrow{border-top-color:rgb(44, 62, 80)}
-.tooltip.top-left .tooltip-arrow{border-top-color:rgb(44, 62, 80)}
-.tooltip.bottom .tooltip-arrow{border-bottom-color:rgb(44, 62, 80)}
-.tooltip.bottom-left .tooltip-arrow{border-bottom-color:rgb(44, 62, 80)}
-.tooltip.left .tooltip-arrow{border-left-color:rgb(44, 62, 80)}
-.tooltip.bottom .tooltip-arrow{border-width:0 5px 5px;border-bottom-color:rgb(44, 62, 80)}
+.tooltip.top .tooltip-arrow{border-top-color:rgb(255, 255, 255)}
+.tooltip.top-left .tooltip-arrow{border-top-color:rgb(255, 255, 255)}
+.tooltip.right .tooltip-arrow{border-right-color:rgb(255, 255, 255)}
+.tooltip.bottom .tooltip-arrow{border-bottom-color:rgb(255, 255, 255)}
+.tooltip.bottom-left .tooltip-arrow{border-bottom-color:rgb(255, 255, 255)}
+.tooltip.left .tooltip-arrow{border-left-color:rgb(255, 255, 255)}
+.tooltip.bottom .tooltip-arrow{border-width:0 5px 5px;border-bottom-color:rgb(255, 255, 255)}
 
 
 a:hover, a:focus {
