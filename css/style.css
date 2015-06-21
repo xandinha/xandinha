@@ -1680,7 +1680,7 @@ p {
 }
 .social_links {
   position: relative;
-  left: -89px;
+  left: -4%;
 }
 @media (max-width: 750px){.social_links {
   left: -1px;
