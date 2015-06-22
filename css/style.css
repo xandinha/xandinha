@@ -2040,7 +2040,8 @@ p.background{
 	position:relative;
 	top:-154px;
 	right:-68px;
-	padding:0 2px 0 2px;
+	padding:0 4px 0 4px;
+  text-align:left;
 }
 .date{
 	color:rgb(243, 156, 18);
