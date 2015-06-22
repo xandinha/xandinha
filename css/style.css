@@ -1680,7 +1680,7 @@ p {
 }
 .social_links {
   position: relative;
-  left: -89px;
+  left: -4%;
 }
 @media (max-width: 750px){.social_links {
   left: -1px;
@@ -2008,9 +2008,22 @@ h2.header_interview{
 	font-family: 'handlee';
 	background: #fff;
 	top: -160px;
-	padding: 2px 0 0 350px;
+	padding: 2px 0 0 318px;
 	height: 58px;
 	font-size: 54px;
+}
+a.link {
+  position: relative;
+  left: 14px;
+  top: -6px;
+  opacity: .8;
+  z-index:2;
+}
+ a.link:hover{
+  border-bottom:none;
+}
+.carousel-caption {
+  z-index: 2;
 }
 .color{
 	background:rgba(44,62,80,.4);
@@ -2027,7 +2040,8 @@ p.background{
 	position:relative;
 	top:-154px;
 	right:-68px;
-	padding:0 2px 0 2px;
+	padding:0 4px 0 4px;
+  text-align:left;
 }
 .date{
 	color:rgb(243, 156, 18);
