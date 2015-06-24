@@ -737,6 +737,7 @@ h1 {
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  text-shadow: 1px 1px 1px rgb(44,62,80);
 }
 
 .nav-effect a span::before {
@@ -1834,9 +1835,9 @@ form input {
 footer {
   height: 200px;
   width: 100%;
-  background: url(../img/footer/ipanema_better.jpg) center center;
+  background: url(../img/footer/noronha_better.jpg) center center;
   background-size: cover;
-  background-position-y: 52%;
+  background-position-y: 62%;
 }
 @media (max-width: 750px) {
   footer {
@@ -1909,7 +1910,7 @@ a.copyright:hover {
 }
 
 .rodape:hover, .rodape:focus{
-  color: rgb(243, 156, 18);
+  color: rgb(44, 62, 80);
   border-bottom: solid 1px;
   transition: all, 500ms;
 }
