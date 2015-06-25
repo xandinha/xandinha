@@ -1218,7 +1218,7 @@ display: none;
 }
 .alt {
   position: relative;
-  top: -511px;
+  top: -531px;
 }
 @media (max-width: 750px) {
   .alt {
