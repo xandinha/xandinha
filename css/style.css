@@ -737,7 +737,7 @@ h1 {
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  text-shadow: 1px 1px 1px rgb(44,62,80);
+  text-shadow: 1px 1px 1px rgb(000,000,000);
 }
 
 .nav-effect a span::before {
@@ -1902,6 +1902,7 @@ a.copyright:hover {
   line-height: 1.2 !important;
   transition: all, 500ms;
   border-bottom: solid 1px;
+  text-shadow: 1px 1px 1px rgb(000,000,000);
 }
 @media (max-width: 750px) {
   a.rodape {
@@ -2062,6 +2063,9 @@ h2.header_interview.center {
 img.logo_footer {
   position: relative;
   bottom: 6px;
+  /*background-color: rgba(39,26,18,.4);*/
+  border-radius: 3px;
+  border: 1.8px solid rgba(255,255,255,.8);
 }
 img.logo_footer_one {
   position: relative;
