@@ -1,1 +1,0 @@
-move right arrow to the left until 200

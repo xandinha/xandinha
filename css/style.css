@@ -708,8 +708,8 @@ h1 {
 }
 .nav-effect > a {
   position: relative;
-  right: -150px;
-  top: 20px;
+  right: -160px;
+  top: -23.6px;
 }
 
 @media (max-width: 750px) {
