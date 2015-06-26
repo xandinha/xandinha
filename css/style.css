@@ -2014,6 +2014,16 @@ h2.header_interview{
 	height: 58px;
 	font-size: 54px;
 }
+h2.header_interview.waves {
+  padding: 2px 0 0 397px;
+}
+h2.header_interview.guinness{
+  padding: 2px 0 0 270px;
+}
+h2.header_interview.guajara{
+  padding: 2px 0 0 319px;
+}
+
 a.link {
   position: relative;
   left: 14px;
