@@ -2135,3 +2135,37 @@ b {
   right: -4px;
   top: 4px;
 }
+.mobile_carousel>.item>img, .mobile_carousel>.item>a>img {
+  display: block;
+  max-width: 100%;
+  height: 663px;
+  line-height: 1;
+}
+.carousel-indicators .active {
+  background-color: rgb(243, 156, 18);
+}
+.carousel-indicators li {
+  border: 1px solid rgb(33, 95, 124);
+  background
+}
+.mobile_carousel{
+  background:url(../img/slide/post_eleven_rj_one.jpg)center center;background-size:cover;
+  background-position-x:px;
+  
+}
+.mobile_carousel_one{
+  background:url(../img/slide/pororoca_one_change.jpg)center center;background-size:cover;
+  background-position-x:-420px;
+}
+.mobile_carousel_two{
+  background:url(../img/slide/recreio_two.jpg)center center;background-size:cover;
+  background-position-x: -420px;
+}
+.mobile_carousel_three{
+  background:url(../img/slide/rio_better.jpg)center center;background-size:cover;
+  background-position-x:-420px;
+}
+.mobile_carousel_four{
+  background:url(../img/slide/self_two.jpg)center center;background-size:cover;
+  background-position-x:-452px;
+}
