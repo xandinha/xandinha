@@ -1218,7 +1218,7 @@ display: none;
 }
 .alt {
   position: relative;
-  top: -531px;
+  top: -512px;
 }
 @media (max-width: 750px) {
   .alt {
@@ -1245,7 +1245,7 @@ display: none;
 @media (max-width: 750px){
 	.home .grigio{
 		position:relative!important;
-		top:2604px!important;
+		top:4125px!important;
 		background: rgba(44, 62, 80, -0.9);
 	}
 }
@@ -2494,7 +2494,7 @@ figure.alignnone {
 	z-index: 999;
 	opacity: 1;
 	width: 100%;
-	background-color: #363635;
+	background-color: rgba(44,62,80,.5);
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	position: fixed;
