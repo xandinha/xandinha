@@ -248,7 +248,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff!important;
+	background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -260,7 +260,21 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default .navbar-toggle:focus .icon-bar {
 	background-color: none;
 }
-
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgb(243, 156, 18)!important;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 2px;
+}
+.navbar-toggle .icon-bar {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.navbar-default .navbar-toggle {
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
 .navbar-collapse {
 	clear: both;
 	border: none;
@@ -2494,7 +2508,7 @@ figure.alignnone {
 	z-index: 999;
 	opacity: 1;
 	width: 100%;
-	background-color: rgba(44,62,80,.5);
+	background-color: rgba(44,62,80,.8);
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	position: fixed;
