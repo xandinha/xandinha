@@ -1909,7 +1909,7 @@ a.copyright:hover {
 }
 @media (max-width: 750px) {
   a.rodape {
-		top: 497px;
+		top: 511px;
     left:-35%
   }
 }
@@ -2083,7 +2083,7 @@ img.logo_footer {
 }
 @media (max-width: 750px){
   img.logo_footer{
-  top: 4px;
+  top: 18px;
   }
 }
 img.logo_footer_one {
@@ -2109,7 +2109,7 @@ p.photographer {
 @media (max-width: 750px){
 p.photographer {
   right: -238px;
-  bottom: -315px;
+  bottom: -329px;
   }
 }
 p.photographer_one {
