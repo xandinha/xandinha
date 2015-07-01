@@ -1,3 +1,7 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -711,8 +715,8 @@ h1 {
 @media (max-width: 750px) {
   .nav-effect img {
   	position: relative;
-  	right: 36px;
-		top: 79px;
+  	right: 27px;
+		top: 55px;
   }
 }
 
@@ -1514,7 +1518,7 @@ p {
 		max-width: 571px;
 		padding: 0 154px 0 6px;
 		font-size: 16px;
-		margin: 0 -164px 3px -12px;
+		margin: 0 -164px 0 -12px;
   }
  }
 .xan_header{
@@ -1619,7 +1623,7 @@ p {
 @media (max-width: 750px) {
   .section-contact {
 		height: 863px;
-		margin-top:4496px;
+		margin-top:2995px;
   }
 }
 .social-links {
@@ -1765,16 +1769,10 @@ a.jnr_email:hover {
 @media (max-width: 750px) {
   #lockup .jnr_email {
 		position: relative;
-		top: 535px;
+		top: 560px;
 		color: #fff;
 		font-size: 14px!important;
-		left: 0px;
-  }
-}
-@media (max-width: 750px){
-.footer_small {
-  left: 114px;
-  position: relative;
+		left: -33px;
   }
 }
 [href^='mailto']:hover {
@@ -1844,7 +1842,6 @@ footer {
 @media (max-width: 750px) {
   footer {
 		height: 641px;
-    background-position-x: 56%;
   }
 }
 
@@ -1909,13 +1906,12 @@ a.copyright:hover {
 }
 @media (max-width: 750px) {
   a.rodape {
-		top: 497px;
-    left:-35%
+		top: 512px;
   }
 }
 
 .rodape:hover, .rodape:focus{
-  color: rgb(243, 156, 18);
+  color: rgb(44, 62, 80);
   border-bottom: solid 1px;
   transition: all, 500ms;
 }
@@ -2081,11 +2077,6 @@ img.logo_footer {
   border-radius: 3px;
   border: 1.8px solid rgba(255,255,255,.8);
 }
-@media (max-width: 750px){
-  img.logo_footer{
-  top: 4px;
-  }
-}
 img.logo_footer_one {
   position: relative;
   bottom: 5px;
@@ -2106,12 +2097,6 @@ p.photographer {
   color:#fff;
   text-shadow: 1px 1px 1px #000;
 }
-@media (max-width: 750px){
-p.photographer {
-  right: -238px;
-  bottom: -315px;
-  }
-}
 p.photographer_one {
   position: relative;
   float: right;
@@ -2130,95 +2115,4 @@ b {
   position: relative;
   right: -4px;
   top: 4px;
-}
-
-@media screen and (max-width: 750px){
-.carousel-caption h4 {
-  color: #fff;
-  text-align:left;
-  font-family: 'handlee';
-  font-weight: normal;
-  margin-left:0;
-  text-shadow: 1px 1px 1px rgb(000,000,000);
-  }
-.mobile_carousel>.item>img, .mobile_carousel>.item>a>img {
-  display: block;
-  max-width: 100%;
-  height: 663px;
-  line-height: 1;
-  }
-.carousel-indicators .active {
-  background-color: rgb(243, 156, 18)!important;
-  }
-.carousel-indicators li {
-  border: 1px solid rgb(44, 62, 80);
-  background
-  }
-.carousel-caption p {
-  color: #fff;
-  text-shadow: 1px 1px 1px rgb(000,000,000);
-  }
-.carousel-caption {
-  bottom: 91px;
-  text-align: left;
-  left: 7%;
-  right: 15%;
-  }
-.Grafica, .Web.Design, .sep, .Newsletter, .Photography {
-  position: relative;
-  top: -10px;
-  font-family: 'handlee';
-  text-shadow: 1px 1px 1px rgb(000,000,000);
-}
-img.cam {
-  left: 112%;
-  position: absolute;
-  top: 60.6%
-  }
-img.pacco{
-  top:76%
-}
-.carousel-control.right {
-  background-image: none;
-  background: url(../img/icons/arrow_right_small.png)center no-repeat;
-  }
-.carousel-control.left {
-  background-image: none;
-  background: url(../img/icons/arrow_left_small.png)center no-repeat;
-  }
-.carousel-control {
-  position: absolute;
-  top: 567px;
-  left: 0;
-  bottom: 0;
-  width: 25%;
-  opacity: 1;
-  }
-.carousel-indicators {
-  bottom: 23px;
-}
-}
-
-.carousel-caption .btn {
-  text-shadow: 1px 1px 1px rgb(000,000,000);
-}
-.mobile_carousel{
-  background:url(../img/slide/post_eleven_rj_one.jpg)center center;background-size:cover;
-  background-position-x:px;
-}
-.mobile_carousel_one{
-  background:url(../img/slide/pororoca_one_change.jpg)center center;background-size:cover;
-  background-position-x:-420px;
-}
-.mobile_carousel_two{
-  background:url(../img/slide/recreio_two.jpg)center center;background-size:cover;
-  background-position-x: -420px;
-}
-.mobile_carousel_three{
-  background:url(../img/slide/rio_better.jpg)center center;background-size:cover;
-  background-position-x:-420px;
-}
-.mobile_carousel_four{
-  background:url(../img/slide/self_two.jpg)center center;background-size:cover;
-  background-position-x:-452px;
 }

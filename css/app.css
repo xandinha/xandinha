@@ -1,3 +1,9 @@
+/*Rd3 - Riot Design 2013
+Realizzato da Paolo Marchetti @ Riot Design*/
+
+
+/* IUBENDA stili Privacy Policy */
+
 #iubenda-cs-banner{
     top: 50px !important;
     left: 0px !important;
@@ -11,6 +17,8 @@
    top: 0px !important; 
 	}
 }
+
+
 /*  CONTENT CLASS */
 .iubenda-cs-content{
     display:block;
@@ -80,6 +88,10 @@
     color: #fff;
 }
 
+
+/* 	FINE iubenda stili privacy policy */
+
+
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -88,6 +100,9 @@
 html {
 /* 	-webkit-font-smoothing: antialiased; */
 }
+
+
+
 body {
 	background: #424b51;
 }
@@ -154,7 +169,11 @@ fieldset[disabled] .btn-primary.active {
 
 /* =============================================================================
    Header
+   
   ========================================================================== */
+
+
+
 
 .logged-in .navbar-fixed-top {
 	top: 28px;
@@ -229,7 +248,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff;
+	background-color: #fff!important;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -241,21 +260,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default .navbar-toggle:focus .icon-bar {
 	background-color: none;
 }
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: rgb(243, 156, 18)!important;
-}
-.navbar-toggle .icon-bar+.icon-bar {
-  margin-top: 2px;
-}
-.navbar-toggle .icon-bar {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-}
-.navbar-default .navbar-toggle {
-  margin-top: 6px;
-  margin-bottom: 5px;
-}
+
 .navbar-collapse {
 	clear: both;
 	border: none;
@@ -314,7 +319,13 @@ fieldset[disabled] .btn-primary.active {
 	filter: alpha(opacity=85);
 }
 
+
+
+
 /* pagine con logo nero */
+
+
+
 
 .contatti .navbar .nav li a,
 .contacts .navbar .nav li a,
@@ -354,6 +365,9 @@ fieldset[disabled] .btn-primary.active {
 /* ==========================================================================
    navbar ridotta dopo scroll
    ========================================================================== */
+
+
+
 .pannello-affix {
 	width: 100%;
 	-webkit-transition: all 0.1s ease-out;  /* Chrome 1-25, Safari 3.2+ */
@@ -403,6 +417,9 @@ fieldset[disabled] .btn-primary.active {
    Content, stili generici
    ========================================================================== */
    
+   
+
+
 h2 a,
 h3 a,
 h4 a {
@@ -912,6 +929,10 @@ section.page-header {
    nuovo slider full width
    ========================================================================== */
 
+
+
+
+
 #full-width-slider {
 	width: 100%;
 	z-index: 5;
@@ -1000,11 +1021,11 @@ display: none;
 #full-width-slider .car-descrizione p {
 	color: white;
 	margin-top: 10px;
-	text-shadow: 1px 1px 1px rgb(000,000,000);
+	text-shadow: 1px 1px 1px rgba(44, 62, 80, .9);
 }
 
 #full-width-slider .car-descrizione h6 {
-	text-shadow: 1px 1px 1px rgb(000, 000, 000);
+	text-shadow: 1px 1px 1px rgba(44, 62, 80, .9);
 }
 
 #full-width-slider .car-descrizione h2 {
@@ -1042,6 +1063,8 @@ display: none;
 *  1. Arrows
 *
 ****************/
+
+
 
 .rsArrow {
 	height: 100%;
@@ -1123,6 +1146,8 @@ display: none;
 *  2. Bullets
 *
 ****************/
+
+
 
 .rsBullets {
 	position: absolute;
@@ -1220,16 +1245,16 @@ display: none;
 @media (max-width: 750px){
 	.home .grigio{
 		position:relative!important;
-		top:4125px!important;
+		top:2604px!important;
 		background: rgba(44, 62, 80, -0.9);
 	}
-}
-a.btn.btn-primary.animated.fadeInUp.hidden-xs.delay03:hover {
-  text-shadow: none;
 }
 /* ==========================================================================
    ABOUT
    ========================================================================== */
+
+
+
 
 .about .header-titolo {
 }
@@ -1252,6 +1277,9 @@ a.btn.btn-primary.animated.fadeInUp.hidden-xs.delay03:hover {
 
 /* inizio orologio */
 
+ 
+
+
 #clock {
 visibility: hidden;
 	position: relative;
@@ -1262,9 +1290,13 @@ visibility: hidden;
 	list-style: none;
 }
 
+
 .pronto #clock {
 visibility: visible;
 }
+
+
+
 
 #sec,
 #min,
@@ -1297,6 +1329,10 @@ visibility: visible;
 /* 
 fine orologio
  */
+
+
+
+
 
 .about-intro h2 {
 	margin-top: 0;
@@ -1586,7 +1622,13 @@ section.about-tre {
 /* ==========================================================================
    PORTFOLIO
    ========================================================================== */
- 
+   
+
+
+
+
+
+
 .header-titolo .icona-rd-portfolio {
 	color: #fff;
 	font-size: 140px;
@@ -1612,6 +1654,9 @@ section.about-tre {
 display: none;
 
 }
+
+
+
 .post-type-archive-portfolio .media {
 	margin-top: 0;
 	margin-bottom: 60px;
@@ -1853,6 +1898,10 @@ display: none;
 /* ==========================================================================
    CONTATTI
    ========================================================================== */
+   
+   
+   
+
 
 #map_canvas {
 	min-height: 300px;
@@ -2041,6 +2090,11 @@ div.wpcf7-validation-errors {
 /* ==========================================================================
    BLOG
    ========================================================================== */
+
+
+
+
+
 .navbar.navbar-blog {
 	z-index: 1;
 	margin-bottom: 0;
@@ -2179,6 +2233,10 @@ h5.blog-categorie a {
    BLOG - pagina articolo
    ========================================================================== */
 
+
+
+
+
 .single-post .main {
 	margin: 0 -15px;
 }
@@ -2316,6 +2374,8 @@ aside .media .media-body a:hover {
    Footer
    ========================================================================== */
 
+
+
 .content-info {
 	font-size: 14px;
 	line-height: 20px;
@@ -2397,6 +2457,8 @@ margin:  0 5px;
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
 
+
+
 .aligncenter {
 	display: block;
 	margin: 0 auto;
@@ -2415,9 +2477,14 @@ figure.alignnone {
 	margin-right: 0;
 }
 
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+
+
 
 /* fix per header su mobile, mostra sempre come fixed  */
 @media (max-width: 767px) {
@@ -2427,7 +2494,7 @@ figure.alignnone {
 	z-index: 999;
 	opacity: 1;
 	width: 100%;
-	background-color: rgba(44,62,80,.8);
+	background-color: #363635;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	position: fixed;
@@ -2464,7 +2531,14 @@ figure.alignnone {
  @media (min-width: 768px) {
 
 /* ==========================================================================
+STILI GENERICI @ 768
 ========================================================================== */
+
+	
+
+
+
+
 h1 {
 	font-size: 40px;
 }
@@ -2536,6 +2610,8 @@ section.pagina-testo-header {
 
 /* slider per cambiare risoluzioni responsive */
 
+
+
 .slider.slider-vertical {
 	margin-top: 170px;
 }
@@ -2563,6 +2639,9 @@ section.pagina-testo-header {
    NAVBAR @ 768
    ========================================================================== */
 	
+		
+
+
 .banner {
 	position: absolute;
 }
@@ -2649,14 +2728,14 @@ a.roll:hover span {
    HOME @ 768
    ========================================================================== */
 
+
+
 #full-width-slider .container.desc .row {
 	bottom: 60px;
 }
 
 .home .car-descrizione .btn-primary {
 	display: inline-block !important;
-  text-shadow: 1px 1px 1px rgb(000,000,000);
-}
 }
 
 .home .grigio .media-body {
@@ -2679,6 +2758,9 @@ a.roll:hover span {
 /* ==========================================================================
    ABOUT @ 768
    ========================================================================== */
+
+
+
 
 .about .header-titolo {
 	margin-top: -300px;
@@ -2752,6 +2834,8 @@ section.foto {
    PORTFOLIO @ 768
    ========================================================================== */
 
+
+
 .post-type-archive-portfolio .lead-link {
 	background: #ebeeed;
 }
@@ -2781,6 +2865,8 @@ section.foto {
 /* ==========================================================================
    BLOG @ 768
    ========================================================================== */
+
+
 
 
 .navbar .nav.nav-blog {
@@ -2858,6 +2944,14 @@ padding:0 30px;
 /* ==========================================================================
    Contatti @ 768
    ========================================================================== */
+
+
+
+
+
+
+
+
 
 #map_canvas,
 .mappa-overlay {
@@ -2946,6 +3040,8 @@ padding:0 30px;
    Footer @ 768
    ========================================================================== */
 
+
+
 .content-info {
 	padding: 60px 0;
 }
@@ -2973,6 +3069,9 @@ padding:0 30px;
    STILI GENERICI @ 992
    ========================================================================== */
 
+
+
+
 h1 {
 	font-size: 48px;
 }
@@ -2998,7 +3097,10 @@ h3 {
 /* ==========================================================================
    HOME @ 992
    ========================================================================== */
+   
 	
+
+
 .home .grigio .media-body {
 	padding: 15px 30px 10px 35px;
 }
@@ -3010,6 +3112,10 @@ h3 {
 /* ==========================================================================
    ABOUT @ 992
    ========================================================================== */
+
+	
+
+
 
 .globale-perc {
 	font-size: 36px;
@@ -3061,6 +3167,10 @@ h3 {
    PORTFOLIO @ 992
    ========================================================================== */
 
+
+
+
+
 .post-type-archive-portfolio .media-img {
 	height: 270px;
 }
@@ -3072,6 +3182,11 @@ h3 {
 /* ==========================================================================
    BLOG @ 992
    ========================================================================== */
+
+
+
+
+
 
 .blog .media .media-post,
 .category .media .media-post {
@@ -3099,6 +3214,10 @@ h3 {
    CONTATTI @ 992
    ========================================================================== */
 
+
+
+
+
 .contatti-numeri p {
 	font-size: 14px;
 	text-align: right;
@@ -3116,6 +3235,10 @@ h3 {
    Footer @ 992
    ========================================================================== */
 
+
+
+
+
 .content-info .slogan {
 	width: 160px;
 	margin-top: -20px;
@@ -3124,6 +3247,8 @@ h3 {
  @media (min-width: 1200px) {
 
 /* slider per cambiare risoluzioni responsive */
+
+
 
 .slider.slider-vertical {
 	margin-top: 120px;
@@ -3168,6 +3293,9 @@ section {
 /* ==========================================================================
    HOME @ 1200
    ========================================================================== */
+
+
+
 .home .grigio {
 	padding-bottom: 60px;
 }
@@ -3179,6 +3307,11 @@ section {
 /* ==========================================================================
    ABOUT @ 1200
    ========================================================================== */
+
+
+	
+
+
 
 #globale {
 	width: 270px !important;
@@ -3226,6 +3359,11 @@ section.foto {
    PORTFOLIO @ 1200
    ========================================================================== */
 
+
+
+
+
+
 .post-type-archive-portfolio .header-titolo {
 	margin-left: 25%;
 	margin-right: 25%;
@@ -3239,9 +3377,13 @@ section.foto {
 	padding: 60px 60px;
 }
 
+
 /* ==========================================================================
    CONTATTI @ 1200
    ========================================================================== */
+
+
+
 
 .form-contatti-body {
 	padding: 20px 50px 0;
@@ -3283,6 +3425,8 @@ div.wpcf7-response-output {
 	width: 170px;
 	margin-left: 0;
 }
+
+
 
 /* immagini ad alta risoluzione */
 
