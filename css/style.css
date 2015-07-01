@@ -2140,7 +2140,6 @@ b {
   font-weight: normal;
   margin-left:0;
   text-shadow: 1px 1px 1px rgb(000,000,000);
-
   }
 .mobile_carousel>.item>img, .mobile_carousel>.item>a>img {
   display: block;
@@ -2171,6 +2170,35 @@ b {
   font-family: 'handlee';
   text-shadow: 1px 1px 1px rgb(000,000,000);
 }
+img.cam {
+  left: 112%;
+  position: absolute;
+  top: 60.6%
+  }
+img.pacco{
+  top:76%
+}
+.carousel-control.right {
+  background-image: none;
+  background: url(../img/icons/arrow_right_small.png)center no-repeat;
+  }
+.carousel-control.left {
+  background-image: none;
+  background: url(../img/icons/arrow_left_small.png)center no-repeat;
+  }
+.carousel-control {
+  position: absolute;
+  top: 567px;
+  left: 0;
+  bottom: 0;
+  width: 25%;
+  opacity: 1;
+  }
+.carousel-indicators {
+  bottom: 23px;
+}
+}
+
 .carousel-caption .btn {
   text-shadow: 1px 1px 1px rgb(000,000,000);
 }
