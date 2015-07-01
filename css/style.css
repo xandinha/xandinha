@@ -1,7 +1,3 @@
-/* Neat 1.7.0
- * http://neat.bourbon.io
- * Copyright 2012-2014 thoughtbot, inc.
- * MIT License */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1919,7 +1915,7 @@ a.copyright:hover {
 }
 
 .rodape:hover, .rodape:focus{
-  color: rgb(44, 62, 80);
+  color: rgb(243, 156, 18);
   border-bottom: solid 1px;
   transition: all, 500ms;
 }
@@ -2134,4 +2130,67 @@ b {
   position: relative;
   right: -4px;
   top: 4px;
+}
+
+@media screen and (max-width: 750px){
+.carousel-caption h4 {
+  color: #fff;
+  text-align:left;
+  font-family: 'handlee';
+  font-weight: normal;
+  margin-left:0;
+  text-shadow: 1px 1px 1px rgb(000,000,000);
+
+  }
+.mobile_carousel>.item>img, .mobile_carousel>.item>a>img {
+  display: block;
+  max-width: 100%;
+  height: 663px;
+  line-height: 1;
+  }
+.carousel-indicators .active {
+  background-color: rgb(243, 156, 18)!important;
+  }
+.carousel-indicators li {
+  border: 1px solid rgb(44, 62, 80);
+  background
+  }
+.carousel-caption p {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgb(000,000,000);
+  }
+.carousel-caption {
+  bottom: 91px;
+  text-align: left;
+  left: 7%;
+  right: 15%;
+  }
+.Grafica, .Web.Design, .sep, .Newsletter, .Photography {
+  position: relative;
+  top: -10px;
+  font-family: 'handlee';
+  text-shadow: 1px 1px 1px rgb(000,000,000);
+}
+.carousel-caption .btn {
+  text-shadow: 1px 1px 1px rgb(000,000,000);
+}
+.mobile_carousel{
+  background:url(../img/slide/post_eleven_rj_one.jpg)center center;background-size:cover;
+  background-position-x:px;
+}
+.mobile_carousel_one{
+  background:url(../img/slide/pororoca_one_change.jpg)center center;background-size:cover;
+  background-position-x:-420px;
+}
+.mobile_carousel_two{
+  background:url(../img/slide/recreio_two.jpg)center center;background-size:cover;
+  background-position-x: -420px;
+}
+.mobile_carousel_three{
+  background:url(../img/slide/rio_better.jpg)center center;background-size:cover;
+  background-position-x:-420px;
+}
+.mobile_carousel_four{
+  background:url(../img/slide/self_two.jpg)center center;background-size:cover;
+  background-position-x:-452px;
 }
