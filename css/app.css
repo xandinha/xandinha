@@ -223,7 +223,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default .navbar-toggle {
 	margin-right: 0;
 	border: none!important;
-	margin-top: 8px;
+	/*margin-top: 8px;*/
 	margin-bottom: 8px;
 	outline: none;
 }
@@ -242,19 +242,15 @@ fieldset[disabled] .btn-primary.active {
 	background-color: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: rgb(243, 156, 18)!important;
+  background-color: #f1c40f;
 }
 .navbar-toggle .icon-bar+.icon-bar {
-  margin-top: 2px;
+  margin-top: 4px;
 }
 .navbar-toggle .icon-bar {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-}
-.navbar-default .navbar-toggle {
-  margin-top: 6px;
-  margin-bottom: 5px;
+  width: 27px;
+  height: 3px;
+  border-radius: 0%;
 }
 .navbar-collapse {
 	clear: both;
@@ -1220,7 +1216,7 @@ display: none;
 @media (max-width: 750px){
 	.home .grigio{
 		position:relative!important;
-		top:4125px!important;
+		/*top:4125px!important;*/
 		background: rgba(44, 62, 80, -0.9);
 	}
 }
