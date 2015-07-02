@@ -907,10 +907,17 @@ strong {
 }*/
 .my_photo{
   position: relative;
-  left: 39px;
   height: 343px;
   background: url(../img/about_me/xan_bikini_one.jpg)top center no-repeat;
-  bottom: 2px;
+  bottom: 6px;
+  left: 69px;
+  width: 348px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5px 49px 5px 5px;
+  border-radius: 5px;
+  height: 338px;
+  box-shadow: 2px 2px 8px 2px #2c3e50;
 }
 /*@media (max-width: 750px) {
   .my_photo {
@@ -921,10 +928,18 @@ strong {
 }*/
 .my_photo_one{
   position: relative;
-  left: -28px;
   height: 350px;
   background: url(../img/about_me/xan.jpg)top center no-repeat;
   bottom: 2.5px;
+  bottom: 6px;
+  left: 23px;
+  width: 348px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5px 49px 5px 5px;
+  border-radius: 5px;
+  height: 338px;
+  box-shadow: 2px 2px 8px 2px #2c3e50;
 }
 /*@media (max-width: 750px) {
   .my_photo_one {
@@ -944,8 +959,16 @@ strong {
   background: url(../img/about_me/selfie_four_maybe_one.jpg)top center no-repeat;
   background-size: cover;
   position: relative;
-  right: -75px;
-  top: -57px;
+  top: -9px;
+  bottom: 6px;
+  left: 69px;
+  width: 704px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5px 49px 5px 5px;
+  border-radius: 5px;
+  height: 366px;
+  box-shadow: 2px 2px 8px 2px #2c3e50;
 }
 /*@media (max-width: 750px) {
   .blurb {
