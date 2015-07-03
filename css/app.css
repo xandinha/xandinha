@@ -207,10 +207,10 @@ fieldset[disabled] .btn-primary.active {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	position: absolute;
-	background: url(../img/logo/logo_x_five.png) no-repeat;
+	background: url(../img/logo/logo_white_high_deph.png) no-repeat;
 	width: 73px;
 	height: 40px;
-	top: 6px;
+	top: 10.8%;
 	background-size: 55%;
 	text-indent: -9999px;
 	display: block;
@@ -223,7 +223,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default .navbar-toggle {
 	margin-right: 0;
 	border: none!important;
-	/*margin-top: 8px;*/
+	margin-top: 10px;
 	margin-bottom: 8px;
 	outline: none;
 }
@@ -320,14 +320,14 @@ fieldset[disabled] .btn-primary.active {
 	color: #424b51;
 }
 
-.contatti .navbar .brand,
+/*.contatti .navbar .brand,
 .contacts .navbar .brand,
 .blog .navbar .brand,
 .category .navbar .brand,
 .single-post .navbar .brand {
 	background: url(../img/rd-logo-nero.png) no-repeat;
 	background-size: 100%;
-}
+}*/
 
 .contatti .navbar .nav > .active > a,
 .contatti .navbar .nav > .active > a:hover,
@@ -3284,7 +3284,7 @@ div.wpcf7-response-output {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 
-.navbar .brand {
+/*.navbar .brand {
 	background-image: url(../img/rd-logo-bianco@2x.png);
 }
 
@@ -3294,5 +3294,5 @@ div.wpcf7-response-output {
 .category .navbar .brand,
 .single-post .navbar .brand {
 	background-image: url(../img/rd-logo-nero@2x.png);
-}
+}*/
 
