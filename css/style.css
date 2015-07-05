@@ -1986,6 +1986,44 @@ a.copyright:hover {
 .tooltip.left .tooltip-arrow{border-left-color:rgb(255, 255, 255)}
 .tooltip.bottom .tooltip-arrow{border-width:0 5px 5px;border-bottom-color:rgb(255, 255, 255)}
 
+.media:first-child {
+  height: 479px;
+  border-radius: 8px;
+}
+.media.kpaloa_one {
+  margin-top: 512px;
+  }
+.carousel-inner.interview_carousel_ten>.item>img, .carousel-inner.interview_carousel_ten>.item>a>img {
+  display: block;
+  max-width: 100%;
+  height: 800px;
+  line-height: 1;
+}
+.carousel-inner.interview_carousel_ten {
+  position: relative;
+  top: -500px;
+}
+.interview_carousel{
+  background: url(../img/interview/pororoca_three_two.jpg)center center;
+  background-size:cover;
+}
+.interview_carousel_one{
+  background: url(../img/interview/pororoca_one_two.jpg)center center;
+  background-size:cover;
+}
+.interview_carousel_two{
+  background: url(../img/interview/competition_nine_test_one.jpg)center center;
+  background-size:cover;
+}
+.interview_carousel_three{
+  background: url(../img/interview/pororoca_two_maybe.jpg)center center;
+  background-size:cover;
+}
+.interview_carousel_four{
+  background: url(../img/interview/pororoca_black.jpg)center center;
+  background-size:cover;
+}
+
 
 a:hover, a:focus {
   text-decoration: none;
@@ -2036,7 +2074,7 @@ h2.header_interview{
 	position:relative;
 	font-family: 'handlee';
 	background: #fff;
-	top: -160px;
+	top: -112px;
 	padding: 2px 0 0 318px;
 	height: 58px;
 	font-size: 54px;
@@ -2067,7 +2105,7 @@ a.link {
 .color{
 	background:rgba(44,62,80,.4);
 	position: relative;
-	top: -130px;
+	top: -92px;
 	right: -68px;
 }
 p.background{
@@ -2077,7 +2115,7 @@ p.background{
 	width:50%;
 	float:right;
 	position:relative;
-	top:-154px;
+	top:-115px;
 	right:-68px;
 	padding:0 4px 0 4px;
   text-align:left;
@@ -2095,7 +2133,7 @@ h2.header_interview.center {
   /* position: relative; */
   right: -129px;
 	color: rgb(243, 156, 18);
-  top: -149px;
+  top: -112px;
 }
 img.logo_footer {
   position: relative;
@@ -2226,7 +2264,8 @@ img.pacco{
   text-shadow: 1px 1px 1px rgb(000,000,000);
 }
 .mobile_carousel{
-  background:url(../img/slide/post_eleven_rj_one.jpg)center center;background-size:cover;
+  background:url(../img/slide/post_eleven_rj_one.jpg)center center;
+  background-size:cover;
   background-position-x:px;
 }
 .mobile_carousel_one{
@@ -2389,7 +2428,7 @@ img.pacco{
     position:relative;
   }
   .section-contact {
-    margin-top: 4864px;
+    margin-top: 4396px;
     position:relative;
   }
   .social-links {
@@ -2553,7 +2592,17 @@ img.pacco{
   left:0!important;
   top:0!important;
   }
+.media.kpaloa_one {
+  position:relative!important;
+  top: 26px!important;
+
+  }
 }
+
+
+
+
+
 @media screen and (min-width: 1200px){
   .face-lockup {
     width: 1206px;
@@ -2561,6 +2610,7 @@ img.pacco{
   .social-links{
     
   }
+
 }
 
 /* Landscape */
@@ -2733,6 +2783,7 @@ h3#entrevistas{
   background:rgba(44,62,80,.4);
   }
 h4.header_interview{}
+
 .mobile_interview p{
   color:#fff;
   text-shadow: 1px 1px 1px rgb(44, 62, 80);
@@ -2961,33 +3012,47 @@ h4.header_interview.noronha{
   }
   #viagens {
     margin-top: 331px!important;
-    height: 1317px!important;
+    height: 1609px!important;
   }
    #viagens li {
     display: inline-block;
     margin: -17px 7px 4px -11px!important;
     padding: 24px;
   }
+  .carousel-inner.interview_carousel_ten>.item>img, .carousel-inner.interview_carousel_ten>.item>a>img {
+    height: 985px;
+    position: relative;
+    top: -11px;
+}
+.carousel-inner.interview_carousel_ten {
+  top: -668px;
+}
   .xan_interview {
     margin-top: -28px!important;
   }
   .xan_interview h3{
-    padding-top:183px!important;
+    padding-top:269px!important;
   }
   h3.mobile_one {
   z-index:-1;
 }
   p.background {
-    width: 127%;
-    top: -99px;
+    top: -93px;
+    width: 121%;
+    height:829px;
+    font-size: 26px;
+    left:10.8%;
+    line-height: 36px;
+    padding: 3px 8px 0 8px;
   }
   h2.header_interview.waves {
-  padding-left: 97px;
+  padding-left: 124px;
 }
   h2.header_interview {
     padding-left: 17px;
-    top: -100px;
+    top: -103px;
     font-size: 50px;
+    height:56px;
   }
 h2.header_interview.iPad_one {
   font-size: 50px;
@@ -2995,16 +3060,25 @@ h2.header_interview.iPad_one {
 }
 h2.header_interview.craud_one {
   font-size: 50px;
-  padding-left: 50px;
-  padding-top: 5px;
+  padding-left: 52px;
+  padding-top: 1px;
 }
 h2.header_interview.waves_two {
   font-size: 50px;
   padding-left: 55px;
   padding-top: 5px;
 }
+h2.header_interview.center {
+  padding-left: 105px;
+}
+h2.header_interview.satisfaction {
+  padding-left: 26px;
+}
   p.interview_mbl {
-  width: 127%;
+  width: 121%;
+  font-size:26px;
+  left:10.8%;
+  
   }
   .color {
     top: -78px;
@@ -3031,7 +3105,7 @@ h2.header_interview.waves_two {
   margin-left: -27px;
 }
 .nav-effect > a {
-  right: 71px;
+  left:42%;
   }
 .content-wrap nav a {
   font-size: 18px;
@@ -3043,21 +3117,32 @@ footer {
   margin-top: -95px;
 }
 p.photographer {
-  right: -14px;
-  bottom: 109px;
+  right: -291px;
+  bottom: 100px;
+}
+a.jnr_email {
+  top: 116px;
+  right: 64px;
 }
   .carousel-control.right {
   position: absolute;
-  top: 80px;
+  top: -73px;
   }
   .carousel-control.left {
   position: absolute;
-  top: 80px;
+  top: -73px;
   }
   .media:first-child {
-  margin-top: 0;
-  height: 410px;
+    margin-top: 0;
+    height: 317px;
+    border-radius:8px;
   }
+.media-img.column_height {
+  height: 248px;
+}
+.media-img.column_height {
+  margin-left: -53px;
+}
   .media.kpaloa_one {
   margin-top: 512px;
 }
@@ -3114,20 +3199,56 @@ p.photographer {
     margin: -17px 7px 4px -11px!important;
     padding: 24px;
   }
+  .carousel-inner.interview_carousel_ten>.item>img, .carousel-inner.interview_carousel_ten>.item>a>img {
+  height: 731px;
+}
+  .imagelightbox-arrow-right {
+    right: 0.5em!important;
+  }
+  .imagelightbox-arrow-left {
+    left: 0.5em!important;
+}
   .xan_interview {
     margin-top: -28px!important;
   }
   .xan_interview h3{
     padding-top:183px!important;
   }
+  .carousel-caption {
+    bottom: 15px;
+  }
   p.background {
     width: 68%;
     top: -99px;
+    font-size:18px;
   }
   h2.header_interview {
-    padding-left: 122px;
+    padding-left: 120px;
     top: -100px;
   }
+  h2.header_interview.waves {
+  padding-left: 254px;
+}
+h2.header_interview.iPad_one {
+  font-size: 50px;
+  padding-left: 127px;
+}
+h2.header_interview.craud_one {
+  font-size: 50px;
+  padding-left: 181px;
+  padding-top: 1px;
+}
+h2.header_interview.waves_two {
+  font-size: 50px;
+  padding-left: 186px;
+  padding-top: 5px;
+}
+h2.header_interview.center {
+  padding-left: 225px;
+}
+h2.header_interview.satisfaction {
+  padding-left: 120px;
+}
   p.interview_mbl {
   width: 68%;
   }
@@ -3142,8 +3263,11 @@ p.photographer {
   margin-top: 84px
 }
 .nav-effect > a {
-  right: 2px;
-  }
+  left:43.8%
+}
+a.jnr_email {
+  left: -3%;
+}
   .carousel-control.right {
   position: absolute;
   top: 80px;
@@ -3151,5 +3275,12 @@ p.photographer {
   .carousel-control.left {
   position: absolute;
   top: 80px;
+  }
+.media:first-child {
+    border-radius:8px;
+    height:469px;
+  }
+.media.kpaloa_one {
+  margin-top: 512px;
   }
 }

@@ -1,0 +1,1 @@
+on the logo many color logo i cut each square and paste in illustrator, than select everything, group, rasterize, ignore white, image trace, expand
