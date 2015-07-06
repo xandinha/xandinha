@@ -1532,14 +1532,14 @@ p {
   /*padding: 10px;*/
   margin: 0 -55px 0 -12px;
 }
-@media (max-width: 750px) {
+/*@media (max-width: 750px) {
   .xan_sobre_mim {
 		max-width: 571px;
 		padding: 0 154px 0 6px;
 		font-size: 16px;
 		margin: 0 -164px 3px -12px;
   }
- }
+ }*/
 .xan_header{
   color: rgb(243, 156, 18)
 }
@@ -1986,6 +1986,17 @@ a.copyright:hover {
 .tooltip.left .tooltip-arrow{border-left-color:rgb(255, 255, 255)}
 .tooltip.bottom .tooltip-arrow{border-width:0 5px 5px;border-bottom-color:rgb(255, 255, 255)}
 
+/*.box {
+  width: 1200px;
+  box-shadow: 2px 5px 12px 3px #2c3e50;
+  margin-top: 54px;
+  margin-left:-23px;
+}*/
+#container ul {
+  /*margin: -47px;*/
+  margin-left: -41px;
+  margin-top: -103px;
+}
 .media:first-child {
   height: 479px;
   border-radius: 8px;
@@ -2543,6 +2554,11 @@ img.pacco{
   top: 388px;
   left: 9%;
 }
+.xan_sobre_mim {
+  font-size: 16px;
+  margin: 0 -55px 4px -12px;
+  padding: 0px 45px 0 8px;
+}
   .my_photo {
     left: 0;
     width: 310px;
@@ -2558,7 +2574,7 @@ img.pacco{
   width: 310px;
   margin-left: auto;
   margin-right: auto;
-  margin: 5px 49px 5px 5px;
+  margin: 1px 49px 5px 5px;
   border-radius: 5px;
   height: 338px;
   top:-4px;
@@ -2607,19 +2623,379 @@ img.pacco{
   .face-lockup {
     width: 1206px;
   }
-  .social-links{
-    
+  .social-links{    
   }
-
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
 
+/*-----------------======== iPhone 5 and 5S ========---------------*/
+/*-----------------------------==========--------------------------*/
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mobile_carousel>.item>img, .mobile_carousel>.item>a>img{
+    height: 321px;
+    background-position:0px!important;
+  }
+  .carousel-caption {
+    bottom: 52px;
+    text-align: left;
+    /*left: 6%;
+    right: 6%;*/
+    padding:0 90px 0 40px;
+    margin-left:-42px;
+  }
+  .carousel-control {
+    top: 272px;
+  }
+  .carousel-indicators {
+    bottom: -1px;
+  }
+   img.cam {
+    position: absolute!important;
+    left: 114.5%!important;
+    top: 52.6%!important;
+  }
+  img.pacco{
+    position: absolute!important;
+    left: 114.5%!important;
+    top:66.6%!important;
+  }
+  .mobile_carousel{
+  background-position-x:px;
+  }
+  .mobile_carousel_one{
+    background-position-x:-360px!important;
+  }
+  .mobile_carousel_two{
+    background-position-x: -351px;
+  }
+  .mobile_carousel_three{
+    background-position-x: -341px;
+  }
+  .mobile_carousel_four{
+    background-position-x:-372px;
+  }
+.carousel-caption p {
+  font-size:16px;
+  margin-bottom:4px;
+}
+.carousel-caption h4 {
+  font-size: 16px;
+  position:relative;
+  top:12px;
+  padding-bottom:4px;
+}
+.Grafica, .Web.Design, .sep, .Newsletter, .Photography {
+  top: 12px;
+  font-size:12px;
+}
+h6.mobile_iPhone {
+  position: relative;
+  top: 2px!important;
+}
+.btn {
+  padding: 3px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.xan_sobre_mim {
+  font-size: 16px;
+  margin: 0 -55px 4px -12px;
+  padding: 0px 45px 0 24px;
+}
+#viagens {
+  margin-top: 73px!important;
+  height: 939px!important;
+}
+  .mobile_interview{
+    background:url(../img/interview/pororoca_one.jpg)center center;
+    background-size:cover;
+    position:relative;
+    top:-397px;
+    height:570px;
+    width:100%;
+    color:#fff;
+    font-family:'handlee';
+  }
+  .container-fluid.one{
+    background:url(../img/interview/competition_nine.jpg)center center;
+    background-position-x:0px;
+    background-size:cover;
+    position:relative;
+    top:-222px;
+  }
+  .container-fluid.two{background:url(../img/interview/pororoca_two.jpg)center center;
+    background-size:cover;
+    position:relative;
+    top:-190px;
+  }
+  .container-fluid.three{background:url(../img/interview/pororoca.jpg)center center;
+    background-size:cover;
+    position:relative;
+    top:-157px;
+  }
+  .container-fluid.four{background:url(../img/interview/pororoca_rio_arari-maranhao.jpg)center center;
+    background-size:cover;
+    position:relative;
+    top:-125px;
+  }
+  .container-fluid.five{background:url(../img/interview/pororoca_three.jpg)center center;
+    background-position-x:-77px;
+    background-size:cover;
+    position:relative;
+    top:-93px;
+  }
+  .container-fluid.six{background:url(../img/interview/noronha_conceicao_test_two.jpg)center center;
+    background-position-x:-415px;
+    background-size:cover;
+    position:relative;
+    top:-52px;
+  }
+  p.interview_mbl_one{
+    left:-1px;
+    min-width:99%;
+  }
+  p.interview_mbl_one.araguari{
+    position: relative;
+    top:-43px;
+    width:98%;
+    left:.5%;
+  }
+  p.background_one.ride_it{
+    top:-56px;
+    width:99%;
+    left:.5%;
+    font-size: 18px;
+    line-height: 21px;
+    height:555px;
+    padding:10px 60px 0 60px;
+  }
+  p.background_one.waves_one{
+    font-size:18px;
+    line-height: 22px;
+  }
+  p.interview_mbl_one.color_one{
+    left:.5%;
+    width:98%;
+  }
+  h4.header_interview.guinness{
+    top:-209px;
+    font-size:20px;
+    left:-.5%;
+  }
+  h4#book {
+  margin-top: 33px;
+  padding-left:15%;
+  }
+  .progressivo > p{
+    position:relative;
+    top:78px!important;
+  }
+  .progressivo_text > p {
+    top:77px!important;
+  }
+  .progressivo_text > h4 {
+    top: 44px!important;
+  }
+.media:first-child {
+  width: 359px;
+  margin-left: 16%;
+}
+  .home .grigio {
+    top: 4496px!important;
+    position:relative;
+  }
+  .section-contact {
+    margin-top: 4396px;
+    position:relative;
+  }
+  .social-links {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -77px;
+    margin-top: -403px;
+  }
+.bar {
+  right: 105%;
+}
+.social-links .xan_email a {
+  right: 41.5%;
+  font-size: 44px!important;
+}
+  h3#entrevistas{
+    color:#fff;
+    background:rgba(44,62,80,.4);
+    margin-bottom: 43px;
+    height: 52px;
+    width:99%;
+    right: -0.5%;
+    position: relative;
+    }
+  .color{background:rgba(44,62,80,.4);
+  }
+  h4.header_interview{}
+  .mobile_interview p{
+    color:#fff;
+    text-shadow: 1px 1px 1px rgb(44, 62, 80);
+    /*font-weight:bold;*/
+    line-height:23px;
+    font-size:18px;
+    padding:0 2px 0 168px;
+    background: rgba(44,62,80,.4);
+  }
+  p.background_one{background:rgba(44,62,80,.4);
+    height:551px;
+    position:relative;
+    top:-11px;
+    left:.5%;
+    width:99%;
+    float: none;
+    padding:10px 60px 0 60px;
+  }
+  .mobile_interview p span{
+    margin-left: 2px;
+  }
+  .mobile_interview h4{
+    font-family:'handlee';
+    width:576px;
+    height:40px;
+    color:rgb(44, 62, 80);
+    position:relative;
+    top:-43px;
+    padding:2% 15%;
+    background:#fff;font-size:16px;
+    margin-left:0px;
+  }
+  h4.header_interview.guajara{
+    padding:2.2% 19%;
+    font-size: 20px;
+    left: -1%;
+  }
+  h4.header_interview.record{
+    padding:2.2% 19%;
+    font-size: 20px;
+    left: -.6%;
+    top:53px;
+  }
+  h4.header_interview.amazonico{
+    padding: 2% 24%;
+  }
+  h4.header_interview.satisfaction{
+    padding: 2% 16%;
+    font-size: 20px;
+    left: 0%;
+    top:53px!important;
+  }
+  h4.header_interview.noronha{
+    padding: 2% 27%;
+    margin-top:34px;
+  }
+  .mobile_interview strong{
+    color: rgb(243, 156, 18);
+  }
+  .date{color:rgb(243, 156, 18);
+  }
+  .xan_interview{
+    margin-top:1161px;
+    height:413px;
+    width:731px;
+    position:relative;
+    right:191px;
+    top:16px;
+  }
+  .nav-effect img {
+    position: relative;
+    right: -10.8%;
+    top: 0px;
+  }
+  img.camera {
+    right: 109px!important;
+    top: 105px!important;
+    position: absolute!important;
+}
+  a.rodape {
+  top: 513px;
+  left: -38%;
+}
+  #lockup .jnr_email {
+  top: 270px;
+  left: -16%;
+}
+img.logo_footer{
+  border:none;
+}
+.footer_small {
+  left: 189px;
+  position: relative;
+  bottom: 283px;
+}
+  .my_photo {
+    left: 0;
+    width: 276px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px 49px 5px 5px;
+    border-radius: 5px;
+    height: 338px;
+    box-shadow: 2px 2px 8px 2px #2c3e50;
+  }
+.my_photo_one {
+  left: 282px;
+  width: 276px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5px 0px 5px 5px;
+  border-radius: 5px;
+  height: 338px;
+  top:-354px;
+  box-shadow: 2px 2px 8px 2px #2c3e50;
+}
+  .blurb {
+    top: -358px;
+    left: 0;
+    width: 557px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px 49px 5px 5px;
+    border-radius: 5px;
+    height: 428px;
+    box-shadow: 2px 2px 8px 2px #2c3e50;
+  }
+  #container ul {
+  margin: -47px 10px 0 -26px!important;
+  }
+  /*.box{
+    width: 1px!important;
+  }*/
+  h3 {
+    padding: 58px 0 40px;
+  } 
+.video-wrapper{
+  position:relative!important;
+  padding-bottom:56.25%!important;
+}
+.video-wrapper iframe{
+  position:absolute!important;
+  max-width:100%!important;
+  height:100%!important;
+  left:0!important;
+  top:0!important;
+  }
+.media.kpaloa_one {
+  position:relative!important;
+  top: 26px!important;
+  }
+footer {
+  height: 356px;
+  background-position-x: 56%;
+  }
+p.photographer {
+  right: -239px;
+  bottom: -34px;
+  }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -2691,7 +3067,8 @@ img.pacco{
 }
 
 /* Portrait */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2)  { 
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2)  {
+
 .navbar-default .navbar-toggle {
     margin-bottom: 6px;
     padding: 8px 9px 11px 10px;
@@ -2886,11 +3263,7 @@ h4.header_interview.noronha{
 }
 
 /* Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: landscape) {
+@media screen and (device-width: 320px) and (device-eight:640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
 
 }
 
@@ -2962,6 +3335,7 @@ h4.header_interview.noronha{
 /*-----------------------==========---------------------*/
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   /* For portrait layouts only */
+  
   .js .rsSlide.rsActiveSlide .car-descrizione {
   width: 397px;
   margin-left: 13px;
