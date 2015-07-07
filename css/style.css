@@ -706,6 +706,12 @@ h1 {
   position: relative;
   right: -160px;
   top: -23.6px;
+  transition: transform .8s ease-in-out;
+}
+.nav-effect > a:hover {
+  transform-origin: center;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 @media (max-width: 750px) {
@@ -1134,12 +1140,12 @@ strong {
   /*overflow-X: hidden;*/
   margin-top: -350px;
 }
-@media (max-width: 750px) {
+/*@media (max-width: 750px) {
   .section-work {
 		margin-top: -438px;
 		margin-bottom: 1137px;
   }
-}
+}*/
 
 .work-belt {
   width: 200%;
@@ -2023,7 +2029,7 @@ a.copyright:hover {
   background-size:cover;
 }
 .interview_carousel_two{
-  background: url(../img/interview/competition_nine_test_one.jpg)center center;
+  background: url(../img/interview/competition_nine_test.jpg)center center;
   background-size:cover;
 }
 .interview_carousel_three{
@@ -2032,6 +2038,14 @@ a.copyright:hover {
 }
 .interview_carousel_four{
   background: url(../img/interview/pororoca_black.jpg)center center;
+  background-size:cover;
+}
+.interview_carousel_five{
+  background: url(../img/interview/pororoca_rio_arari-maranhao_two_four_test_one.jpg)center center;
+  background-size:cover;
+}
+.interview_carousel_six{
+  background: url(../img/interview/noronha_interiew_1024.jpg)center center;
   background-size:cover;
 }
 
@@ -2152,6 +2166,10 @@ img.logo_footer {
   /*background-color: rgba(39,26,18,.4);*/
   border-radius: 3px;
   border: 1.8px solid rgba(255,255,255,.8);
+}
+img.logo_footer:hover {
+  opacity: .6;
+  transition: opacity 300ms, ease-in, 500ms;
 }
 @media (max-width: 750px){
   img.logo_footer{
@@ -2310,25 +2328,33 @@ img.pacco{
 
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)  {
-  .mobile_carousel>.item>img, .mobile_carousel>.item>a>img{
-    height: 569px;
-  }
-  .carousel-caption {
-    bottom: 70px;
-    text-align: left;
-    left: 6%;
-    right: 6%;
-  }
-  .carousel-control {
-    top: 517px;
-  }
-  .carousel-indicators {
-    bottom: 2px;
-  }
-   img.cam {
-  left: 101%!important;
-  top: 69.6%!important;
-  }
+.mobile_carousel>.item>img, .mobile_carousel>.item>a>img{
+  height: 569px;
+}
+.carousel-caption {
+  bottom: 70px;
+  text-align: left;
+  left: 6%;
+  right: 6%;
+}
+.carousel-control {
+  top: 517px;
+}
+.carousel-indicators {
+  bottom: 2px;
+}
+#container img {
+  box-shadow: 4px 4px 4px rgb(44, 62, 80)!important;
+  margin-bottom: 12px;
+}
+.section-work {
+  margin-top: -359px;
+  margin-bottom: 1137px;
+}
+ img.cam {
+left: 101%!important;
+top: 69.6%!important;
+}
   img.pacco{
     left: 101%!important;
     top:79.6%!important;
@@ -2652,6 +2678,14 @@ img.pacco{
   .carousel-indicators {
     bottom: -1px;
   }
+#container img {
+  box-shadow: 4px 4px 4px rgb(44, 62, 80)!important;
+  margin-bottom: 12px;
+}
+.section-work {
+  margin-top: -445px;
+  margin-bottom: 1137px;
+}
    img.cam {
     position: absolute!important;
     left: 114.5%!important;
