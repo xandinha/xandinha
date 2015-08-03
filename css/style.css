@@ -1,16 +1,45 @@
+/*-----------------======== Fonts ========---------------*/
+@font-face {
+    font-family: 'honey_scriptlight';
+    src: url('honeyscript-light-webfont.eot');
+    src: url('honeyscript-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('honeyscript-light-webfont.woff2') format('woff2'),
+         url('../font/honeyscript-light-webfont.woff') format('woff'),
+         url('honeyscript-light-webfont.ttf') format('truetype'),
+         url('honeyscript-light-webfont.svg#honey_scriptlight') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+h3#competicoes, h3#combination,h3#sobre_mim,h3.mobile_one {
+  font-family:'honey_scriptlight';
+  font-size:7vw;
+  font-weight:400;
+  text-transform:capitalize;
+  color:rgb(45,48,56);
+}
+h3.mobile_one{
+  color:rgb(255,255, 255);
+}
+h3#competicoes{
+  /*color: rgb(90,120,125);*/
+  color: rgb(45,48,56);
+}
 html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  
+
 }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+  
 }
 
 html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -704,8 +733,8 @@ h1 {
 }
 .nav-effect > a {
   position: relative;
-  right: -160px;
-  top: -23.6px;
+  left: 44.98%;
+  top: -31.6px;
   transition: transform .8s ease-in-out;
 }
 .nav-effect > a:hover {
@@ -808,7 +837,7 @@ h1 {
 }*/
 
 strong {
-  color: rgb(44, 62, 80);
+  color: rgb(90,120,125);
   font-weight: 600;
 }
 
@@ -1131,15 +1160,22 @@ strong {
     text-align: center;
   }
 }
+section.container-fluid {
+    padding-top: 23px;
+}
+.box {
+    margin: 0 0 0 0.7%;
+}
+
 /* Work */
 .alt-section {
  /* background: rgba(44, 62, 80, .1);*/
 }
 
-.section-work {
+/*.section-work {
   /*overflow-X: hidden;*/
   margin-top: -350px;
-}
+}*/
 /*@media (max-width: 750px) {
   .section-work {
 		margin-top: -438px;
@@ -1643,7 +1679,8 @@ p {
 .section-contact {
   text-align: center;
   height: 580px;
-  background: rgba(44, 62, 80, .1);
+  /*background: rgba(44, 62, 80, .1);*/
+  background: #2d3038;
 }
 @media (max-width: 750px) {
   .section-contact {
@@ -1652,8 +1689,8 @@ p {
   }
 }
 .social-links {
-  max-width: 700px;
-  margin: 0px auto 50px;
+  max-width: 80%;
+  margin: 62px auto 50px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -1702,11 +1739,11 @@ p {
   -moz-transition: all, 500ms;
   transition: all, 500ms;
   height: 80px;
-  width: 80px;
+  width: 125%!important;
 }
 .social_links {
   position: relative;
-  left: -4%;
+  left: -5%;
 }
 @media (max-width: 750px){.social_links {
   left: -1px;
@@ -1714,6 +1751,11 @@ p {
 }
 .social-links .xan_email a{
 	width: 736px;
+  position: relative;
+  right: 10%;
+  font-size: 12.3vw!important;
+  text-transform: capitalize;
+  margin-top: 4%;
 }
 @media (max-width: 750px) {
   .social-links .xan_email a {
@@ -1742,10 +1784,10 @@ p {
  }
  a.jnr_email {
   position: relative;
-  top: 118px;
+  top: 302px;
   font-size: 16px!important;
   color: #fff;
-  right: 453px;
+  left: 40.2%;
 }
 /*a.jnr_email:hover {
   color: rgb(255, 255, 255);
@@ -1767,7 +1809,7 @@ p {
 .bar {
   width: 250px;
   height: 0px;
-  border: 1px solid rgb(44, 62, 80);
+  border: 1px solid #282a30;/*rgb(44, 62, 80)*/
   /*margin: 0px auto 50px;*/
   position: relative;
   top: 20px;
@@ -1783,8 +1825,9 @@ p {
   font-size: 62px !important;
   text-decoration: none;
   font-weight: 100;
-  font-family: 'Handlee';
-  color: #2f2f2f;
+  font-family: 'honey_scriptlight';
+  color:rgb(155,160,166);
+  /*color: #2f2f2f;*/
   line-height: 1;
   -webkit-transition: all, 500ms;
   -moz-transition: all, 500ms;
@@ -1807,7 +1850,8 @@ p {
   }
 }
 [href^='mailto']:hover {
-  color: rgba(44,62,80,.3);
+  /*color: rgba(44,62,80,.3);*/
+  color: rgba(243, 156, 18,.89);
   border-bottom: solid 3px;
 }
 
@@ -1864,7 +1908,7 @@ form input {
 
 /* Footer */
 footer {
-  height: 200px;
+  height: 414px;
   width: 100%;
   background: url(../img/footer/noronha_better.jpg) center center;
   background-size: cover;
@@ -1893,7 +1937,7 @@ footer {
 .content-wrap nav {
   float: left;
   text-decoration: none;
-  margin-top: 74px;
+  margin-top: 176px;
 }
 
 .content-wrap nav a {
@@ -1925,16 +1969,17 @@ a.copyright:hover {
 }
 [class^="rodape"]{
   float: right;
-  color: #fff;
-  font-size: 12px;
+  color: rgb(45,48,56);
+  font-size: 0.88vw;
   font-family: 'Handlee';
   position: relative;
   right: 10px;
-  top: 70px;
+  top: 262px;
   line-height: 1.2 !important;
   transition: all, 500ms;
-  border-bottom: solid 1px;
-  text-shadow: 1px 1px 1px rgb(000,000,000);
+  /*border-bottom: solid 1px;*/
+  font-weight: 700;
+  /*text-shadow: 1px 1px 1px rgb(000,000,000);*/
 }
 @media (max-width: 750px) {
   a.rodape {
@@ -2005,7 +2050,7 @@ a.copyright:hover {
 }
 .media:first-child {
   height: 479px;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 .media.kpaloa_one {
   margin-top: 512px;
@@ -2018,7 +2063,7 @@ a.copyright:hover {
 }
 .carousel-inner.interview_carousel_ten {
   position: relative;
-  top: -500px;
+  top: -507px;
 }
 .interview_carousel{
   background: url(../img/interview/pororoca_three_two.jpg)center center;
@@ -2097,14 +2142,19 @@ p.interview_mbl{
 }
 h2.header_interview{
 	position:relative;
-	font-family: 'handlee';
-	background: #fff;
+	font-family: 'honey_scriptlight';
+	background: rgba(255,255,255,.7);
 	top: -112px;
-	padding: 2px 0 0 318px;
-	height: 58px;
-	font-size: 54px;
+	/*padding: 2px 0 0 23%;*/
+  text-align: center;
+	height: 66px;
+	font-size: 5vw;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  /*padding-top: .45%;*/
 }
-h2.header_interview.waves {
+/*h2.header_interview.waves {
   padding: 2px 0 0 397px;
 }
 h2.header_interview.guinness{
@@ -2113,6 +2163,9 @@ h2.header_interview.guinness{
 h2.header_interview.guajara{
   padding: 2px 0 0 319px;
 }
+h2.header_interview.center {
+  padding-left: 400px;
+}*/
 
 a.link {
   position: relative;
@@ -2151,9 +2204,6 @@ p.background{
 p.background strong{
 	color: rgb(243, 156, 18);
 }
-h2.header_interview.center {
-  padding-left: 400px;
-}
 .client-quote-mark.quote_xan {
   /* position: relative; */
   right: -129px;
@@ -2165,7 +2215,7 @@ img.logo_footer {
   bottom: 6px;
   /*background-color: rgba(39,26,18,.4);*/
   border-radius: 3px;
-  border: 1.8px solid rgba(255,255,255,.8);
+ /* border: 1.8px solid rgba(255,255,255,.8);*/
 }
 img.logo_footer:hover {
   opacity: .6;
@@ -2313,7 +2363,53 @@ img.pacco{
   background:url(../img/slide/self_two.jpg)center center;background-size:cover;
   background-position-x:-452px;
  }
-
+.fa {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 1.4;
+  font-size: 5.6vw;
+  color: #fff;
+  transition: all, 500ms;
+}
+.fa:hover{
+  color: #fff;
+  border: 2px solid #fff;
+}
+.fa-instagram{
+  color: #ffb900;
+  border: 2px solid #ffb900;
+  line-height: 1.26
+}
+.fa-google-plus{
+  color: #eb3c00;
+  border: 2px solid #eb3c00;
+  line-height: 1.32;
+  padding-left: 3px;
+}
+.fa-facebook{
+  color: #0053bc;
+  border: 2px solid #0053bc;
+  line-height: 1.35;
+  padding-right: 7px;
+}
+.fa-twitter{
+  color: #52b043;
+  border: 2px solid #52b043;
+  line-height: 1.34;
+  padding-left: 1.2px;
+}
+.fa-pinterest-p{
+  color: #68217a;
+  border: 2px solid #68217a;
+}
+.sponser{
+  background: #666
+}
+.xandinha_email{
+  color: #fff
+}
 /* ----------- =============== ----------- */
 /* ----------- iPhone 5 and 5S ----------- */
 /* ----------- =============== ----------- */
@@ -2463,7 +2559,7 @@ top: 69.6%!important;
   .home .grigio {
     top: 4496px!important;
     position:relative;
-  }
+  }  
   .section-contact {
     margin-top: 4396px;
     position:relative;

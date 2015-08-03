@@ -370,9 +370,9 @@ fieldset[disabled] .btn-primary.active {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	width: 100%;
-	background: rgb(44, 62, 80);
+	background: rgba(44, 62, 80,0.98);
 	-webkit-box-shadow: none; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
-	box-shadow: none; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	box-shadow: 0px 2px 8px  0px #2d3038; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
 }
 
 .pannello-affix.affix .navbar-inner {
@@ -402,7 +402,7 @@ fieldset[disabled] .btn-primary.active {
 h2 a,
 h3 a,
 h4 a {
-	color: #262f35
+	color: rgb(226,86,28)
 }
 
 pager {
@@ -596,7 +596,7 @@ section.blu p {
 }
 
 .media {
-	background: #fff;
+	background: rgb(45,48,56);
 	/*height: 200px;*/
 }
 
@@ -666,6 +666,7 @@ section.blu p {
 .media p {
 	font-size: 16px;
 	line-height: 19px;
+	color: rgb(204,204,204);
 }
 
 .media a:hover {
@@ -1211,7 +1212,10 @@ display: none;
 
 .home .grigio {
 	margin-bottom: -392px;
-	margin-top: -684px;
+	margin-top: -754px;
+	/*background:rgb(211, 217, 223);*/
+	/*background: rgb(17, 24, 30);*/
+	background: rgb(211, 217, 223);
 }
 @media (max-width: 750px){
 	.home .grigio{
@@ -3159,7 +3163,9 @@ h3 {
 
 section {
 	padding: 90px 0;
+	/*border-bottom:1px solid #c7c7c7;*/
 }
+
 
 /* ==========================================================================
    HOME @ 1200
