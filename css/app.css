@@ -1221,7 +1221,7 @@ display: none;
 	.home .grigio{
 		position:relative!important;
 		/*top:4125px!important;*/
-		background: rgba(44, 62, 80, -0.9);
+		/*background: rgba(44, 62, 80, -0.9);*/
 	}
 }
 a.btn.btn-primary.animated.fadeInUp.hidden-xs.delay03:hover {
