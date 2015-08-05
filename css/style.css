@@ -1809,7 +1809,7 @@ p {
 .bar {
   width: 250px;
   height: 0px;
-  border: 1px solid #282a30;/*rgb(44, 62, 80)*/
+  border: 1px solid rgb(136,136,136); /*#282a30;rgb(44, 62, 80)*/
   /*margin: 0px auto 50px;*/
   position: relative;
   top: 20px;
@@ -2380,8 +2380,8 @@ img.pacco{
   transition: all, 500ms;
 }
 .fa:hover{
-  color: #fff;
-  border: 2px solid #fff;
+  color: rgb(120, 120, 120);
+  border: 2px solid rgb(120, 120, 120);
 }
 .fa-instagram{
   color: #ffb900;
