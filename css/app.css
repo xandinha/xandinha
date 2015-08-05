@@ -596,7 +596,8 @@ section.blu p {
 }
 
 .media {
-	background: rgb(45,48,56);
+	/*background: rgb(45,48,56);*/
+	background: rgb(255,255,255);
 	/*height: 200px;*/
 }
 
@@ -666,7 +667,8 @@ section.blu p {
 .media p {
 	font-size: 16px;
 	line-height: 19px;
-	color: rgb(204,204,204);
+	/*color: rgb(204,204,204);*/
+	color: rgb(90,120,125);
 }
 
 .media a:hover {

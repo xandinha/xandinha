@@ -2050,7 +2050,7 @@ a.copyright:hover {
 }
 .media:first-child {
   height: 479px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .media.kpaloa_one {
   margin-top: 512px;
@@ -2109,6 +2109,10 @@ a:hover, a:focus {
 .carousel-control.right{
 	background-image: none;
 	background: url(../img/icons/arrow_right_more_little.png)center no-repeat;
+}
+.carousel-control{
+  opacity: .6;
+  transition: opacity .3s;
 }
 .navbar-toggle .icon-bar {
   width: 25px;
@@ -2171,11 +2175,13 @@ a.link {
   position: relative;
   left: 14px;
   top: -6px;
-  opacity: .8;
+  opacity: .6;
+  transition: opacity .3s;
   z-index:2;
 }
  a.link:hover{
   border-bottom:none;
+  opacity: 1;
 }
 .carousel-caption {
   z-index: 2;
