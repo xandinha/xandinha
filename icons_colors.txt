@@ -1,0 +1,6 @@
+Google Plus: Hue/Saturation, custom, Hue: 360, Saturation: 60, lightness:-54, Colorize, clip to layer icon: clicked
+
+reduce noise
+color blue cold
+sharpen +2
+vintage 4 milk chocolate

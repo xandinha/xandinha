@@ -2066,31 +2066,35 @@ a.copyright:hover {
   top: -507px;
 }
 .interview_carousel{
-  background: url(../img/interview/pororoca_three_two.jpg)center center;
+  background: url(../img/interview/pororoca_three_two_opacity.jpg)center center;
   background-size:cover;
 }
 .interview_carousel_one{
-  background: url(../img/interview/pororoca_one_two.jpg)center center;
+  background: url(../img/interview/pororoca_one_two_opacity.jpg)center center;
   background-size:cover;
 }
 .interview_carousel_two{
-  background: url(../img/interview/competition_nine_test.jpg)center center;
+  background: url(../img/interview/competition_nine_test_opacity.jpg)center center;
   background-size:cover;
 }
 .interview_carousel_three{
-  background: url(../img/interview/pororoca_two_maybe.jpg)center center;
+  background: url(../img/interview/pororoca_two_maybe_opacity.jpg)center center;
   background-size:cover;
 }
 .interview_carousel_four{
-  background: url(../img/interview/pororoca_black.jpg)center center;
+  background: url(../img/interview/pororoca_black_opacity.jpg)center center;
   background-size:cover;
 }
 .interview_carousel_five{
-  background: url(../img/interview/pororoca_rio_arari-maranhao_two_four_test_one.jpg)center center;
+  background: url(../img/interview/pororoca_rio_arari-maranhao_two_four_test_one_opacity.jpg)center center;
   background-size:cover;
 }
 .interview_carousel_six{
-  background: url(../img/interview/noronha_interiew_1024.jpg)center center;
+  background: url(../img/interview/noronha_interiew_1024_opacity.jpg)center center;
+  background-size:cover;
+}
+.interview_carousel_seven{
+  background: url(../img/interview/mac_chrome_screen-shot.jpg)center center;
   background-size:cover;
 }
 
@@ -2139,7 +2143,7 @@ h3.mobile_one {
   left:-295px;
 }
 p.interview_mbl{
-	margin-top: -52px;
+	margin-top: -115px;
 	color:#fff;
 	width:50%;
 	float:right;
@@ -2148,7 +2152,7 @@ h2.header_interview{
 	position:relative;
 	font-family: 'honey_scriptlight';
 	background: rgba(255,255,255,.7);
-	top: -112px;
+	top: -173px;
 	/*padding: 2px 0 0 23%;*/
   text-align: center;
 	height: 66px;
@@ -2187,22 +2191,24 @@ a.link {
   z-index: 2;
 }
 .color{
-	background:rgba(44,62,80,.4);
+	background:rgba(44,62,80,.46);
 	position: relative;
 	top: -92px;
 	right: -68px;
+  border-radius: 3px 3px 0 0;
 }
 p.background{
-	background:rgba(44,62,80,.4);
+	background:rgba(44,62,80,.46);
 	color:#fff;
 	height:auto;
 	width:50%;
 	float:right;
 	position:relative;
-	top:-115px;
+	top:-176px;
 	right:-68px;
 	padding:0 4px 0 4px;
   text-align:left;
+  border-radius: 0 0 3px 3px;
 }
 .date{
 	color:rgb(243, 156, 18);
@@ -2214,7 +2220,7 @@ p.background strong{
   /* position: relative; */
   right: -129px;
 	color: rgb(243, 156, 18);
-  top: -112px;
+  top: -173px;
 }
 img.logo_footer {
   position: relative;
@@ -2410,8 +2416,246 @@ img.pacco{
   color: #68217a;
   border: 2px solid #68217a;
 }
-.sponser{
-  background: #666
+.sponsor{
+  background: rgb(193, 195, 197);
+  background: url(../img/sponsor/sitting_beach_transparent_fifty.jpg);
+  background-size: cover;
+  height: 1000px;
+}
+.sponsor h3, .sponsor h4{
+  font-family: 'honey_scriptlight';
+  font-size: 7vw;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: rgb(45,48,56);
+  padding: 70px 0 0 0;
+  margin-bottom: -17px;
+}
+.sponsor h4 {
+    font-size: 6vw;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+.sponser_margen{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.sponsor_background{
+  /*background: rgb(69, 184, 241);*/
+  /*background: rgb(0, 134, 189);*/
+  display: inline-flex;
+  width: 526px;
+  padding: 20px 0 145px 138px;
+  border-radius: 3px;
+}
+img.sponser_image {
+  display: inline!important;
+  border-radius: 3px;
+}
+.sponsor_image_two{
+  margin-top: 4px;
+  position: relative;
+  left: 5%;
+}
+ .sponsor_two{
+  float: right;
+ }
+ .sponsor_one,
+ .sponsor_three, 
+ .sponsor_four, 
+ .sponsor_five,
+ .sponsor_six {
+    position: relative;
+    left: -109px;
+    text-align: left;
+    width: 50%;
+    /*border-top: 1px solid rgb(229, 229, 229);*/
+    top:90px;
+    color: #fff;
+    text-shadow:1px 1px 1px rgb(0,0,0);
+    background: rgba(78, 194, 231,.6);
+    border-radius: 3px;
+    padding: 4px 2px 2px 6px;
+}
+.sponsor_one{
+  background: rgba(78, 194, 231,.2);
+  padding-bottom: 25px;
+  top: 83px;
+}
+.sponsor_four {
+    top:-37px;
+    color: rgb(45,48,56);
+}
+.sponsor_five{
+    background: rgba(237, 85, 100,.6);
+}
+.sponsor_six{
+  background: rgba(236, 135, 191,.1);
+}
+ .clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.la_isla{
+  color: rgb(241,196,15);
+  font-weight: 700;
+  /*text-shadow:0 1px 1px rgb(255,255,255);*/
+}
+/*.la_isla_one {
+    color: rgb(44,62,80);
+    text-shadow: none;
+    font-weight: 700;
+}*/
+.fa.fa-external-link {
+  border: none;
+  height: 0;
+  width: 0;
+  font-size: 1.8vw;
+  position: relative;
+  top: 11px;
+  left: -10px;
+  color:rgb(241,196,15);
+  text-shadow:1.5px 1.5px 1px rgb(0,0,0);
+  padding-right: 20px;
+}
+.fa.fa-external-link:hover{
+  border: none;
+  color:rgb(226,86,28);
+  cursor: pointer;
+}
+.fa.fa-pull-left {
+  border: none;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 2.6vw;
+  position:relative;
+  left: -42px;
+  top: 11px;
+}
+.fa.fa-pull-left:hover{
+  color: #fff;
+}
+.fa-border{
+  padding: 0;
+  border: 0;
+
+}
+.item.sponser_margen {
+    max-width: 1071px;
+    background: #fff url(../img/sponsor/background_isla.jpg)no-repeat;
+    background-size: cover;
+    background-position-x: -538px;
+    background-position-y: -426px;
+    padding: 4px;
+    /*border: 1px solid #ccc;*/
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top:167px;
+}
+.item.sponser_margen_one{
+  background: #fff url(../img/sponsor/seel/background_seel_test.png)no-repeat;
+  background-size: cover;
+  background-position-x: -539px;
+  background-position-y: -290px;
+}
+.item.sponser_margen_two{
+  background: #fff url(../img/sponsor/bela_rosa/background_bela_rosa.jpg)no-repeat;  
+  background-size: cover;
+  background-position-x: -538px;
+  background-position-y: -290px;
+}
+.sponsor_image_three{
+  margin-top: 0px;
+}
+.bela_rosa{
+  height: 362px!important;
+}
+.item.sponser_margen_three{
+  background: #fff url(../img/sponsor/craud/sundown.png)no-repeat;
+  background-size: cover;
+  background-position-x: -538px;
+  background-position-y: -211px;
+}
+#carousel-example-generic2{
+  position: relative;
+  top: -130px;
+}
+.carousel-caption h6{
+  font-weight: 400;
+  text-transform: capitalize;
+  position: relative;
+  top: 36px;
+  left: -177px;
+  /*color: rgb(45,48,56);*/
+  color: rgb(241,196,15);
+  text-shadow: 1px 1px 1px rgb(0,0,0);
+  font-weight: 700;
+  font-family: 'handlee';
+}
+h6.seel_link {
+  left: -180px;
+  top: 37px;
+}
+h6.craud_link{
+  left: -381px;
+  top: 31px;
+}
+h6.bela_rosa_link {
+    left: -255px;
+    top: 36px
+}
+h6 .tooltip-inner{
+  position: relative;
+  top: 2px;
+  text-shadow:none;
+}
+h6 .tooltip.right .tooltip-arrow{
+  position: relative;
+  top: 20px;
+  left: -5px;
+}
+.sponsor_carousel{
+  bottom: -138px;
+  left:-30px;
+  width: 8%;
+}
+.sponsor_carousel_one{
+  right:-1.2%!important;
+  top: 313px;
+}
+.sponsor_carousel_two{
+  left:2.7%!important;
+  top: 313px;
+}
+.sponsor_carousel.carousel-control.right {
+  background: url(../img/icons/just_arrow_right_white_line_white.png)no-repeat;
+}
+.sponsor_carousel.carousel-control.left {
+  background: url(../img/icons/just_arrow_left_white_line_white.png)no-repeat;
+}
+.sponsor_indicators {
+    bottom: -47px!important;
+}
+
+/*----------=== Animations ===---------*/
+
+.imagelightbox-arrow,
+.carousel-control.left,
+.carousel-control.right,
+.sponsor_carousel.carousel-control.right, 
+.sponsor_carousel.carousel-control.left 
+{
+  -webkit-animation: arrow 3s ease-in-out infinite;
+}
+
+/*----------==== Keyframes ===----------*/
+
+@-webkit-keyframes arrow{
+  50% {-webkit-transform: translatex(-10px);}
 }
 .xandinha_email{
   color: #fff
@@ -2582,6 +2826,51 @@ top: 69.6%!important;
 .ytp-thumbnail-overlay{
   position: relative;
   left: -35px!important;
+}
+#carousel-example-generic2 {
+    top: -28px;
+}
+.sponsor{
+  height: 719px;
+  position: relative;
+  z-index: 4;
+  top: 3471px;
+  background-position-x:-317px 
+}
+.item.sponser_margen{
+  height: 500px;
+  margin-top: 95px;
+  background: none; 
+}
+img.sponser_image{
+  position: relative;
+  top: -57px;
+  width: 313px;
+}
+.sponsor_image_two{
+  top: -68px!important;
+  width: 32%!important;
+  left: -11%;
+  height:14%;
+}
+.sponsor h3{
+  font-size: 14vw;
+  padding: 59px 0 46px;
+}
+.sponsor_three{
+  left: 11%;
+  width:88%;
+  top: -148px;
+}
+.sponsor_carousel_two{
+  top:370px;
+  height: 95px;
+}
+.sponsor_carousel_one{
+  top: 370px;
+  height: 65px;
+  width: 68px;
+  right: -2px;
 }
   .section-contact {
     margin-top: 3471px;
@@ -3650,6 +3939,10 @@ h4.header_interview.noronha{
 }
 .carousel-inner.interview_carousel_ten {
   top: -668px;
+}
+#interview_caption{
+  position: relative;
+  top: -245px!important;
 }
   .xan_interview {
     margin-top: -28px!important;
