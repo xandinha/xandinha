@@ -2094,7 +2094,7 @@ a.copyright:hover {
   background-size:cover;
 }
 .interview_carousel_seven{
-  background: url(../img/interview/mac_chrome_screen-shot.jpg)center center;
+  background: url(../img/interview/mac_chrome_screen-shot_test.jpg)center center;
   background-size:cover;
 }
 
@@ -2420,21 +2420,27 @@ img.pacco{
   background: rgb(193, 195, 197);
   background: url(../img/sponsor/sitting_beach_transparent_fifty.jpg);
   background-size: cover;
-  height: 1000px;
+  height: 900px;
 }
-.sponsor h3, .sponsor h4{
+.sponsor h3, .sponsor h4, .sponsor h6{
   font-family: 'honey_scriptlight';
   font-size: 7vw;
   font-weight: 400;
   text-transform: capitalize;
   color: rgb(45,48,56);
-  padding: 70px 0 0 0;
-  margin-bottom: -17px;
+  padding: 108px 0 0 0;
+  margin-bottom: -72px;
 }
 .sponsor h4 {
     font-size: 6vw;
     padding: 0 0 0 0;
     text-align: center;
+}
+.sponsor h6{
+  font-size: 4vw;
+  padding: 0 0 0 0;
+  text-align: center;
+  margin: 0 0 -30px 0;
 }
 .sponser_margen{
   margin-left: 20px;
@@ -2464,13 +2470,14 @@ img.sponser_image {
  .sponsor_three, 
  .sponsor_four, 
  .sponsor_five,
- .sponsor_six {
+ .sponsor_six,
+ .sponsor_seven {
     position: relative;
     left: -109px;
     text-align: left;
     width: 50%;
     /*border-top: 1px solid rgb(229, 229, 229);*/
-    top:90px;
+    top:50px;
     color: #fff;
     text-shadow:1px 1px 1px rgb(0,0,0);
     background: rgba(78, 194, 231,.6);
@@ -2480,7 +2487,7 @@ img.sponser_image {
 .sponsor_one{
   background: rgba(78, 194, 231,.2);
   padding-bottom: 25px;
-  top: 83px;
+  top: 51px;
 }
 .sponsor_four {
     top:-37px;
@@ -2491,6 +2498,9 @@ img.sponser_image {
 }
 .sponsor_six{
   background: rgba(236, 135, 191,.1);
+}
+.sponsor_seven{
+  background: rgba(112,97,78,.6);
 }
  .clearfix:after { 
    content: "."; 
@@ -2533,7 +2543,7 @@ img.sponser_image {
   line-height: 0;
   font-size: 2.6vw;
   position:relative;
-  left: -42px;
+  left: -44px;
   top: 11px;
 }
 .fa.fa-pull-left:hover{
@@ -2568,11 +2578,17 @@ img.sponser_image {
   background-position-x: -538px;
   background-position-y: -290px;
 }
+.item.sponsor_image_five{
+  background: #fff url(../img/sponsor/raizes/background_raizes.jpg)no-repeat;
+  background-size: cover;
+  background-position-x: -228px;
+  background-position-y: -124px;
+}
 .sponsor_image_three{
   margin-top: 0px;
 }
 .bela_rosa{
-  height: 362px!important;
+  height: 355px!important;
 }
 .item.sponser_margen_three{
   background: #fff url(../img/sponsor/craud/sundown.png)no-repeat;
@@ -2582,31 +2598,35 @@ img.sponser_image {
 }
 #carousel-example-generic2{
   position: relative;
-  top: -130px;
+  top: -12px;
 }
 .carousel-caption h6{
-  font-weight: 400;
   text-transform: capitalize;
   position: relative;
-  top: 36px;
+  top: -3px;
   left: -177px;
   /*color: rgb(45,48,56);*/
   color: rgb(241,196,15);
   text-shadow: 1px 1px 1px rgb(0,0,0);
   font-weight: 700;
   font-family: 'handlee';
+  font-size: 1vw;
+}
+h6.raizes_link{
+  left: -317px;
+  top: -3px;
 }
 h6.seel_link {
   left: -180px;
-  top: 37px;
+  top: -3px;
 }
 h6.craud_link{
   left: -381px;
-  top: 31px;
+  top: -3px;
 }
 h6.bela_rosa_link {
     left: -255px;
-    top: 36px
+    top: -3px
 }
 h6 .tooltip-inner{
   position: relative;
