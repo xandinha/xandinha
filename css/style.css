@@ -2471,7 +2471,8 @@ img.sponser_image {
  .sponsor_four, 
  .sponsor_five,
  .sponsor_six,
- .sponsor_seven {
+ .sponsor_seven,
+ .sponsor_eight {
     position: relative;
     left: -109px;
     text-align: left;
@@ -2501,6 +2502,9 @@ img.sponser_image {
 }
 .sponsor_seven{
   background: rgba(112,97,78,.6);
+}
+.sponsor_eight{
+    background: rgba(166,72,124,.6);
 }
  .clearfix:after { 
    content: "."; 
@@ -2552,7 +2556,6 @@ img.sponser_image {
 .fa-border{
   padding: 0;
   border: 0;
-
 }
 .item.sponser_margen {
     max-width: 1071px;
@@ -2578,6 +2581,18 @@ img.sponser_image {
   background-position-x: -538px;
   background-position-y: -290px;
 }
+.item.sponser_margen_three{
+  background: #fff url(../img/sponsor/craud/sundown_test.png)no-repeat;
+  background-size: cover;
+  background-position-x: -378px;
+  background-position-y: -211px;
+}
+.item.sponser_margen_four{
+  background: #fff url(../img/sponsor/stdp/stdp_front.png)no-repeat;
+  background-size: cover;
+  background-position-x: -51px;
+  background-position-y: -211px;
+}
 .item.sponsor_image_five{
   background: #fff url(../img/sponsor/raizes/background_raizes.jpg)no-repeat;
   background-size: cover;
@@ -2587,19 +2602,17 @@ img.sponser_image {
 .sponsor_image_three{
   margin-top: 0px;
 }
-.bela_rosa{
+.bela_rosa, .stdp{
   height: 355px!important;
-}
-.item.sponser_margen_three{
-  background: #fff url(../img/sponsor/craud/sundown.png)no-repeat;
-  background-size: cover;
-  background-position-x: -538px;
-  background-position-y: -211px;
 }
 #carousel-example-generic2{
   position: relative;
   top: -12px;
 }
+/*li[data-slide-to^="0"] {
+  background: rgb(255,185,0);
+  border: 1px solid rgb(255,185,0);
+}*/
 .carousel-caption h6{
   text-transform: capitalize;
   position: relative;
@@ -2625,8 +2638,12 @@ h6.craud_link{
   top: -3px;
 }
 h6.bela_rosa_link {
-    left: -255px;
-    top: -3px
+  left: -255px;
+  top: -3px
+}
+h6.stdp_link{
+  left: -281px;
+  top: -3px
 }
 h6 .tooltip-inner{
   position: relative;
