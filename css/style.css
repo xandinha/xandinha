@@ -1,6 +1,6 @@
 @font-face{font-family:'honey_scriptlight';src:url('honeyscript-light-webfont.eot');src:url('honeyscript-light-webfont.eot?#iefix') format('embedded-opentype'),
 url('honeyscript-light-webfont.woff2') format('woff2'),
-url('../font/honeyscript-light-webfont.woff') format('woff'),
+url('../fonts/honey/honeyscript-light-webfont.woff') format('woff'),
 url('honeyscript-light-webfont.ttf') format('truetype'),
 url('honeyscript-light-webfont.svg#honey_scriptlight') format('svg');font-weight:400;font-style:normal;}
 h3#competicoes, h3#combination,h3#sobre_mim,h3.mobile_one{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);}
