@@ -57,7 +57,8 @@ fieldset[disabled] .btn-primary.active{background-color:transparent;}
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus{}
-.navbar-default .navbar-collapse{overflow-x:hidden;}
+.navbar-default .navbar-collapse{overflow-x:hidden;margin-top: -26px;}
+.navbar-nav>li>a{padding-top:17px!important;padding-bottom:3px!important;}
 .single-portfolio .navbar .nav > .menu-interview > a{opacity:1;filter:alpha(opacity=100);}
 .single-portfolio .navbar .nav > .menu-blog.active > a,
 .post-type-archive-portfolio .navbar .nav > .menu-blog.active > a{opacity:0.65;filter:alpha(opacity=65);}
@@ -226,7 +227,7 @@ section.page-header{margin-top:0;margin-bottom:0;background-color:#424b51;paddin
 .rsVer .rsArrowRight .rsArrowIcn{background-position:-96px -64px;}
 .rsArrowDisabled .rsArrowIcn{opacity:.2;filter:alpha(opacity=20);*display:none;}
 .rsBullets{position:absolute;z-index:35;left:0;bottom:20px;width:100%;height:auto;margin:0 auto;text-align:center;line-height:8px;overflow:hidden;display:none;}
-.rsBullet{display:inline-block;*display:inline;*zoom:1;padding:6px 5px 6px;}
+.rsBullet{display:inline-block;*display:inline;*zoom:1;padding:6px 3px 6px;}
 .rsBullet span{display:block;width:15px;height:15px;border-radius:50%;background:radial-gradient(circle at 100px 100px, #fff, rgb(45,48,56));cursor:pointer;}
 .rsBullet.rsNavSelected span{background:radial-gradient(circle at 100px 100px, #fff, rgb(255,185,0));cursor:default;}
 .home #full-width-slider .rsArrow{display:none !important;}

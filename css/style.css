@@ -3,6 +3,7 @@ url('honeyscript-light-webfont.woff2') format('woff2'),
 url('../fonts/honey/honeyscript-light-webfont.woff') format('woff'),
 url('honeyscript-light-webfont.ttf') format('truetype'),
 url('honeyscript-light-webfont.svg#honey_scriptlight') format('svg');font-weight:400;font-style:normal;}
+a[href^="en.index.html"]{float:right;position:relative;right:-64px;top: 12.6px;}
 h3#competicoes, h3#combination,h3#sobre_mim,h3.mobile_one{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);}
 h3.mobile_one{color:rgb(255,255, 255);}
 h3#competicoes{color:rgb(45,48,56);}
@@ -346,7 +347,7 @@ a.copyright:hover{color:rgb(243, 156, 18);border-bottom:solid 1px;}
 .tooltip.left .tooltip-arrow{border-left-color:rgb(255, 255, 255)}
 .tooltip.bottom .tooltip-arrow{border-width:0 5px 5px;border-bottom-color:rgb(255, 255, 255)}
 #container ul{margin-left:-41px;margin-top:-103px;}
-.media:first-child{height:479px;border-radius:3px;}
+.media:first-child{height:479px;border-radius:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
 .media.kpaloa_one{margin-top:512px;}
 .carousel-inner.interview_carousel_ten>.item>img, .carousel-inner.interview_carousel_ten>.item>a>img{display:block;max-width:100%;height:800px;line-height:1;}
 .carousel-inner.interview_carousel_ten{position:relative;top:-507px;}
@@ -418,6 +419,34 @@ img.pacco{top:76%}
 .fa-facebook{color:#0053bc;border:2px solid #0053bc;line-height:1.35;padding-right:7px;}
 .fa-twitter{color:#52b043;border:2px solid #52b043;line-height:1.34;padding-left:1.2px;}
 .fa-pinterest-p{color:#68217a;border:2px solid #68217a;}
+.nav-tabs.nav-justified>li>a[href*="bike"]{background:rgba(166, 72, 125,.6);}
+.nav-tabs.nav-justified>li>a[href*="bike"]:hover{transition:all .3s ease-in-out;background:rgba(235,60,0,.6)color:rgb(255,255,255);}
+.co-sponsor, .co-sponsor_studio{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(255,255,255);position:relative;top:-134px;}
+.co-sponsor_studio{right:-63%;}
+.co_sponsor_logo{position:absolute;min-width:1342px!important;background:rgba(237, 85, 100,.6);margin-top:4px;margin-left:4px;padding-bottom:210px!important;}
+.co_sponsor_logo_studio{background:rgba(166,72,124,.6);position:absolute;z-index:2;}
+.co_sponsor_logo_one{position:relative;left:-19%;top:100px;}
+.co_sponsor_image{position:absolute;left:40.3%!important;top:150px;}
+.co_sponsor_h6{top:41px!important;left:-33.6%!important;}
+.co_sponsor_studio_h6{width:37%;top:-42px!important;left:96.6%!important;}
+.co_sponsor_link{left:5px!important;top:6px!important;padding-right:28px!important;}
+.co_sponsor_caption{position:relative;left:-14%;width:343px;top:95px;color:rgb(255,255,255);text-shadow: 1px 1px 1px rgb(0,0,0);border-radius:3px;padding:4px 2px 2px 6px;text-align:left;}
+.co_sponsor_paragraph{left:78%;top:12px;}
+.co_sponsor_studio_link{font-family:'handlee';font-size:17px!important;color:rgb(255,255,255);}
+.fa-quote-right{left:990px!important;top:-18px!important;text-shadow:1px 1px 1px rgb(0,0,0);}
+.co_sponsor_quote.fa-quote-right {left:24.2%!important;top:67px!important;}
+.co_sponsor_mosaic{position:relative;right:6px;background-color:rgb(255,255,255);width:746px;top:8px;padding:4px;float:right;border-radius:3px;z-index:-1;}
+.co_sponsor_mosaic_one{position: relative;left:9px;background-color:rgb(255,255,255);top:8px;padding:4px;float:left;border-radius:3px;z-index:1;}
+.tab-content{height:520px;}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus{background:rgba(237,195,51,.6);color: rgb(45,48,56);font-family:'Handlee';font-size:2vw;text-transform:capitalize;cursor:pointer;transition:all .3s ease-in-out;outline:none;}
+#bike{height:520px;background:url(../img/sponsor/stdp/background_seel_test_is-the_one_on_the_website.png)no-repeat;background-size:cover;opacity:.8;}
+#car{height:520px;background:url(../img/sponsor/seel/background_seel_co-sponsor.png);background-position-y:-126px;background-position-x:-655px;background-size:cover;opacity:.8;}
+.nav-tabs.nav-justified>li>a{border-bottom:1px solid rgba(235,60,0,.0);background:rgba(235,60,0,.6);font-family:'Handlee';font-size:2vw;text-transform:capitalize;color:rgb(255,255,255);}
+.nav-tabs.nav-justified>.active>a{border-bottom-color:rgba(84,138,194,.2);}
+.nav-tabs>li>a:hover{border-color:transparent;background:rgba(235,60,0,.6);transition:all .3s ease-in-out;}
+.sponsor_section{margin-top:-55px}
 .sponsor{background:rgb(193, 195, 197);background:url(../img/sponsor/sitting_beach_transparent_fifty.jpg);background-size:cover;height:900px;}
 .sponsor h3, .sponsor h4, .sponsor h6{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);padding:108px 0 0 0;margin-bottom:-72px;}
 .sponsor h4{font-size:6vw;padding:0 0 0 0;text-align:center;}
