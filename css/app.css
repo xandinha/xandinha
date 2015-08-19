@@ -289,8 +289,8 @@ fieldset[disabled] .btn-primary.active {
 
 .navbar-default .navbar-collapse {
  overflow-x: hidden;
- /*margin-top: -2px;*/
- margin-top: -26px;
+ margin-top: -2px;
+ /*margin-top: -26px;*/
 }
 .navbar-nav>li>a {
   padding-top: 17px!important;
