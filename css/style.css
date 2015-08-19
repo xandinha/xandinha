@@ -2489,14 +2489,26 @@ img.pacco{
   left: 40.3%!important;
   top: 150px
 }
+.co_sponsor_en{
+  left: 36.5%!important;
+}
+.co_sponsor_en_one{
+  left: -21%;
+}
 .co_sponsor_h6 {
   top: 41px!important;  
   left: -33.6%!important;
+}
+.co_sponsor_h6_en{
+  left: -39.6%!important;
 }
 .co_sponsor_studio_h6{
   width: 37%;
   top: -42px!important;  
   left: 96.6%!important;
+}
+.co_sponsor_studio_h6_en{
+  left: 90.8%!important;
 }
 .co_sponsor_link{
   left: 5px!important;
@@ -2532,6 +2544,12 @@ img.pacco{
 .co_sponsor_quote.fa-quote-right {
   left: 24.2%!important;
   top: 67px!important;
+}
+.co_sponsor_quote.fa-quote-right.quote_en{
+  left: 18.6%!important;
+}
+.co_sponsor_quote.fa-quote-right.quote_studio_en{
+  left: 18.6%!important;
 }
 .co_sponsor_mosaic{
   position: relative;
