@@ -175,7 +175,7 @@ section.page-header{margin-top:0;margin-bottom:0;background-color:#424b51;paddin
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open .dropdown-toggle.btn-primary{color:#424b51;background:#fff;border-color:#fff;}
+.open .dropdown-toggle.btn-primary{color:#424b51;background:#fff;/*border-color:#fff;*/box-shadow: inset 0 -4px 0 rgba(0,0,0,0.15);transition:all .3s ease-in-out;font-weight:700;}
 .form-control::-webkit-input-placeholder{color:#838886;}
 .form-control::-moz-placeholder{color:#676c6b;}
 .form-control:-ms-input-placeholder{color:#838886;}
@@ -244,7 +244,7 @@ section.page-header{margin-top:0;margin-bottom:0;background-color:#424b51;paddin
 .home .grigio{margin-bottom:-392px;margin-top:-754px;background:rgb(211, 217, 223);}
 @media (max-width:750px){.home .grigio{position:relative!important;}
 }
-a.btn.btn-primary.animated.fadeInUp.hidden-xs.delay03:hover{text-shadow:none;}
+a.btn.btn-primary.animated.fadeInUp.hidden-xs.delay03:hover{text-shadow:none;font-weight:700;}
 .about .header-titolo{}
 #clockanalog{background:url(../img/orologio/orologio-rd.png) no-repeat;width:200px;height:200px;margin:0 auto 20px;position:relative;}
 #clockanalog img{border:0;left:0px;position:absolute;top:0px;width:100%;}

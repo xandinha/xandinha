@@ -433,18 +433,18 @@ color:rgb(255,255,255);}
 .co_sponsor_logo{position:absolute;min-width:1342px!important;background:rgba(237, 85, 100,.6);margin-top:4px;margin-left:4px;padding-bottom:210px!important;}
 .co_sponsor_logo_studio{background:rgba(166,72,124,.6);position:absolute;z-index:2;}
 .co_sponsor_logo_one{position:relative;left:-19%;top:100px;}
-.co_sponsor_image{position:absolute;left:40.3%!important;top:150px}
-.co_sponsor_en{left:36.5%!important;}
+.co_sponsor_image{position:absolute;left:43.2%!important;top:113px}
+.co_sponsor_en{left:40.6%!important;}
 .co_sponsor_en_one{left:-21%;}
 .co_sponsor_h6{top:41px!important;left:-33.6%!important;}
 .co_sponsor_h6_en{left:-39.6%!important;}
-.co_sponsor_studio_h6{width:37%;top:-42px!important;left:96.6%!important;}
+.co_sponsor_studio_h6{width:37%;top:-30px!important;left:96.6%!important;}
 .co_sponsor_studio_h6_en{left:90.8%!important;}
 .co_sponsor_link{left:5px!important;top:6px!important;padding-right:28px!important;}
 .co_sponsor_caption{position:relative;left:-14%;width:343px;top:95px;color:#fff;text-shadow:1px 1px 1px rgb(0,0,0);border-radius:3px;padding:4px 2px 2px 6px;text-align:left;}
-.co_sponsor_paragraph{left:78%;top:12px;}
+.co_sponsor_paragraph{left:78%;top:24px;}
 .co_sponsor_studio_link{font-family:'handlee';font-size:17px!important;color:rgb(255,255,255);}
-.fa-quote-right{left:990px!important;top:-18px!important;text-shadow:1px 1px 1px rgb(0,0,0);}
+.fa-quote-right{left:123%!important;top:-5px!important;text-shadow:1px 1px 1px rgb(0,0,0);}
 .co_sponsor_quote.fa-quote-right{left:24.2%!important;top:67px!important;}
 .co_sponsor_quote.fa-quote-right.quote_en{left:18.6%!important;}
 .co_sponsor_quote.fa-quote-right.quote_studio_en{left:18.6%!important;}
@@ -506,10 +506,13 @@ li[data-slide-to^="3"]{height:15px;width:15px;background:radial-gradient(circle 
 li[data-slide-to^="4"]{height:15px;width:15px;background:radial-gradient(circle at 100px 100px, #fff, #52b043);}
 li[data-slide-to^="5"]{height:15px;width:15px;background:radial-gradient(circle at 100px 100px, #fff, #548ac2);}
 .carousel-caption h6{text-transform:capitalize;position:relative;top:-3px;left:-177px;color:rgb(241,196,15);text-shadow:1px 1px 1px rgb(0,0,0);font-weight:700;font-family:'handlee';font-size:1vw;}
+.sponsor_en{left:-42%!important;}
 h6.raizes_link{left:-317px;top:-3px;}
+.raizes_link_en{left:-38.2!important;}
 h6.seel_link{left:-180px;top:-3px;}
 h6.craud_link{left:-381px;top:-3px;}
 h6.bela_rosa_link{left:-255px;top:-3px}
+.bela_rosa_link_en{left:-38%!important}
 h6.stdp_link{left:-281px;top:-3px}
 h6 .tooltip-inner{position:relative;top:2px;text-shadow:none;}
 h6 .tooltip.right .tooltip-arrow{position:relative;top:20px;left:-5px;}
@@ -544,13 +547,13 @@ img.pacco{left:101%!important;top:79.6%!important;}
 .mobile_carousel_two{background-position-x:-351px;}
 .mobile_carousel_three{background-position-x:-341px;}
 .mobile_carousel_four{background-position-x:-372px;}
-.mobile_interview{background:url(../img/interview/pororoca_one.jpg)center center;background-size:cover;position:relative;top:-376px;height:584px;width:100%;color:#fff;font-family:'handlee';}
-.container-fluid.one{background:url(../img/interview/competition_nine.jpg)center center;background-position-x:-75px;background-size:cover;position:relative;top:-190px;height:513px;}
-.container-fluid.two{background:url(../img/interview/pororoca_two.jpg)center center;background-size:cover;position:relative;top:-225px;height:551px;}
-.container-fluid.three{background:url(../img/interview/pororoca.jpg)center center;background-size:cover;position:relative;top:-226px;height:590px;}
-.container-fluid.four{background:url(../img/interview/pororoca_rio_arari-maranhao.jpg)center center;background-size:cover;position:relative;top:-325px;height:540px;}
-.container-fluid.five{background:url(../img/interview/pororoca_three.jpg)center center;background-position-x:-77px;background-size:cover;position:relative;top:-359px;height:549px;}
-.container-fluid.six{background:url(../img/interview/noronha_conceicao_test_two.jpg)center center;background-position-x:-370px;background-size:cover;position:relative;top:90px;top:-351px;height:548px;}
+.mobile_interview{background:url(../img/interview/pororoca_one_two_opacity.jpg)center center;background-size:cover;position:relative;top:-376px;height:584px;width:100%;color:#fff;font-family:'handlee';}
+.container-fluid.one{background:url(../img/interview/competition_nine_test_opacity.jpg)center center;background-position-x:-313px;background-position-y:-38px;background-size:cover;position:relative;top:-190px;height:513px;}
+.container-fluid.two{background:url(../img/interview/pororoca_two_maybe_opacity.jpg)center center;background-size:cover;position:relative;top:-225px;height:551px;}
+.container-fluid.three{background:url(../img/interview/pororoca_black_opacity.jpg)center center;background-size:cover;position:relative;top:-226px;height:590px;}
+.container-fluid.four{background:url(../img/interview/pororoca_rio_arari-maranhao_two_four_test_one_opacity.jpg)center center;background-size:cover;position:relative;top:-325px;height:540px;}
+.container-fluid.five{background:url(../img/interview/pororoca_three_two_opacity.jpg)center center;background-position-x:-77px;background-size:cover;position:relative;top:-359px;height:549px;}
+.container-fluid.six{background:url(../img/interview/noronha_interview_1024_opacity.jpg)center center;background-position-x:-318px;background-size:cover;position:relative;top:90px;top:-351px;height:548px;}
 p.interview_mbl_one{left:-1px;min-width:99%;}
 p.interview_mbl_one.araguari{position:relative;top:-52px;width:98%;left:.5%;}
 p.background_one.ride_it{top:-64px;width:99%;left:.5%;font-size:4.46vw;line-height:1.4;height:508px}
