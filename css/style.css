@@ -425,7 +425,8 @@ img.pacco{top:76%}
 .fa-twitter{color:#52b043;border:2px solid #52b043;line-height:1.34;padding-left:1.2px;}
 .fa-pinterest-p{color:#68217a;border:2px solid #68217a;}
 .sponsor_section{margin-top:-55px}
-.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]{/*background:rgba(166, 72, 125,.6);*/}
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]{/*background:rgba(166, 72, 125,.6);*/border-bottom: 1px solid rgba(235,60,0,.4);}
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_seel"]{border-bottom: 1px solid rgba(166, 72, 125,.6);}
 .nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]:hover,
 .nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]:active,
 .nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]:focus{transition:all .3s ease-in-out;background:rgba(166,72,125,.6);color:rgb(255,255,255);border:1px solid rgba(166,72,125,.4);}
