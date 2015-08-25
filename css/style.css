@@ -425,9 +425,13 @@ img.pacco{top:76%}
 .fa-twitter{color:#52b043;border:2px solid #52b043;line-height:1.34;padding-left:1.2px;}
 .fa-pinterest-p{color:#68217a;border:2px solid #68217a;}
 .sponsor_section{margin-top:-55px}
-.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]{background:rgba(166, 72, 125,.6);}
-.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]:hover{transition:all .3s ease-in-out;background:rgba(235,60,0,.6)
-color:rgb(255,255,255);}
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]{/*background:rgba(166, 72, 125,.6);*/}
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]:hover,
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]:active,
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]:focus{transition:all .3s ease-in-out;background:rgba(166,72,125,.6);color:rgb(255,255,255);border:1px solid rgba(166,72,125,.4);}
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_seel"]:hover,
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_seel"]:active,
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_seel"]:focus{background:rgba(235,60,0,.6);color:rgb(255,255,255);border: 1px solid rgba(235,60,0,.4);}
 .co-sponsor, .co-sponsor_studio{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(255,255,255);position:relative;top:-134px;text-shadow:1px 1px 1px rgb(0,0,0);}
 .co-sponsor_studio{right:-63%;}
 .co_sponsor_logo{position:absolute;min-width:1342px!important;background:rgba(237, 85, 100,.6);margin-top:4px;margin-left:4px;padding-bottom:210px!important;}
@@ -458,11 +462,11 @@ color:rgb(255,255,255);}
 .tab-content{height:520px;}
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
-.nav-tabs>li.active>a:focus{background:rgba(237,195,51,.6);color:rgb(45,48,56);font-family:'Handlee';font-size:2vw;text-transform:capitalize;cursor:pointer;transition:all .3s ease-in-out;outline:none;}
+.nav-tabs>li.active>a:focus{background:transparent;/*rgba(237,195,51,.6);color:rgb(45,48,56);*/font-family:'Handlee';font-size:2vw;text-transform:capitalize;cursor:pointer;transition:all .3s ease-in-out;outline:none;border:1px solid rgb(255,255,255);}
 #co_sponsor_seel{height:520px;;background:url(../img/sponsor/seel/background_seel_co-sponsor.png);background-position-y:-126px;background-position-x:-655px;background-size:cover;background-position:center;opacity:.8;}
 #co_sponsor_studio{height:520px;background:url(../img/sponsor/stdp/background_seel_test_is-the_one_on_the_website.png)no-repeat;background-size:cover;opacity:.8;}
-.nav-tabs.nav-justified>li>a{border-bottom:1px solid rgba(235,60,0,.0);background:rgba(235,60,0,.6);font-family:'Handlee';font-size:2vw;text-transform:capitalize;color:rgb(255,255,255);}
-.nav-tabs.nav-justified>.active>a{border-bottom-color:rgba(84,138,194,.2);}
+.nav-tabs.nav-justified>li>a{border-bottom:1px solid rgb(255,255,255);/*background:rgba(235,60,0,.6);*/font-family:'Handlee';font-size:2vw;text-transform:capitalize;color:rgb(255,255,255);border-radius:50px 4px 0 0;text-shadow:1px 1px 1px rgb(0,0,0);}
+.nav-tabs.nav-justified>.active>a{/*border-bottom-color:rgba(84,138,194,.2)*/background:rgb(204,204,204);}
 .nav-tabs>li>a:hover{border-color:transparent;background:rgba(235,60,0,.6);transition:all .3s ease-in-out;}
 .sponsor{background:rgb(193, 195, 197);background:url(../img/sponsor/sitting_beach_transparent_fifty.jpg)no-repeat;background-size:cover;background-position-y:31px;height:809px;}
 .sponsor h3, .sponsor h4, .sponsor h6{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);padding:108px 0 0 0;margin-bottom:-72px;}
@@ -572,6 +576,8 @@ h4#book{margin-top:-151px;z-index:1;}
 .home .grigio{top:3507px!important;position:relative;z-index:4;}
 .ytp-thumbnail-overlay{position:relative;left:-35px!important;}
 #carousel-example-generic2{top:-28px;}
+
+.sponsor_section{margin-top:-3460px;height:533px;}
 .sponsor{height:719px;position:relative;z-index:4;top:3471px;background-position-x:-317px}
 .item.sponser_margen{height:500px;margin-top:95px;background:none;}
 img.sponser_image{position:relative;top:-57px;width:313px;}
