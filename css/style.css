@@ -397,7 +397,8 @@ p.photographer{float:right;position:relative;right:-288px;bottom:101px;font-size
 p.photographer_one{position:relative;float:right;left:772px;bottom:-62px;font-size:14px;text-shadow:1px 1px 1px #000;}
 .camera_one{position:relative;bottom:3.6px;right:2px;}
 b{position:relative;right:-4px;top:4px;}
-@media screen and (max-width:750px){.carousel-caption h4{color:#fff;text-align:left;font-family:'handlee';font-weight:normal;margin-left:0;text-shadow:1px 1px 1px rgb(000,000,000);}
+@media screen and (max-width:750px){
+.carousel-caption h4{color:#fff;text-align:left;font-family:'handlee';font-weight:normal;margin-left:0;text-shadow:1px 1px 1px rgb(000,000,000);}
 .mobile_carousel>.item>img, .mobile_carousel>.item>a>img{display:block;max-width:100%;height:663px;line-height:1;}
 .carousel-indicators .active{background-color:rgb(243, 156, 18)!important;}
 .carousel-indicators li{border:1px solid rgb(44, 62, 80);background}
@@ -545,7 +546,8 @@ h6 .tooltip.right .tooltip-arrow{position:relative;top:20px;left:-5px;}
 and (min-device-width:320px)
 and (max-device-width:568px)
 and (-webkit-min-device-pixel-ratio:2){}
-@media screen and (device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2){.mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:569px;}
+@media screen and (device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2){
+.mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:569px;}
 .carousel-caption{bottom:70px;text-align:left;left:6%;right:6%;}
 .carousel-control{top:517px;}
 .carousel-indicators{bottom:2px;}
@@ -700,10 +702,12 @@ h3{padding:58px 0 40px;}
 @media screen and (min-width:1200px){.face-lockup{width:1206px;}
 .social-links{}
 }
-@media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape){.mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:321px;background-position:0px!important;}
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape){
+.mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:321px;background-position:0px!important;}
 .carousel-caption{bottom:52px;text-align:left;padding:0 90px 0 40px;margin-left:-42px;}
 .carousel-control{top:272px;}
 .carousel-indicators{bottom:-1px;}
+li[data-slide-to^="4"]{background:radial-gradient(circle at 100px 100px, #fff, #548ac2);}
 .imagelightbox-arrow, .carousel-control.left, .carousel-control.right, .sponsor_carousel.carousel-control.right, .sponsor_carousel.carousel-control.left{position:absolute;z-index:2;}
 #container img{box-shadow:4px 4px 4px rgb(44, 62, 80)!important;margin-bottom:12px;position:relative;z-index:1;}
 .section-work{margin-top:-445px;margin-bottom:1137px;}
@@ -721,13 +725,13 @@ h6.mobile_iPhone{position:relative;top:2px!important;}
 .btn{padding:3px 4px;margin-bottom:0;font-size:13px;}
 .xan_sobre_mim{position:relative;z-index:1;font-size:16px;margin:0 -55px 4px -12px;padding:0px 45px 0 24px;}
 #viagens{margin-top:73px!important;height:939px!important;}
-.mobile_interview{background:url(../img/interview/pororoca_one.jpg)center center;background-size:cover;position:relative;top:-397px;height:617px;width:100%;color:#fff;padding-top:48px;}
-.container-fluid.one{background:url(../img/interview/competition_nine.jpg)center center;background-position-x:0px;background-size:cover;position:relative;top:-222px;}
-.container-fluid.two{background:url(../img/interview/pororoca_two.jpg)center center;background-size:cover;position:relative;top:-190px;}
-.container-fluid.three{background:url(../img/interview/pororoca.jpg)center center;background-size:cover;position:relative;top:-157px;}
-.container-fluid.four{background:url(../img/interview/pororoca_rio_arari-maranhao.jpg)center center;background-size:cover;position:relative;top:-125px;}
-.container-fluid.five{background:url(../img/interview/pororoca_three.jpg)center center;background-position-x:-77px;background-size:cover;position:relative;top:-93px;}
-.container-fluid.six{background:url(../img/interview/noronha_conceicao_test_two.jpg)center center;background-position-x:-415px;background-size:cover;position:relative;top:-52px;}
+.mobile_interview{background:url(../img/interview/pororoca_one_two_opacity.jpg)center center;background-size:cover;position:relative;top:-397px;height:617px;width:100%;color:#fff;padding-top:48px;}
+.container-fluid.one{background:url(../img/interview/competition_nine_test_opacity.jpg)center center;background-position-x:-424px;background-size:cover;position:relative;top:-222px;}
+.container-fluid.two{background:url(../img/interview/pororoca_two_maybe_opacity.jpg)center center;background-size:cover;position:relative;top:-190px;}
+.container-fluid.three{background:url(../img/interview/pororoca_black_opacity.jpg)center center;background-size:cover;position:relative;top:-157px;}
+.container-fluid.four{background:url(../img/interview/pororoca_rio_arari-maranhao_two_four_test_one_opacity.jpg)center center;background-size:cover;position:relative;top:-125px;}
+.container-fluid.five{background:url(../img/interview/pororoca_three_two_opacity.jpg)center center;background-position-x:-77px;background-size:cover;position:relative;top:-93px;}
+.container-fluid.six{background:url(../img/interview/noronha_interview_1024_opacity.jpg)center center;background-position-x:-332px;background-size:cover;position:relative;top:-52px;}
 p.interview_mbl_one{left:-1px;min-width:99%;}
 p.interview_mbl_one.araguari{position:relative;top:-43px;width:98%;left:.5%;}
 p.background_one.ride_it{top:-56px;width:99%;left:.5%;font-size:18px;line-height:21px;height:555px;padding:10px 60px 0 60px;}
@@ -739,8 +743,8 @@ h4#book{margin-top:33px;padding-left:15%;}
 .progressivo_text > p{top:77px!important;}
 .progressivo_text > h4{top:44px!important;}
 .media:first-child{width:359px;margin-left:16%;}
-.home .grigio{top:4496px!important;position:relative;}
-.section-contact{margin-top:4396px;position:relative;}
+.home .grigio{top:4602px!important;position:relative;}
+.section-contact{margin-top:-76px;position:relative;}
 .social-links{left:10.8%;top:50%;position:absolute;margin-left:-77px;margin-top:-403px;}
 .fa{line-height:1.4;font-size:13vw;}
 .fa-instagram{line-height:1.32;padding-left:.4%;}
@@ -748,8 +752,8 @@ h4#book{margin-top:33px;padding-left:15%;}
 .fa-facebook{line-height:1.42;padding-right:1%;}
 .fa-twitter{line-height:1.42;padding-left:1%;}
 .fa-pinterest-p{line-height:1.5;}
-.bar{right:-28%;}
-.social-links .xan_email a{right:-4.5%;font-size:12vw!important;}
+.bar{right:-28%;margin:32px -64px!important;width: 357px;}
+.social-links .xan_email a{top:-67px;right:-4.5%;font-size:12vw!important;}
 h3#entrevistas{color:#fff;background:rgba(44,62,80,.4);margin-bottom:43px;height:52px;width:99%;right:-0.5%;position:relative;font-family:'honey_scriptlight';font-size:7vw;text-transform:capitalize;}
 .color{background:rgba(44,62,80,.4);}
 h4.header_interview{}
@@ -761,11 +765,11 @@ h4.header_interview.guajara{padding:0% 17%;font-size:8vw;left:-1%;z-index:1;}
 h4.header_interview.record{padding:0% 18%;font-size:8vw;left:-.6%;top:53px;}
 h4.header_interview.amazonico{padding:0% 24%;z-index:1;}
 h4.header_interview.satisfaction{padding:0% 16%;font-size:8vw;left:0%;top:53px!important;z-index:1;}
-h4.header_interview.noronha{padding:2% 27%;margin-top:34px;}
+h4.header_interview.noronha{padding:0% 27%;margin-top:34px;}
 .mobile_interview strong{color:rgb(243, 156, 18);}
 .date{color:rgb(243, 156, 18);}
 .xan_interview{margin-top:1161px;height:413px;width:731px;position:relative;right:191px;top:16px;}
-.nav-effect img{position:relative;right:7.6%;top:0px;}
+.nav-effect img{position:relative;right:6.4%;top:7.3px;width:8.4%;height:8.4%;}
 img.camera{right:109px!important;top:105px!important;position:absolute!important;}
 a.rodape{top:513px;left:-38%;}
 #lockup .jnr_email{top:162px;left:1%;}
@@ -775,7 +779,7 @@ img.logo_footer{border:none;}
 .my_photo_one{left:282px;width:276px;margin-left:auto;margin-right:auto;margin:5px 0px 5px 5px;border-radius:5px;height:338px;top:-354px;box-shadow:2px 2px 8px 2px #2c3e50;}
 .blurb{top:-358px;left:0;width:557px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:5px;height:428px;box-shadow:2px 2px 8px 2px #2c3e50;}
 #container{background-color:rgb(211, 217, 223);}
-#container ul{margin:-12px 10px 0 17%!important;}
+#container ul{margin:-28px 10px 0 17%!important;}
 h3{padding:58px 0 40px;}
 .video-wrapper{position:relative!important;padding-bottom:56.25%!important;}
 .video-wrapper iframe{position:absolute!important;max-width:100%!important;height:100%!important;left:0!important;top:0!important;}
