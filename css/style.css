@@ -644,7 +644,7 @@ h3#co-patrocinio{position:relative;top:-29px;z-index:1;background:rgb(211, 217, 
 .fa.fa-external-link{font-size:5vw;top:1.6px;left:2%;font-weight:700;text-shadow:1px 1px 1px rgb(0,0,0);}
 .fa.fa-pull-left{font-size:8.6vw;left:-12.8%;top:8px;color:rgb(255,255,255);text-shadow:1px 1px 1px rgb(0,0,0);}
 .raizes_mobile_link{top:7px!important;left:-3%!important;}
-.isla_social_inst_icon, .isla_social_face_icon{display:inline-block;width:28px!important;height:28px!important;border:none;position:relative;left:39.2%;font-weight:400;background:rgb(255,255,255);padding-left:1px;border-radius:14px;line-height:159.8%!important;text-shadow:none;font-size:6vw!important;cursor:pointer;text-align:center;}
+.isla_social_inst_icon, .isla_social_face_icon{color:rgb(45,48,56);display:inline-block;width:28px!important;height:28px!important;border:none;position:relative;left:39.2%;font-weight:400;background:rgb(255,255,255);padding-left:1px;border-radius:14px;line-height:159.8%!important;text-shadow:none;font-size:6vw!important;cursor:pointer;text-align:center;}
 .isla_social_face_icon{}
 .sponsor_mobile_isla{font-family:'handlee';font-size:5vw;position:relative;left:32.2%;top:0px;}
 .fa.fa-quote-right{display:inline;font-size:9vw;position:absolute;left:56%!important;top:96px!important;}
