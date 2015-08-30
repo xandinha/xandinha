@@ -542,11 +542,8 @@ h6 .tooltip.right .tooltip-arrow{position:relative;top:20px;left:-5px;}
 @-webkit-keyframes arrow{50%{-webkit-transform:translatex(-10px);}
 }
 .xandinha_email{color:#fff}
-@media only screen
-and (min-device-width:320px)
-and (max-device-width:568px)
-and (-webkit-min-device-pixel-ratio:2){}
-@media screen and (device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2){
+/*---== Iphone 5 and 5s Portrait ==---*/
+@media screen and (device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2) and (orientation: portrait){
 .mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:569px;}
 .carousel-caption{bottom:70px;text-align:left;left:6%;right:6%;}
 .carousel-control{top:517px;}
@@ -644,8 +641,9 @@ h3#co-patrocinio{position:relative;top:-29px;z-index:1;background:rgb(211, 217, 
 .fa.fa-external-link{font-size:5vw;top:1.6px;left:2%;font-weight:700;text-shadow:1px 1px 1px rgb(0,0,0);}
 .fa.fa-pull-left{font-size:8.6vw;left:-12.8%;top:8px;color:rgb(255,255,255);text-shadow:1px 1px 1px rgb(0,0,0);}
 .raizes_mobile_link{top:7px!important;left:-3%!important;}
-.isla_social_inst_icon, .isla_social_face_icon{color:rgb(45,48,56);display:inline-block;width:28px!important;height:28px!important;border:none;position:relative;left:39.2%;font-weight:400;background:rgb(255,255,255);padding-left:1px;border-radius:14px;line-height:159.8%!important;text-shadow:none;font-size:6vw!important;cursor:pointer;text-align:center;}
-.isla_social_face_icon{}
+.isla_social_inst_icon, .isla_social_face_icon{color:rgb(45,48,56);display:inline-block;width:28px!important;height:28px!important;border:none;position:relative;left:39.2%;font-weight:400;background:rgb(255,255,255);padding-left:1px;border-radius:14px;/*line-height:159.8%!important;*/text-shadow:none;font-size:6vw!important;cursor:pointer;text-align:center;}
+.isla_social_face_icon{line-height:1.6!important;}
+.isla_social_inst_icon{line-height:1.6!important;padding-right:1px;}
 .sponsor_mobile_isla{font-family:'handlee';font-size:5vw;position:relative;left:32.2%;top:0px;}
 .fa.fa-quote-right{display:inline;font-size:9vw;position:absolute;left:56%!important;top:96px!important;}
 #raizes_quote_mobile{left:47%!important;top:71px!important;}
@@ -691,7 +689,7 @@ img.many_color{height:50px;width:50px;right:15.6%;}
 img.camera{left:-227px!important;top:-19px!important;position:absolute!important;}
 a.rodape{top:513px;left:-38%;}
 #lockup .jnr_email{top:388px;left:6%;}
-.xan_sobre_mim{position:relative;z-index:1;font-size:16px;margin:0 -55px 4px -12px;padding:0px 45px 0 8px;}
+.xan_sobre_mim{position:relative;z-index:1;font-size:5vw;margin:0 -55px 4px -12px;padding:0px 45px 0 8px;}
 .my_photo{left:0;width:310px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:5px;height:338px;box-shadow:2px 2px 8px 2px #2c3e50;}
 .my_photo_one{left:0;width:310px;margin-left:auto;margin-right:auto;margin:1px 49px 5px 5px;border-radius:5px;height:338px;top:-4px;box-shadow:2px 2px 8px 2px #2c3e50;}
 .blurb{top:-6px;left:0;width:310px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:5px;height:428px;box-shadow:2px 2px 8px 2px #2c3e50;}
@@ -704,6 +702,7 @@ h3{padding:58px 0 40px;}
 @media screen and (min-width:1200px){.face-lockup{width:1206px;}
 .social-links{}
 }
+/*---== Iphone 5 and 5s Landscape ==---*/
 @media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape){
 .mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:321px;background-position:0px!important;}
 .carousel-caption{bottom:52px;text-align:left;padding:0 90px 0 40px;margin-left:-42px;}
@@ -727,7 +726,7 @@ img.pacco{position:absolute!important;left:114.5%!important;top:66.6%!important;
 .Grafica, .Web.Design, .sep, .Newsletter, .Photography{top:12px;font-size:12px;}
 h6.mobile_iPhone{position:relative;top:2px!important;}
 .btn{padding:3px 4px;margin-bottom:0;font-size:13px;}
-.xan_sobre_mim{position:relative;z-index:1;font-size:16px;margin:0 -55px 4px -12px;padding:0px 45px 0 24px;}
+.xan_sobre_mim{position:relative;z-index:1;font-size:3vw;margin:0 -55px 4px -12px;padding:0px 45px 0 24px;}
 #viagens{margin-top:73px!important;height:939px!important;}
 .mobile_interview{background:url(../img/interview/pororoca_one_two_opacity.jpg)center center;background-size:cover;position:relative;top:-397px;height:617px;width:100%;color:#fff;padding-top:48px;}
 .container-fluid.one{background:url(../img/interview/competition_nine_test_opacity.jpg)center center;background-position-x:-424px;background-size:cover;position:relative;top:-222px;}
@@ -866,10 +865,151 @@ h3{padding:58px 0 40px;}
 footer{height:268px;background-position-x:56%;}
 p.photographer{right:-160px;bottom:53px;}
 }
-@media only screen
-and (min-device-width:375px)
-and (max-device-width:667px)
-and (-webkit-min-device-pixel-ratio:2){}
+/*---== Iphone 6 Portrait ==---*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+.carousel-caption h6{left:0px!important;font-size:4vw;}
+.mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:668px;}
+li[data-slide-to^="4"]{background:radial-gradient(circle at 100px 100px, #fff, #548ac2);}
+.mobile_carousel{position:relative;z-index:2;}
+.imagelightbox-arrow, .carousel-control.left, .carousel-control.right, .sponsor_carousel.carousel-control.right, .sponsor_carousel.carousel-control.left{position:absolute;z-index:4;}
+.mobile_carousel_three{background-position-x:-411px;}
+h3#sobre_mim{font-size:12vw;background:rgb(255,255,255)!important;position:relative;z-index:1;top:0px;margin:-47px 80px -62px 80px;}
+section.container-fluid hr{position:relative;top:-27px;margin:22px 6px;border-top:solid 2px rgb(155,160,166);}
+.xan_sobre_mim{position:relative;z-index:2;padding:0 44px 0 4px;}
+.my_photo, .my_photo_one, .blurb{left:2%;}
+.blurb{width:92.8%;height:421px;top:-7px;}
+h3#competicoes, h3#combination, h3#sobre_mim, h3.mobile_one{background:rgb(211, 217, 223);font-family:'honey_scriptlight';font-size:14vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);text-align:center;padding-top:50px;}
+h3#combination{margin-right:11%;position:relative;top:0;z-index:1;left:-10%;margin:60px 110px 34px 110px;}
+.travel_one hr{margin:0 14px;position:relative;top:-112px;left:-11.6%;border-top: solid 2px rgb(155,160,166);}
+#container{margin-left:11.3%!important;}
+#container img{position:relative;z-index:1;}
+.section-work{margin-bottom:1272px;}
+.mobile_interview{background:url(../img/interview/pororoca_one_two_opacity.jpg)center center;background-size:cover;position:relative;top:-376px;height:650px;width:100%;color:#fff;font-family:'handlee';}
+.container-fluid.one{background:url(../img/interview/competition_nine_test_opacity.jpg)center center;background-position-x:-313px;background-position-y:-38px;background-size:cover;position:relative;top:-90px;height:513px;}
+.container-fluid.two{background:url(../img/interview/pororoca_two_maybe_opacity.jpg)center center;background-size:cover;position:relative;top:-90px;height:551px;}
+.container-fluid.three{background:url(../img/interview/pororoca_black_opacity.jpg)center center;background-size:cover;position:relative;top:-48px;height:590px;}
+.container-fluid.four{background:url(../img/interview/pororoca_rio_arari-maranhao_two_four_test_one_opacity.jpg)center center;background-size:cover;position:relative;top:-18px;height:540px;}
+.container-fluid.five{background:url(../img/interview/pororoca_three_two_opacity.jpg)center center;background-position-x:-77px;background-size:cover;position:relative;top:22px;height:581px;}
+.container-fluid.six{background:url(../img/interview/noronha_interview_1024_opacity.jpg)center center;background-position-x:-318px;background-size:cover;position:relative;top:62px;height:578px;}
+p.interview_mbl_one{left:-1px;min-width:99%;}
+p.interview_mbl_one.araguari{position:relative;top:-52px;width:98%;left:.5%;}
+p.background_one.ride_it{top:-64px;width:99%;left:.5%;font-size:4.46vw;line-height:1.4;height:508px}
+p.background_one.waves_one{font-size:4.46vw;line-height:1.4;}
+p.interview_mbl_one.color_one{left:.5%;width:98%;}
+.container-fluid.co_sponsor_section{margin-top:3860px;position:relative;z-index:4;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{font-size:6vw;border:none;}
+.nav-tabs.nav-justified>li>a{font-size:6vw;}
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_seel"]{border-bottom:none;border-top: 1px solid rgba(235,60,0,.4);}
+.nav-tabs.nav-justified>li>a[href*="#co_sponsor_studio"]{border-radius:50px 4px 0 0!important;border-top:1px solid rgba(166,72,125,.4);}
+img.co_sponsor_logo_one, img.co_sponsor_image{top:40px!important;width:8%!important;left:-13%!important;}
+.co_sponsor_mosaic{right:8.8%;width:308px;top:232px;}
+.co_sponsor_mosaic_one{top:234px;left:8.8%}
+img.co_sponsor_image{left:-12.8%!important;}
+img.sponsor_two{top:0px!important;width:300px!important;left:0%!important;}
+.co_sponsor_logo{padding-bottom:243px!important;background:rgba(237, 85, 100,.4);}
+.co_sponsor_caption{left:-7%;width:310px;top:95px;font-size:5vw;}
+#co_sponsor_studio{height:445px;}
+#co_sponsor_seel{height:445px;}
+.co-sponsor, .co-sponsor_studio{font-size:12vw;top:-88px;left:-3.2%;}
+.co_sponsor_logo_studio{background:rgba(166,72,124,.4);}
+
+#carousel-example-generic2{top:-28px;}
+.sponsor_section{margin-top:-3460px;height:533px;}
+.sponsor{height:719px;position:relative;z-index:4;top:3471px;background-position-x:-317px}
+.item.sponser_margen{height:500px;margin-top:95px;background:none;}
+img.sponser_image{position:relative;top:-57px;width:313px;}
+.sponsor_image_two{top:-68px!important;width:32%!important;left:-11%;height:14%;}
+.sponsor h3{font-size:14vw;padding:59px 0 46px;}
+.sponsor_three{left:11%;width:88%;top:-148px;}
+.sponsor_carousel_two{top:370px;height:95px;}
+.sponsor_carousel_one{top:370px;height:65px;width:68px;right:-2px;}
+
+#accordion{background-color:#fff;position:relative;top:-76px;}
+.isla_img_logo:after, .bela_rosa_img_logo:after, .raizes_img_logo:after, .craud_img_logo:after{content: "";}
+.panel-body img.isla_img_logo, .panel-body img.bela_rosa_img_logo, .panel-body img.raizes_img_logo, .panel-body img.craud_img_logo{border:0;position:relative;left:1%;top:-235.4px;width:30px;height:30px;border-radius:50%;}
+.panel-body img.isla_img_logo{left:-14.8%;top:-206px;}
+.panel-body img.bela_rosa_img_logo{top:-261.4px;left:-17%;}
+.panel-body img.raizes_img_logo{top:-212px;left:-21%;}
+.panel-body img.craud_img_logo{top:-211.2px;left:-18%;}
+.isla_social_inst_icon, .isla_social_face_icon{line-height:1.4;padding-left:1%;}
+.home .grigio .media-img img{position:relative;z-index:1;}
+.imagelightbox-arrow, .carousel-control.left, .carousel-control.right, .sponsor_carousel.carousel-control.right, .sponsor_carousel.carousel-control.left{-webkit-animation: arrow 3s ease-in-out infinite;z-index:4;position:absolute;}
+h3#competicoes, h3#combination, h3#sobre_mim, h3.mobile_one{font-family:'honey_scriptlight';font-size:14vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);text-align:center;background:rgb(211, 217, 223);position:relative;top:-10px;z-index:1;margin:-48px 80px -62px 80px;}
+h3#sobre_mim{background:rgb(255,255,255);position:relative;z-index:1;top:10px;margin:-47px 80px -62px 80px;}
+section.container-fluid hr{position:relative;top:-27px;margin:22px 6px;border-top:solid 2px rgb(155,160,166);}
+h3#combination{margin-right:11%;position:relative;top:0;z-index:1;left:-5%;margin:60px 85px 34px 85px;}
+.travel_one hr{margin:0 14px;position:relative;top:-112px;left:-10.5%;border-top:solid 2px rgb(155,160,166);}
+h3#entrevistas{font-family:'honey_scriptlight';color:#fff;text-transform:capitalize;font-size:14vw;background:rgba(44,62,80,.4);margin-bottom:43px;height:52px;width:99%;right:-0.5%;top:-9px;position:relative;}
+h3#competicoes{position:relative;top:2px;}
+.presentazione hr{position:relative;top:-16px;position:relative;border-top:solid 2px rgb(155,160,166);margin:0 6px;}
+h3#co-patrocinio{position:relative;top:-29px;z-index:1;background:rgb(211, 217, 223);margin:-10px 80px;font-family:'honey_scriptlight';font-size:14vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);text-align:center;padding:2px 0 2px 0;}
+.co_sponsor_section hr{position:relative;border-top:solid 2px rgb(155,160,166);top:-47px;margin:0 6px;}
+.panel-default h3{position:relative;z-index:1;background:rgb(255,255,255);margin:28px 80px;font-family:'honey_scriptlight';font-size:14vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);text-align:center;padding:2px 0 2px 0;}
+.panel-default hr{position:relative;border-top:solid 2px rgb(155,160,166);top:-55px;margin:0 6px;}
+.panel-default .btn:hover{position:relative;left:0%;}
+.panel-heading{margin-left:-61px;}
+.panel-group .panel{border-radius:3px;}
+#headingTwo{background:rgb(143, 126, 106);color:rgb(255,255,255);text-shadow:1px 1px 1px rgb(0,0,0);}
+#headingOne{color:rgb(255,255,255);background:rgb(0,175,240);text-shadow:1px 1px 1px rgb(0,0,0);}
+#headingThree{background:rgb(116, 37, 76);color:rgb(255,255,255);text-shadow:1px 1px 1px rgb(0,0,0);}
+#headingFour{background:rgb(49, 196, 225); color:rgb(255,255,255);text-shadow:1px 1px 1px rgb(0,0,0);}
+.btn-success{border-color:rgb(255,255,255);}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success{background:transparent;border-color: rgb(255,255,255);}
+h6.co_sponsor_h6, .co_sponsor_studio_h6{display:none;}
+.fa.fa-external-link{font-size:5vw;top:1.6px;left:2%;font-weight:700;text-shadow:1px 1px 1px rgb(0,0,0);}
+.fa.fa-pull-left{font-size:8.6vw;left:-12.8%;top:8px;color:rgb(255,255,255);text-shadow:1px 1px 1px rgb(0,0,0);}
+.raizes_mobile_link{top:7px!important;left:-3%!important;}
+.isla_social_inst_icon, .isla_social_face_icon{color:rgb(45,48,56);display:inline-block;width:28px!important;height:28px!important;border:none;position:relative;left:39.2%;font-weight:400;background:rgb(255,255,255);padding-left:1px;border-radius:14px;/*line-height:159.8%!important;*/text-shadow:none;font-size:6vw!important;cursor:pointer;text-align:center;}
+.isla_social_face_icon{}
+.isla_social_inst_icon{padding-right:.5%;padding-top:.2%;}
+.sponsor_mobile_isla{font-family:'handlee';font-size:5vw;position:relative;left:32.2%;top:0px;display:none;}
+.fa.fa-quote-right{display:none;font-size:9vw;position:absolute;left:26%!important;top:96px!important;}
+#raizes_quote_mobile{left:47%!important;top:71px!important;}
+#bela_rosa_quote_mobile{left:18.2%!important;top:97px!important;}
+#craud_quote_mobile{top:72px!important;left:19%!important;}
+.panel-body.panel-body-isla{background: url(../img/sponsor/background_isla.jpg)no-repeat;background-size:cover;}
+.panel-body.panel-body-raizes{background: url(../img/sponsor/raizes/background_raizes.jpg)no-repeat;background-position-y:-8.2px;}
+.panel-body.panel-body-bela-rosa{background: url(../img/sponsor/bela_rosa/background_bela_rosa.jpg)no-repeat;}
+.panel-body.panel-body-craud{background: url(../img/sponsor/craud/sundown_test.png)no-repeat;}
+.panel-body p{position:relative;left:12%;top:0px;color:rgb(255,255,255);text-shadow:1px 1px 1px rgb(0,0,0);width:89%;}
+.section-contact{height:720px;margin-top:-76px;position:relative;z-index:4;}
+.social-links{right:25%;top:60%;position:absolute;margin-top:-403px;}
+.fa{line-height:1.4;font-size:14vw;width:70px;height:70px;}
+.fa-instagram{line-height:1.3;padding-left:.4%;}
+.fa-google-plus{line-height:1.32;padding-left:6px;}
+.fa-facebook{line-height:1.34;padding-right:3px;}
+.fa-twitter{line-height:1.32;padding-left:2px;}
+.fa-pinterest-p{line-height:1.36;}
+.bar{right:-17%;top:6px!important;border:1px solid rgb(136,136,136)!important;}
+.social-links .xan_email a{right:-8.5%;font-size:12vw!important;}
+footer{height:614px;background-position-x:56%;}
+img.many_color{height:50px;width:50px;right:12.6%;top:35px;}
+#lockup .jnr_email{top:532px;left:-39px;}
+.home .grigio .media-img img{position: relative;z-index:1;}
+h3#competicoes, h3#combination, h3#sobre_mim, h3.mobile_one{font-family:'honey_scriptlight';font-size:14vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);text-align:center;padding-top:50px;}
+h3#combination{margin-right:11%;position:relative;top:0;z-index:1;left:-12%;margin:60px 110px 34px 110px;}
+#container{margin-left:11.3%!important;}
+#viagens{margin-bottom:-33px;}
+h3#entrevistas{font-family:'honey_scriptlight';color:#fff;text-transform:capitalize;font-size:14vw;background:rgba(44,62,80,.4);margin-bottom:43px;height:52px;width:99%;right:-0.5%;top:-9px;position:relative;}
+.color{background:rgba(44,62,80,.4);}
+h4.header_interview{}
+.mobile_interview p{position:relative;top:36px;color:#fff;text-shadow:1px 1px 1px rgb(44, 62, 80);line-height:1.4;font-size:4.46vw;padding:0 2px 0 5px;background:rgba(44,62,80,.4);}
+p.background_one{background:rgba(44,62,80,.4);height:484px;position:relative;top:56px;left:.5%;width:99%;float:none;}
+.mobile_interview p span{margin-left:2px;}
+.mobile_interview h4{font-family:'honey_scriptlight';width:420px;height:40px;color:rgb(45,48,56);position:relative;top:-43px;padding:.2% 8%;background:#fff;text-transform:capitalize;margin-left:0px;font-weight:400;}
+h4.header_interview.guinness,
+h4.header_interview.guinness_one{top:-79px;font-size:11vw;left:-6.4%;-webkit-font-smoothing:antialiased;}
+h4.header_interview.guinness_one{top:39px;}
+h4.header_interview.guajara{padding:.2% 7.3%;font-size:11vw;left:-2%;top:-68px!important;z-index:1;}
+h4.header_interview.record{padding:.3% 10%;font-size:11vw;left:-2%;top:11px!important;z-index:1;}
+h4.header_interview.amazonico{padding:.1% 23%;top:-1px!important;z-index:1;}
+h4.header_interview.satisfaction{padding:.2% 6.4%;font-size:11vw;left:-2%;top:39px!important;z-index:1;}
+h4.header_interview.noronha{padding:.2% 23%;top:37px!important;z-index:5;}
+.mobile_interview strong{color:rgb(243, 156, 18);}
+.home .grigio{top:3965px!important;position: relative;}
+} 
+
+
 @media only screen
 and (min-device-width:375px)
 and (max-device-width:667px)
