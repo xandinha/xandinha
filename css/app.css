@@ -364,13 +364,14 @@ fieldset[disabled] .btn-primary.active{background-color:transparent;}
 .navbar-collapse{clear:both;border:none;padding:0;}
 .navbar .nav li a{text-transform:lowercase;font-family:'Handlee';font-size:25px;font-weight:300;letter-spacing:1px;color:#fff;text-shadow:1px 1px 1px rgba(44, 62, 80, .9);display:block;background:rgba(255,255,255,0);}
 .nav>li>a{padding:0px;}
+.navbar-nav.nav>li>a{position:relative;top:-4.2px;}
 .navbar .nav li a:hover{opacity:0.85;filter:alpha(opacity=85);text-shadow:none;}
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus{}
 a.roll{line-height:1.1!important;}
-.navbar-default .navbar-collapse{overflow-x:hidden;margin-top:-2px;}
-.navbar-nav>li>a{padding-top:17px!important;padding-bottom:3px!important;}
+.navbar-default .navbar-collapse{overflow-x:hidden;margin-top:-7px;}
+/*.navbar-nav>li>a{padding-top:17px!important;padding-bottom:3px!important;}*/
 .single-portfolio .navbar .nav > .menu-interview > a{opacity:1;filter:alpha(opacity=100);}
 .single-portfolio .navbar .nav > .menu-blog.active > a,
 .post-type-archive-portfolio .navbar .nav > .menu-blog.active > a{opacity:0.65;filter:alpha(opacity=65);}
@@ -797,7 +798,7 @@ section.pagina-testo-header{padding-top:170px;padding-bottom:30px;}
 .navbar .navbar-inner{margin-top:80px;}
 .navbar .nav{float:right;margin-right:0;}
 .navbar .nav li{display:inline-block;float:none;}
-.navbar-nav>li>a{padding-top:13px;padding-bottom:7px;}
+/*.navbar-nav>li>a{padding-top:13px;padding-bottom:7px;}*/
 .navbar .nav li:last-child a{padding-right:0;}
 .lt-ie8 .navbar .nav li{display:block;float:left;}
 .roll{display:inline-block;overflow:hidden;z-index:200;position:relative;vertical-align:top;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-webkit-perspective:400px;-moz-perspective:400px;-webkit-perspective-origin:50% 50%;-moz-perspective-origin:50% 50%;}
