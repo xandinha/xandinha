@@ -4,8 +4,9 @@ url('../fonts/honey/honeyscript-light-webfont.woff') format('woff'),
 url('honeyscript-light-webfont.ttf') format('truetype'),
 url('honeyscript-light-webfont.svg#honey_scriptlight') format('svg');font-weight:400;font-style:normal;}
 body{-webkit-font-smoothing:antialiased;}
-a[href^="en.index.html"]{float:right;position:relative;right:-64px;top:12.6px;}
-.br_flag{float:right;position:relative;right:-64px;top:12.6px;}
+a[href^="en.index.html"], .br_flag{float:right;position:relative;right:-9.21%;top:12px;}
+span.usa_one{background:none;box-shadow: none;padding:13px 19px 16px 20px;}
+span.usa{background-color:rgb(47,54,60);padding:13px 19px 16.5px 20px;}
 h3#competicoes, h3#combination,h3#sobre_mim,h3.mobile_one{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);}
 h3.mobile_one{color:rgb(255,255, 255);}
 h3#competicoes{color:rgb(45,48,56);}
