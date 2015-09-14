@@ -4,9 +4,9 @@ url('../fonts/honey/honeyscript-light-webfont.woff') format('woff'),
 url('honeyscript-light-webfont.ttf') format('truetype'),
 url('honeyscript-light-webfont.svg#honey_scriptlight') format('svg');font-weight:400;font-style:normal;}
 body{-webkit-font-smoothing:antialiased;}
-a[href^="en.index.html"], .br_flag{float:right;position:relative;right:-9.21%;top:12px;}
-span.usa_one{background:none;box-shadow: none;padding:13px 19px 16px 20px;}
-span.usa{background-color:rgb(25,121,202);/*rgb(47,54,60)*/;padding:13px 19px 16.5px 20px;}
+a[href^="en.index.html"], .br_flag{float:right;position:relative;right:-4.79%;top:14px;}
+span.usa_one{position:relative;left:2%;transition:all 1000ms linear;background:none;box-shadow:none;padding:15px 19px;}
+span.usa{position:relative;left:91.5%;transition:all 1000ms linear;background-color:rgb(25,121,202);/*rgb(47,54,60)*/;padding:15px 19px;}
 h3#competicoes, h3#combination,h3#sobre_mim,h3.mobile_one{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);}
 h3.mobile_one{color:rgb(255,255, 255);}
 h3#competicoes{color:rgb(45,48,56);}
@@ -349,6 +349,9 @@ a.copyright:hover{color:rgb(243, 156, 18);border-bottom:solid 1px;}
 .tooltip.bottom-left .tooltip-arrow{border-bottom-color:rgb(255, 255, 255)}
 .tooltip.left .tooltip-arrow{border-left-color:rgb(255, 255, 255)}
 .tooltip.bottom .tooltip-arrow{border-width:0 5px 5px;border-bottom-color:rgb(255, 255, 255)}
+.navbar-inner .tooltip-inner{/*white-space:nowrap;*/margin-left:-20%;padding:0;border-radius:1px;padding:2px 0 0 0;}
+.navbar-inner .tooltip.right .tooltip-arrow{border-right-color:rgb(255, 255, 255)}
+.nav_en .tooltip-inner{/*white-space:nowrap;*/margin-left:-20%;padding:0;border-radius:1px;padding:2px 0 0 0;max-width:110%;}
 #container ul{margin-left:-41px;margin-top:-103px;}
 .media:first-child{height:479px;border-radius:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
 .media.kpaloa_one{margin-top:512px;}
