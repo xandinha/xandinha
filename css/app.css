@@ -15,12 +15,14 @@ h2.header_interview{top:-120px;}
 .co_sponsor_en_one{left:-23%;}
 h6.sponsor_en{top:-.6em;left:-42.2%!important;}
 #co_sponsor_quote{left:-27.2%;top:93px;}
-h6.co_sponsor_h6_en{left:-43.99%;top:48px;}
+h6.co_sponsor_h6_en{left:-43.99%;top:49px;}
 .icon_en{left:-48.9%;}
-.co_sponsor_quote.fa-quote-right.quote_en{left:13.6%;top:76px;}
+.co_sponsor_quote.fa-quote-right.quote_en{left:13.6%!important;top:76px;}
 h6.know_more{top:-10px;left:-26.9%;}
 h6.raizes_link{left:-49.8%;top:-9px;}
+h6.raizes_link_en{left:-38.8%;top:-8px;}
 h6.bela_rosa_link{left:-39.8%;top:-9px;}
+h6.bela_rosa_link_en{left:-39.4%!important;top:-8px;}
 .fa.fa-external-link{top:12px;left:-1.1%;}
 h6.craud_link{left:-59%;top:-56px;}
 h6.isla_link{top:-9px;left:-27.4%;}
@@ -31,7 +33,7 @@ h6.isla_link{top:-9px;left:-27.4%;}
 .fa-pinterest-p{line-height:1.42;}
 .nav-effect > a{left:44.3%}
 a.jnr_email{left:38%;}
-p.photographer{right:-21.6%;bottom:118px;}
+p.photographer{right:-20.6%;bottom:118px;}
 p.photographer_en{right:-20.8%;}
 }
 /*--------=== Ultrabook ===---------*/
@@ -48,13 +50,14 @@ h2.header_interview{top:-173px;}
 h6.co_sponsor_h6_en{left:-45%;top:46px;}
 h6.sponsor_en{left:-42.2%!important;top:-1rem;}
 #co_sponsor_quote{left:-28.4%;}
-.co_sponsor_quote.fa-quote-right.quote_en{left:13.2%!important;}
+.co_sponsor_quote.fa-quote-right.quote_en{left:12.9%!important;}
 h6.know_more{position:relative;top:-10px;left:-26.9%;}
 h6.raizes_link{left:-49.2%;top:-9px;}
-h6.bela_rosa_link{left:-39.6%;top:-9px;} 
+h6.bela_rosa_link{left:-39.1%!important;top:-9px;} 
 .fa.fa-external-link{top:12px;left:-1.1%;}
 h6.craud_link{left:-59%;top:-56px;}
 h6.isla_link{top:-9px;left:-27.4%;}
+h6.raizes_link_en{left:-38.8%;top:-9px;}
 h6.link_en{left:-59%;}
 .sponsor_carousel.carousel-control.right{position:absolute;left:93.1%;}
 .sponsor_carousel.carousel-control.left{position:absolute;left:2.6%!important;}
