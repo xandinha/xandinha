@@ -269,7 +269,7 @@ p{color:rgb(44, 62, 80);font-family:'handlee';font-size:17px;}
 .logo-two{background:url(../img/interview/rbatv_logo.png) no-repeat;}
 .logo-three{background:url(../img/interview/wave_logo.png) no-repeat;}
 .logo-four{background:url(../img/interview/rideit_logo.png) no-repeat;}
-.client-quote-mark{position:absolute;top:-12px;left:-50px;z-index:-1;opacity:0.3;}
+.client-quote-mark{position:absolute;top:-12px;left:-50px;z-index:-1;/*opacity:0.3*/;}
 .client-quote-mark path{fill:#F39C12;}
 .quote_xan_one{position:absolute;top:-18px;z-index:1;color:rgb(44, 62, 80);}
 .quote_xan_one path{fill:rgb(44, 62, 80);}

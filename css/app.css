@@ -40,13 +40,16 @@ p.background{top:-176px;}
 .client-quote-mark.quote_xan{top:-173px;}
 h2.header_interview{top:-173px;}
 .co_sponsor_logo.sponsor_background{min-width:1342px;}
-.carousel-caption h6{top:47px;left:-270px;}
-h6.co_sponsor_h6_en{left:-45%;}
+.carousel-caption h6{top:46px;left:-36.4%;}
+h6.co_sponsor_h6_en{left:-45%;top:46px;}
 h6.sponsor_en{left:-42.2%!important;top:-1rem;}
+.co_sponsor_quote.fa-quote-right.quote_en{left:13.2%!important;}
 h6.know_more{position:relative;top:-10px;left:-26.9%;}
-h6.raizes_link{left:-317px;top:-15px;}
-h6.bela_rosa_link{left:-39.6%;top:-37px;} 
+h6.raizes_link{left:-49.2%;top:-9px;}
+h6.bela_rosa_link{left:-39.6%;top:-9px;} 
+.fa.fa-external-link{top:12px;left:-1.1%;}
 h6.craud_link{left:-59%;top:-56px;}
+h6.isla_link{top:-9px;left:-27.4%;}
 h6.link_en{left:-59%;}
 .sponsor_carousel.carousel-control.right{position:absolute;left:93.1%;}
 .sponsor_carousel.carousel-control.left{position:absolute;left:2.6%!important;}
