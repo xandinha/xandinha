@@ -8,18 +8,22 @@ p.background{top:-132px;}
 .client-quote-mark.quote_xan{top:-131px;}
 h2.header_interview{top:-120px;}
 .co_sponsor_logo.sponsor_background{min-width:1276px;}
-.carousel-caption h6{top:48px;left:-32.3%;}
+.carousel-caption h6{top:38px;left:-35%;}
 .seel .co_sponsor_caption{top:100px;left:-19%;}
+.co_sponsor_caption{top:126px;}
 .co-sponsor-en{left:-2.8%;}
 .co_sponsor_en_one{left:-23%;}
 h6.sponsor_en{top:-.6em;left:-42.2%!important;}
+#co_sponsor_quote{left:-27.2%;top:93px;}
 h6.co_sponsor_h6_en{left:-43.99%;top:48px;}
 .icon_en{left:-48.9%;}
 .co_sponsor_quote.fa-quote-right.quote_en{left:13.6%;top:76px;}
 h6.know_more{top:-10px;left:-26.9%;}
-h6.raizes_link{left:-317px;top:-14px;}
-h6.bela_rosa_link{left:-39.6%;top:-37px;}
+h6.raizes_link{left:-49.8%;top:-9px;}
+h6.bela_rosa_link{left:-39.8%;top:-9px;}
+.fa.fa-external-link{top:12px;left:-1.1%;}
 h6.craud_link{left:-59%;top:-56px;}
+h6.isla_link{top:-9px;left:-27.4%;}
 .sponsor_carousel.carousel-control.right{position:absolute;left:94.4%;}
 .sponsor_carousel.carousel-control.left{position:absolute;left:2%!important;}
 .fa-instagram{line-height:1.3;padding-top:1px;}
@@ -43,6 +47,7 @@ h2.header_interview{top:-173px;}
 .carousel-caption h6{top:46px;left:-36.4%;}
 h6.co_sponsor_h6_en{left:-45%;top:46px;}
 h6.sponsor_en{left:-42.2%!important;top:-1rem;}
+#co_sponsor_quote{left:-28.4%;}
 .co_sponsor_quote.fa-quote-right.quote_en{left:13.2%!important;}
 h6.know_more{position:relative;top:-10px;left:-26.9%;}
 h6.raizes_link{left:-49.2%;top:-9px;}
