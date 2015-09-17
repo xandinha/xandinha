@@ -5,8 +5,8 @@ url('honeyscript-light-webfont.ttf') format('truetype'),
 url('honeyscript-light-webfont.svg#honey_scriptlight') format('svg');font-weight:400;font-style:normal;}
 body{-webkit-font-smoothing:antialiased;}
 a[href^="en.index.html"], .br_flag{float:right;position:relative;right:-4.79%;top:14px;}
-span.usa_one{position:relative;left:2%;transition:all 1000ms linear;background:none;box-shadow:none;padding:15px 19px;}
-span.usa{position:relative;left:91.5%;transition:all 1000ms linear;background-color:rgb(25,121,202);/*rgb(47,54,60)*/;padding:15px 19px;}
+span.usa_one{position:relative;left:2%;transition:all 500ms linear;background:none;box-shadow:none;padding:15px 19px;}
+span.usa{position:relative;left:91.5%;transition:all 500ms linear;background-color:rgb(25,121,202);/*rgb(47,54,60)*/;padding:15px 19px;}
 h3#competicoes, h3#combination,h3#sobre_mim,h3.mobile_one{font-family:'honey_scriptlight';font-size:7vw;font-weight:400;text-transform:capitalize;color:rgb(45,48,56);}
 h3.mobile_one{color:rgb(255,255, 255);}
 h3#competicoes{color:rgb(45,48,56);}
@@ -193,7 +193,7 @@ strong{color:rgb(90,120,125);font-weight:600;}
 }*/#Layer_1{position:absolute;top:496px;right:96px;z-index:1;}
 #Layer_2{position:absolute;top:276px;left:40px;z-index:1;}
 .my_photo{position:relative;height:343px;background:url(../img/about_me/xan_bikini_one.jpg)top center no-repeat;bottom:6px;left:69px;width:348px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:3px;height:338px;box-shadow:2px 2px 8px 2px #2c3e50;}
-.my_photo_one{position:relative;height:350px;background:url(../img/about_me/xan.jpg)top center no-repeat;bottom:2.5px;bottom:6px;left:23px;width:348px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:3px;height:338px;box-shadow:2px 2px 8px 2px #2c3e50;}
+.my_photo_one{position:relative;height:350px;background:url(../img/about_me/xan_without_logo.jpg)top center no-repeat;bottom:2.5px;bottom:6px;left:23px;width:348px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:3px;height:338px;box-shadow:2px 2px 8px 2px #2c3e50;}
 .blurb{width:704px;height:385px;margin:50px auto;font-size:1.25rem;text-align:center;font-weight:300;background:url(../img/about_me/selfie_four_maybe_one.jpg)top center no-repeat;background-size:cover;position:relative;top:-9px;bottom:6px;left:69px;width:704px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:3px;height:366px;box-shadow:2px 2px 8px 2px #2c3e50;}
 -webkit-transition:-webkit-transform 0.3s;-moz-transition:-moz-transform 0.3s;transition:transform 0.3s;-webkit-transform-origin:50% 0;-moz-transform-origin:50% 0;-ms-transform-origin:50% 0;-o-transform-origin:50% 0;transform-origin:50% 0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d;}
 .blurb a:hover span, .blurb a:focus span{-webkit-transform:rotateX(90deg) translateY(-22px);-moz-transform:rotateX(90deg) translateY(-22px);-ms-transform:rotateX(90deg) translateY(-22px);-o-transform:rotateX(90deg) translateY(-22px);transform:rotateX(90deg) translateY(-22px);}
@@ -486,7 +486,7 @@ i#quote_studio_en{left:117.4%!important;}
 .sponser_margen{margin-left:20px;margin-top:30px;}
 .sponsor_background{display:inline-flex;min-width:526px;padding:20px 0 124px 138px;border-radius:3px;}
 img.sponser_image{display:inline!important;border-radius:3px;}
-img[src*="isla_logo"], img[src*="raizes_logo"], img[src*="craud_logo"], img[src*="bela_rosa_logo"]{width:40%;height:40%;margin:-6px 22px 0 22px;left:6.4%;}
+img[src*="isla_logo"], img[src*="raizes_logo"], img[src*="craud_logo"], img[src*="bela_rosa_logo"], img[src*="kpaloa_small"]{width:40%;height:40%;margin:-6px 22px 0 22px;left:6.4%;}
 .sponsor_image_two{margin-top:4px;position:relative;left:5%;}
 .sponsor_two{float:right;}
 .sponsor_one,
@@ -516,7 +516,7 @@ img[src*="isla_logo"], img[src*="raizes_logo"], img[src*="craud_logo"], img[src*
 .fa.fa-pull-left:hover{color:#fff;}
 .fa-border{padding:0;border:0;}
 .item.sponser_margen{max-width:1071px;background:#fff url(../img/sponsor/background_isla.jpg)no-repeat;background-size:cover;background-position-x:-538px;background-position-y:-426px;padding:4px;border-radius:3px;margin:10px auto;margin-top:167px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
-.item.sponser_margen_one{background:#fff url(../img/sponsor/seel/background_seel_test.png)no-repeat;background-size:cover;background-position-x:-539px;background-position-y:-290px;}
+.item.sponser_margen_one{background:#fff url(../img/sponsor/kpaloa/kpaloa.jpg)no-repeat;background-size:cover;background-position-x:-4px;background-position-y:-3px;}
 .item.sponser_margen_two{background:#fff url(../img/sponsor/bela_rosa/background_bela_rosa.jpg)no-repeat;background-size:cover;background-position-x:-538px;background-position-y:-290px;}
 .item.sponser_margen_three{background:#fff url(../img/sponsor/craud/sundown_test.png)no-repeat;background-size:cover;background-position-x:-378px;background-position-y:-211px;}
 .item.sponser_margen_four{background:#fff url(../img/sponsor/stdp/stdp_front.png)no-repeat;background-size:cover;background-position-x:-51px;background-position-y:-211px;}
