@@ -348,9 +348,10 @@ a.copyright:hover{color:rgb(243, 156, 18);border-bottom:solid 1px;}
 .tooltip.bottom .tooltip-arrow{border-bottom-color:rgb(255, 255, 255)}
 .tooltip.bottom-left .tooltip-arrow{border-bottom-color:rgb(255, 255, 255)}
 .tooltip.left .tooltip-arrow{border-left-color:rgb(255, 255, 255)}
-.tooltip.bottom .tooltip-arrow{/*border-width:0 5px 5px;border-bottom-color:rgb(255, 255, 255);*/display:none;}
+.tooltip.bottom .tooltip-arrow{border-width:0 5px 5px;border-bottom-color:rgb(255, 255, 255);}
 .navbar-inner .tooltip-inner{/*white-space:nowrap;*/margin-left:-20%;padding:0;border-radius:2px;padding:2px 0 0 0;}
 .navbar-inner .tooltip.right .tooltip-arrow{border-right-color:rgb(255, 255, 255)}
+.navbar-inner .tooltip-arrow{display:none;}
 .nav_en .tooltip-inner{/*white-space:nowrap;*/margin-left:-20%;padding:0;border-radius:2px;padding:2px 0 0 0;max-width:110%;}
 #container ul{margin-left:-41px;margin-top:-103px;}
 .media:first-child{height:479px;border-radius:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
