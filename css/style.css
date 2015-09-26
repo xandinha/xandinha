@@ -353,6 +353,7 @@ a.copyright:hover{color:rgb(243, 156, 18);border-bottom:solid 1px;}
 .navbar-inner .tooltip.right .tooltip-arrow{border-right-color:rgb(255, 255, 255)}
 .navbar-inner .tooltip-arrow{display:none;}
 .nav_en .tooltip-inner{/*white-space:nowrap;*/margin-left:-20%;padding:0;border-radius:2px;padding:2px 0 0 0;max-width:110%;}
+.background .tooltip.right{white-space:nowrap;}
 #container ul{margin-left:-41px;margin-top:-103px;}
 .media:first-child{height:479px;border-radius:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
 .media.kpaloa_one{margin-top:512px;}
