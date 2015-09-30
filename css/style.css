@@ -567,6 +567,7 @@ h6 .tooltip.right .tooltip-arrow{position:relative;top:20px;left:-5px;}
 .xandinha_email{color:#fff}
 /*---== Iphone 5 and 5s Portrait ==---*/
 @media screen and (device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2) and (orientation: portrait){
+.usa_one, span.usa{display: none;}
 .mobile_carousel>.item>img, .mobile_carousel>.item>a>img{height:569px;}
 .carousel-caption{bottom:70px;text-align:left;left:6%;right:6%;}
 .carousel-control{top:517px;}
