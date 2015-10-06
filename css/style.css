@@ -492,22 +492,23 @@ i#quote_studio_en{left:117.4%!important;}
 .sponser_margen{margin-left:20px;margin-top:30px;}
 .sponsor_background{display:inline-flex;min-width:526px;padding:20px 0 124px 138px;border-radius:3px;}
 img.sponser_image{display:inline!important;border-radius:3px;}
-img[src*="isla_logo"], img[src*="raizes_logo"], img[src*="craud_logo"], img[src*="bela_rosa_logo"], img[src*="kpaloa_small"]{width:40%;height:40%;margin:-6px 22px 0 22px;left:6.4%;}
-.sponsor_image_two{margin-top:4px;position:relative;left:5%;}
-.sponsor_two{float:right;}
+img[src*="isla_logo"], img[src*="raizes_logo"], img[src*="craud_logo"], img[src*="kpaloa_small"]{width:40%;height:40%;margin:-6px 22px 0 22px;left:6.4%;}
+img[src*="bela_rosa_logo"]{width:44%;height:44%;margin:-16px 22px 0 22px;left:3.4%;}
+.sponsor_image_two{position:relative;left:18.7%;top:23px;width:26%;height:26%}
+.sponsor_two{float:right;position:relative;z-index:1;}
 .sponsor_one,
 .sponsor_three,
 .sponsor_four,
 .sponsor_five,
 .sponsor_six,
 .sponsor_seven,
-.sponsor_eight{position:relative;left:-109px;text-align:left;width:50%;top:44px;color:#fff;text-shadow:1px 1px 1px rgb(0,0,0);background:rgba(78, 194, 231,.6);border-radius:3px;padding:4px 2px 2px 6px;}
-.sponsor_one{background:rgba(78, 194, 231,.2);padding-bottom:25px;top:-3px;}
+.sponsor_eight{position:relative;left:-109px;text-align:left;width:50%;top:44px;color:#fff;text-shadow:1px 1px 1px rgb(0,0,0);/*background:rgba(78, 194, 231,.6);*/border-radius:3px;padding:4px 2px 2px 6px;}
+.sponsor_one{/*background:rgba(78, 194, 231,.2)*/;padding-bottom:25px;top:29px;}
 .sponsor_four{top:-37px;color:rgb(45,48,56);}
 .sponsor_five{background:rgba(237, 85, 100,.6);}
-.sponsor_six{background:rgba(236, 135, 191,.1);top16px;}
+.sponsor_six{/*background:rgba(236, 135, 191,.1);*/left:-16%;top:37px;}
 .sponsor_seven{background:rgba(112,97,78,.6);}
-.sponsor_eight{background:rgba(166,72,124,.6);}
+.sponsor_eight{background:none;text-shadow:2px 1px 1px rgb(0,0,0);}
 .clearfix:after{content:".";visibility:hidden;display:block;height:0;clear:both;}
 .la_isla{color:rgb(241,196,15);font-weight:700;}
 .fa.fa-external-link{border:none;height:0;width:0;font-size:1.8vw;position:relative;top:6px;left:1%;color:rgb(241,196,15);text-shadow:1px 1px 1px rgb(0,0,0);transition:all .4s ease-in-out;padding-right:20px;}
@@ -516,7 +517,7 @@ img[src*="isla_logo"], img[src*="raizes_logo"], img[src*="craud_logo"], img[src*
 .isla_link.fa.fa-external-link{position:relative;top:11px;left:-1%;}
 .desktop_social_icons.studio_social_seel_face_icon{left:-41.2%;top:33px;}
 .adjust_social.desktop_social_icons.studio_social_seel_face_icon{top:4px;} 
-.adjust_social_craud.desktop_social_icons.studio_social_seel_face_icon{top:-15px;}
+.adjust_social_craud.desktop_social_icons.studio_social_seel_face_icon{top:41px;}
 .fa.fa-pull-left, .fa.fa-quote-right{border:none;width:0;height:0;line-height:0;font-size:2.6vw;position:relative;left:-44px;top:11px;}
 .fa.fa-quote-right{left:123.4%;top:14px;}
 .fa.fa-pull-left:hover{color:#fff;}
