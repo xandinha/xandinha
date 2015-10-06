@@ -462,7 +462,7 @@ h6#co_sponsor_studio_h6{width:37%;top:-12px;left:96.6%;}
 .studio_social_twit_icon, .studio_social_seel_face_icon{left:-46.2%;top:37px;text-shadow:1px 1px 1px rgb(0,0,0);}
 .studio_social_twit_icon{padding-right:4%;}
 .studio_social_twit_icon:hover, .studio_social_seel_face_icon:hover{transition: all .4s ease-in-out;color:rgb(241,196,15);transform: scale(1.1);text-shadow:1px 1px 1px rgb(0,0,0);}
-.co_sponsor_link, .co_sponsor_stdp_link{left:.6%!important;top:6px!important;padding-right:28px!important;}
+.co_sponsor_link, .co_sponsor_stdp_link{left:.6%!important;top:5px!important;padding-right:28px!important;}
 .co_sponsor_stdp_link{left:2%!important;}
 .co_sponsor_caption{position:relative;left:-16.2%;width:343px;top:136px;color:#fff;text-shadow:1px 1px 1px rgb(0,0,0);border-radius:3px;padding:4px 2px 2px 6px;text-align:left;}
 .seel .co_sponsor_caption{top:108px}
@@ -511,7 +511,7 @@ img[src*="bela_rosa_logo"]{width:44%;height:44%;margin:-16px 22px 0 22px;left:3.
 .sponsor_eight{background:none;text-shadow:2px 1px 1px rgb(0,0,0);}
 .clearfix:after{content:".";visibility:hidden;display:block;height:0;clear:both;}
 .la_isla{color:rgb(241,196,15);font-weight:700;}
-.fa.fa-external-link{border:none;height:0;width:0;font-size:1.8vw;position:relative;top:6px;left:1%;color:rgb(241,196,15);text-shadow:1px 1px 1px rgb(0,0,0);transition:all .4s ease-in-out;padding-right:20px;}
+.fa.fa-external-link{border:none;height:0;width:0;font-size:1.6vw;position:relative;top:6px;left:1%;color:rgb(241,196,15);text-shadow:1px 1px 1px rgb(0,0,0);transition:all .4s ease-in-out;padding-right:20px;}
 .fa.fa-external-link:hover{border:none;transition: all .4s ease-in-out;color:rgb(241,196,15);transform: scale(1.1);text-shadow:1px 1px 1px rgb(0,0,0);cursor:pointer;}
 .studio .co_sponsor_link.fa.fa-external-link{left:2%;top:6px;}
 .isla_link.fa.fa-external-link{position:relative;top:11px;left:-1%;}

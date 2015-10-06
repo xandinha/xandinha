@@ -10,27 +10,27 @@ h2.header_interview{top:-120px;}
 .carousel-inner.interview_carousel_ten{top:-454px;}
 #myCarousel .imagelightbox-arrow, #myCarousel .carousel-control.left, #myCarousel .carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.left{top:146px;}
 .co_sponsor_logo.sponsor_background{min-width:1276px;}
-.carousel-caption h6{top:38px;left:-35%;}
+.carousel-caption h6{top:42px;left:-35%;}
 h6.stdp_link{left:-254px;top:-9px}
 .seel .co_sponsor_caption{top:100px;left:-19%;}
 .co_sponsor_caption{top:126px;}
 .co-sponsor-en{left:-2.8%;}
 .co_sponsor_en_one{left:-23%;}
 h6.sponsor_en{top:-.6em;left:-42.2%!important;}
-#co_sponsor_quote{left:-27.2%;top:93px;}
-h6.co_sponsor_h6_en{left:-43.99%;top:49px;}
-.icon_en{left:-48.9%;}
+#co_sponsor_quote{left:-27.4%;top:93px;}
+h6.co_sponsor_h6_en{left:-43.99%;top:53px;}
+.icon_en{left:-48.9%;top:44px;}
 .co_sponsor_quote.fa-quote-right.quote_en{left:13.6%!important;top:76px;}
 h6.know_more{top:-10px;left:-26.9%;}
-h6.raizes_link{left:-49.8%;top:-9px;}
-h6.raizes_link_en{left:-38.8%;top:-8px;}
-h6.bela_rosa_link{left:-39.8%;top:-9px;}
-h6.bela_rosa_link_en{left:-39.4%!important;top:-8px;}
-.fa.fa-external-link{top:12px;left:-1.1%;}
-h6.craud_link{left:-59%;top:-56px;}
-h6.isla_link{top:-9px;left:-27.4%;}
-h6.kpaloa_link{top:2px;left:-42%;}
-h6.kpaloa_link_en{left:-42.2%}
+h6.raizes_link{top:51px;left:-9.3%;}
+h6.bela_rosa_link{top:50px;left:-9.3%!important;} 
+.fa.fa-external-link{top:10px;left:-1.1%;}
+h6.craud_link{top:51px;left:-9.4%;}
+h6.isla_link{top:51px;left:-9.3%;}
+h6.raizes_link_en{top:52px;left:-9.3%;}
+h6.kpaloa_link{top:55px;left:-8.6%;padding:4px 19px 4px 5px;}
+h6.stdp_link{top:51px;left:-9.3%}
+/*h6.kpaloa_link_en{left:-42.2%}*/
 .test{position: absolute;left:49.7%;width:49%;z-index:0;height:363.5px!important;top:0;}
 .bgvideo{position:absolute;right:35.98%;width:68%;height:100%;top:0px;}
 .sponsor_carousel.carousel-control.right{position:absolute;left:94.4%;}
@@ -55,20 +55,20 @@ h2.header_interview{top:-173px;}
 .carousel-inner.interview_carousel_ten{top:-507px;}
 #myCarousel .imagelightbox-arrow, #myCarousel .carousel-control.left, #myCarousel .carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.left{top:116px;}
 .co_sponsor_logo.sponsor_background{min-width:1345px;}
-.carousel-caption h6{top:37px;left:-36.4%;}
+.carousel-caption h6{top:40px;left:-36.4%;}
 h6.co_sponsor_h6_en{left:-45%;top:46px;}
 h6.sponsor_en{left:-42.2%!important;top:-1rem;}
-#co_sponsor_quote{left:-28.4%;}
+#co_sponsor_quote{left:-28.9%;}
 .co_sponsor_quote.fa-quote-right.quote_en{left:12.9%!important;}
 h6.know_more{position:relative;top:-10px;left:-26.9%;}
-h6.raizes_link{top:51px;left:-10.3%;}
-h6.bela_rosa_link{top:51px;left:-10.3%!important;} 
-.fa.fa-external-link{top:12px;left:-1.1%;}
-h6.craud_link{top:51px;left:-10.3%;}
-h6.isla_link{top:51px;left:-10.3%;}
-h6.raizes_link_en{top:52px;left:-10.3%;}
+h6.raizes_link{top:51px;left:-9.3%;}
+h6.bela_rosa_link{top:51px;left:-10%!important;} 
+.fa.fa-external-link{top:11px;left:-1.1%;}
+h6.craud_link{top:51px;left:-10%;}
+h6.isla_link{top:51px;left:-10%;}
+h6.raizes_link_en{top:52px;left:-10%;}
 h6.kpaloa_link{top:55px;left:-9.6%;padding:4px 19px 4px 5px;}
-h6.stdp_link{top:51px;left:-10.6%}
+h6.stdp_link{top:52px;left:-9.9%}
 h6.link_en{left:-59%;}
 .test{position: absolute;left:49.7%;width:49%;z-index:0;height:363.5px!important;top:0;}
 .bgvideo{position:absolute;right:35.98%;width:68%;height:100%;top:0px;}
