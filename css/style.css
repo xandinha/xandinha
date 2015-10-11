@@ -369,8 +369,21 @@ a.copyright:hover{color:rgb(243, 156, 18);border-bottom:solid 1px;}
 .interview_carousel_seven{background:url(../img/interview/mac_chrome_screen-shot_test_without_logo.jpg)center center;background-size:cover;}
 .interview_carousel_eight{background:url(../img/interview/xan_my_sea_of_fresh_water_opacity.jpg)center center;background-size:cover;}
 .interview_carousel_nine{background:url(../img/interview/xan_trip_ocean_opacity.jpg)center center;background-size:cover;}
-.interview_carousel_eleven{background:url(../img/interview/xan_360_opacity_three.jpg)center;background-size:cover;
-}
+.interview_carousel_eleven{background:url(../img/interview/xan_360_opacity_three.jpg)center;background-size:cover;}
+.interview_carousel_twelve{background: url(../img/interview/msq_sea_freshwater_.jpg)no-repeat center;background-size:cover;}
+.interview_carousel_thirteen{background: url(../img/interview/xan_interview_tv.jpg)no-repeat center;background-size:cover;}	
+.blrsa, .tstc, .sl, .crd {white-space: nowrap;background-color: rgba(106, 30, 66,.8);color:rgb(255,255,255);padding:0px 2px 0px;all .3s ease-in-out}
+.blrsa:hover, .kpla:hover, .tstc:hover, .sl:hover, .crd:hover{transition:all .3s ease-in-out;text-decoration: underline;}
+.kpla{white-space: nowrap;color:rgb(255,255,255);padding:0px 2px 0px;background:rgba(255, 102, 0,.8);all .3s ease-in-out;}
+.tstc{background-color: rgba(43, 41, 41,.8);all .3s ease-in-out;}
+.sl{background-color: rgba(246, 43, 45,.8);all .3s ease-in-out;}
+.crd{background-color: rgba(48, 195, 224,.8);all .3s ease-in-out;}
+.tstc:hover{background-color: rgb(43, 41, 41);all .3s ease-in-out;}
+.sl:hover{background-color: rgb(246, 43, 45);all .3s ease-in-out;}
+.crd:hover{background-color: rgb(48, 195, 224);all .3s ease-in-out;}
+.blrsa:hover{background-color: rgb(106, 30, 66);all .3s ease-in-out;}
+.kpla:hover{background:rgb(255, 102, 0);all .3s ease-in-out;}
+
 a:hover, a:focus{text-decoration:none;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color:transparent;}
 .carousel-control.left{background-image:none;background:url(../img/icons/arrow_left_more_little.png)center no-repeat;}
@@ -391,7 +404,7 @@ a.fresh_water{text-decoration: underline;transition:all .3s ease-in-out; color: 
 a.fresh_water:hover{color: rgb(52,152,219);transition:all .3s ease-in-out;}
 .carousel-caption{z-index:2;}
 .color{background:rgba(44,62,80,.46);position:relative;top:-92px;right:-68px;border-radius:3px 3px 0 0;}
-p.background{background:rgba(44,62,80,.46);color:#fff;height:auto;width:50%;float:right;position:relative;top:-176px;right:-68px;padding:0 4px 0 4px;text-align:left;border-radius:0 0 3px 3px;}
+p.background{background:rgba(44,62,80,.46);color:#fff;height:auto;width:50%;float:right;position:relative;top:-176px;right:-68px;padding:0 4px 2px 4px;text-align:left;border-radius:0 0 3px 3px;}
 .date{color:rgb(243, 156, 18);font-weight:700;}
 p.background strong{color:rgb(243, 156, 18);}
 .website_background{color:rgb(226,86,28);text-shadow:none;font-weight:700;}
