@@ -404,7 +404,7 @@ a.fresh_water{text-decoration: underline;transition:all .3s ease-in-out; color: 
 a.fresh_water:hover{color: rgb(52,152,219);transition:all .3s ease-in-out;}
 .carousel-caption{z-index:2;}
 .color{background:rgba(44,62,80,.46);position:relative;top:-92px;right:-68px;border-radius:3px 3px 0 0;}
-p.background{background:rgba(44,62,80,.46);color:#fff;height:auto;width:50%;float:right;position:relative;top:-176px;right:-68px;padding:0 4px 2px 4px;text-align:left;border-radius:0 0 3px 3px;}
+p.background{background:rgba(44,62,80,.46);color:#fff;height:auto;width:50%;float:right;position:relative;top:-176px;right:-68px;padding:0 4px 2px 4px;text-align:left;border-radius:0 0 3px 3px;  text-shadow: 1px 1px 1px rgb(0,0,0);}
 .date{color:rgb(243, 156, 18);font-weight:700;}
 p.background strong{color:rgb(243, 156, 18);}
 .website_background{color:rgb(226,86,28);text-shadow:none;font-weight:700;}
@@ -729,7 +729,7 @@ img.many_color{height:50px;width:50px;right:15.6%;}
 img.camera{left:-227px!important;top:-19px!important;position:absolute!important;}
 a.rodape{top:513px;left:-38%;}
 #lockup .jnr_email{top:388px;left:6%;}
-.xan_sobre_mim{position:relative;z-index:1;font-size:5vw;margin:0 -55px 4px -12px;padding:0px 45px 0 8px;}
+.xan_sobre_mim{position:relative;z-index:1;font-size:5vw;margin:0 -55px 4px -12px;padding:0px 45px 0 8px;font-weight:700;}
 .my_photo{left:0;width:310px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:5px;height:338px;box-shadow:2px 2px 8px 2px #2c3e50;}
 .my_photo_one{left:0;width:310px;margin-left:auto;margin-right:auto;margin:1px 49px 5px 5px;border-radius:5px;height:338px;top:-4px;box-shadow:2px 2px 8px 2px #2c3e50;}
 .blurb{top:-6px;left:0;width:310px;margin-left:auto;margin-right:auto;margin:5px 49px 5px 5px;border-radius:5px;height:428px;box-shadow:2px 2px 8px 2px #2c3e50;}
