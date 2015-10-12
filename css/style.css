@@ -396,7 +396,7 @@ div#begin{position:relative;top:-499px;}
 .carousel-control{bottom:700px;}
 h3.mobile_one{position:relative;top:298px;color:#fff;left:-295px;}
 .item h3{text-shadow:1px 1px 1px rgb(0,0,0);}
-p.interview_mbl{margin-top:-115px;color:#fff;width:50%;float:right;}
+p.interview_mbl{margin-top:-115px;color:#fff;width:50%;float:right;text-shadow: 1px 1px 1px rgb(0,0,0);}
 h2.header_interview{position:relative;font-family:'honey_scriptlight';background:rgba(255,255,255,.7);top:-173px;text-align:center;height:66px;font-size:5vw;text-transform:capitalize;font-weight:400;letter-spacing:0.02em;}
 a.link{position:relative;left:14px;top:-6px;/*opacity:.6*/;transition:opacity .3s;z-index:2;}
 a.link:hover{border-bottom:none;opacity:1;}
