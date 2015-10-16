@@ -537,11 +537,11 @@ img[src*="bela_rosa_logo"]{width:44%;height:44%;margin:-16px 22px 0 22px;left:3.
 .fa.fa-quote-right{left:123.4%;top:14px;}
 .fa.fa-pull-left:hover{color:#fff;}
 .fa-border{padding:0;border:0;}
-.item.sponser_margen{max-width:1071px;background:#fff url(../img/sponsor/background_isla.jpg)no-repeat;background-size:cover;background-position-x:-538px;background-position-y:-426px;padding:4px;border-radius:3px;margin:10px auto;margin-top:167px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
+.item.sponser_margen{max-width:1071px;background:#fff url(../img/sponsor/energy/amazon_logo_with_name.png)no-repeat;background-size:contain;background-position-x:-4px;/*background-position-y:-426px;*/padding:4px;border-radius:3px;margin:10px auto;margin-top:167px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
 .item.sponser_margen_one{background:#fff url(../img/sponsor/kpaloa/kpaloa_xan_background_test.jpg)no-repeat;background-position-x:-4px;background-position-y:-3px;}
 .item.sponser_margen_two{background:#fff url(../img/sponsor/bela_rosa/background_bela_rosa.jpg)no-repeat;background-size:cover;background-position-x:-538px;background-position-y:-290px;}
 .item.sponser_margen_three{background:#fff url(../img/sponsor/craud/sundown_test.png)no-repeat;background-size:cover;background-position-x:-378px;background-position-y:-211px;}
-.item.sponser_margen_four{background:#fff url(../img/sponsor/stdp/stdp_front.png)no-repeat;background-size:cover;background-position-x:-51px;background-position-y:-211px;}
+.item.sponser_margen_four{max-width:1071px;background:#fff url(../img/sponsor/energy/amazon_logo_with_name.png)no-repeat;background-size:contain;background-position-x:0px;/*background-position-y:-426px;*/padding:4px;border-radius:3px;margin:10px auto;margin-top:167px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
 .item.sponsor_image_five{background:#fff url(../img/sponsor/raizes/background_raizes.jpg)no-repeat;background-size:cover;background-position-x:-228px;background-position-y:-124px;}
 .sponsor_image_three{margin-top:0px;}
 .bela_rosa, .stdp{height:355px!important;}
