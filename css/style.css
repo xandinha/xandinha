@@ -539,7 +539,7 @@ img[src*="bela_rosa_logo"]{width:27%;height:27%;margin:-16px 22px 0 22px;left:12
 .fa-border{padding:0;border:0;}
 .item.sponser_margen{max-width:1071px;background:#fff;background-size:contain;background-position-x:-4px;/*background-position-y:-426px;*/padding:4px;border-radius:3px;margin:10px auto;margin-top:167px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
 .item.sponser_margen_one{background:#fff url(../img/sponsor/kpaloa/kpaloa_xan_background_test.jpg)no-repeat;background-position-x:-4px;background-position-y:-3px;}
-.item.sponser_margen_two{background:#fff url(../img/sponsor/bela_rosa/background_bela_rosa.jpg)no-repeat;background-size:cover;background-position-x:-538px;background-position-y:-290px;}
+.item.sponser_margen_two{background:#fff url(../img/sponsor/bela_rosa/background_bela_rosa_pattern_two_plus_retro_test.png)no-repeat;background-size:cover;background-position-x:-538px;background-position-y:-290px;}
 .item.sponser_margen_three{background:#fff url(../img/sponsor/craud/sundown_test.png)no-repeat;background-size:cover;background-position-x:-378px;background-position-y:-211px;}
 .item.sponser_margen_four{}
 .item.sponser_margen_five{max-width:1071px;background:#fff url(../img/sponsor/energy/amazon_logo_with_name.png)no-repeat;background-size:contain;background-position-x:-16px;/*background-position-y:-426px;*/padding:4px;border-radius:3px;margin:10px auto;margin-top:167px;box-shadow:0 0 15px 0 rgba(0,0,0,0.2);}
