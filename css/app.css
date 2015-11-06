@@ -640,6 +640,8 @@ section.page-header{margin-top:0;margin-bottom:0;background-color:#424b51;paddin
 .home .grigio .media-body{}
 .home .grigio .media-body p{margin-bottom:0;}
 .home .grigio{margin-bottom:-392px;margin-top:-754px;background:rgb(211, 217, 223);}
+.flr{background:url(../img/competitions/xan_florianopolis_championship_background.jpg)no-repeat;background-size: cover;}
+
 @media (max-width:750px){.home .grigio{position:relative!important;}
 }
 a.btn.btn-primary.animated.fadeInUp.hidden-xs.delay03:hover{text-shadow:none;font-weight:700;}
