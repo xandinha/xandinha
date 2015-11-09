@@ -107,6 +107,18 @@ a.jnr_email{left:40.2%;}
   .home .grigio {
     margin-top: -666px!important;
   }
+  .social_links .fa{
+    font-size: 5.5vw
+  }
+  .social_links .fa-instagram{
+    line-height: 1.21;
+  }
+  .social_links .fa-google-plus{
+    line-height: 1.25;
+  }
+  .social_links .fa-facebook, .social_links .fa-twitter, .social_links .fa-pinterest-p{
+    line-height: 1.32;
+  }
 }
 
 /*-------------=== iPad ===-------------*/
