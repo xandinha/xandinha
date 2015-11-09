@@ -8,6 +8,7 @@ p.background{top:-132px;}
 .client-quote-mark.quote_xan{top:-131px;}
 h2.header_interview{top:-120px;}
 .carousel-inner.interview_carousel_ten{top:-454px;}
+.xan_interview{background: rgb(211, 217, 223);}
 #myCarousel .imagelightbox-arrow, #myCarousel .carousel-control.left, #myCarousel .carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.left{top:146px;}
 .co_sponsor_logo.sponsor_background{min-width:1276px;}
 .carousel-caption h6{top:42px;left:-35%;}
@@ -55,7 +56,7 @@ p.background{top:-176px;}
 h2.header_interview{top:-173px;}
 .carousel-inner.interview_carousel_ten{top:-507px;}
 #myCarousel .imagelightbox-arrow, #myCarousel .carousel-control.left, #myCarousel .carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.left{top:116px;}
-.co_sponsor_logo.sponsor_background{min-width:1345px;}
+.co_sponsor_logo.sponsor_background{min-width:99.7%;}
 .carousel-caption h6{top:40px;left:-36.4%;}
 h6.co_sponsor_h6_en{left:-45%;top:46px;}
 h6.sponsor_en{left:-42.2%!important;top:-1rem;}
@@ -83,6 +84,33 @@ h6.link_en{left:-59%;}
 .nav-effect > a{left:44.98%;}
 a.jnr_email{left:40.2%;}
 }
+/*--------=== 1440 x 900 pc xan ===---------*/
+@media only screen and (min-width: 1440px){
+.xan_interview {
+  background: rgb(211, 217, 223);
+  }
+.carousel-inner.interview_carousel_ten {
+  top: -413px;
+  }
+.carousel-inner.interview_carousel_ten>.item>img, .carousel-inner.interview_carousel_ten>.item>a>img {
+  height: 847px;
+  }
+  p.background{
+    font-size: 1.2em;
+  }
+  h2.header_interview {
+    top: -137px;
+  }
+  #myCarousel .imagelightbox-arrow, #myCarousel .carousel-control.left, #myCarousel .carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.right, #myCarousel .sponsor_carousel.carousel-control.left {
+    top: 188px;
+  }
+  .home .grigio {
+    margin-top: -666px!important;
+  }
+}
+
+/*-------------=== iPad ===-------------*/
+
 @media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
 .navbar .nav{
 	position: relative;
@@ -403,6 +431,8 @@ a.jnr_email {
   margin-top: 512px;
 	}
 }
+
+/* end */
 
 html{}
 body{background:#424b51;}
