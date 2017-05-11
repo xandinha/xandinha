@@ -126,9 +126,10 @@ aside {
 a.navbar-brand.page-scroll{
     position: relative;
     /*top:-14px;*/
-    top: -12.3px;
+    /*top: -12.3px;*/
+    top: -7.2px;
     white-space: nowrap;
-    padding-left: 28px;
+    /*padding-left: 28px;*/
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -326,6 +327,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    top: 22px;
 }
 
 header .header-content {
@@ -772,7 +774,11 @@ fieldset[disabled] .btn-primary.active {
     color: #f05f40;
     background-color: #fff;
 }
-
+.btn-primary:active:focus{
+  background-color: white;
+  color: rgb(45,48,56);
+  text-shadow: none;
+}
 .btn {
     border: 0;
     border-radius: 3px;
@@ -831,14 +837,18 @@ width: 100%; // Add this
   padding-top: 263px;
 }
 section.tw_divider{
-    padding: 70px 0;
+    /*padding: 70px 0;*/
+    padding: 660px 0;
 }
 .tw_divider{
-    background:url(../img/slide/noronha_better_line.jpg)no-repeat center;
-    background-position-x: -169px;
-    background-position-y: -280px;
+    /*background:url(../img/slide/noronha_better_line.jpg)no-repeat center;*/
+    background:url(../img/slide/xan_shore_beach_three.jpg)no-repeat center;
+    /*background-position-x: -169px;8*/
+    /*background-position-y: -280px;*/
+    background-position-y: -9px;
     position: relative;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
+    background-size: cover;
 
 }
 .tw_divider .carousel-indicators {
@@ -1065,6 +1075,23 @@ img.signature{
       position: relative;
       top: -39px;
     }
+    section.tw_divider{
+      /*padding: 308px 0;*/
+      padding: 211px 0;
+    }
+    /*.tw_divider{
+      background-position-x: -839px;
+    }*/
+    p.tw_divider_footer_maps{
+      font-size: 14px;
+      bottom: 2px;
+    }
+    p.tw_divider_footer{
+      margin: -295px 10px 0 0;
+    }
+    .tw_divider .carousel-indicators{
+      top: 145%;
+    }
 }
 @media (min-width: 992px){
     a.mail.mobile_a_link {
@@ -1074,5 +1101,8 @@ img.signature{
 @media only screen and (max-device-width: 736px) and (orientation : landscape){
   img.seel_logo{
     max-width: 30%;
+  }
+  section.tw_divider{
+    padding: 329px 0;
   }
 }
