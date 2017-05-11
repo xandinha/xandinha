@@ -1,0 +1,260 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ body {
+    overflow-x: hidden;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    color: #fff;
+    /*background: rgb(51,51,51);*/
+    background: #232323; /*#121C28;*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+i.fa.fa-bars {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 1px 1px rgba(51,51,51,.6);
+}
+
+i.fa.fa-bars:active, i.fa.fa-bars:focus {
+  /*color: rgb(35, 35, 35);*/
+  color: #fff;
+}
+
+.xan_logo_white{
+    width: 12%;
+    margin-bottom: 30px
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    /*color: #999999;*/
+    color: rgba(255,255,255,.8);
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    /*background: #151F2A;*/
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    /*height: 65px;*/
+    font-size: 18px;
+    line-height: 60px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    margin-left: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    /*color: #999999;*/
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+.logo_blog{
+    margin-bottom: 60px;
+}
+
+div#page-content-wrapper {
+    background: url('../img/xan_beach_shore_two.jpg')no-repeat;
+    background-size:contain;
+    background-position-y: -122px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.post-preview > a > .post-title{
+    color: #404040;
+}
+.post_color{
+    color: #fff;
+    text-shadow: 1px 1px rgba(0,0,0,.6);
+}
+.row.blog_row{
+    margin-top: 30px;
+}
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+@media (max-width: 767px) and (max-width: 991px){
+    
+    div#page-content-wrapper {
+        background-size: cover;
+        background-position-y: 0px;
+        /* display: block; */
+        /* max-width: 100%; */
+        /* height: auto; */
+        height: 90.5vh;
+        background-position-x: -491px;
+    }
+    
+    .row.blog_row {
+        margin-top: 470px;
+    }
+    .xan_logo_white {
+        width: 25%;
+        position: relative;
+        top: -30px;
+    }  
+}
+/*@media (max-device-width: 767px){
+    div#page-content-wrapper {
+        background-position-y: -76px;
+        height: 97.5vh;
+        /*background-position-x: -17px;*/
+    }
+}*/
+@media (max-device-width: 767px) and (orientation: landscape){
+    div#page-content-wrapper {
+        background-position-y: -76px;
+        height: 97.5vh;
+        background-position-x: -17px;
+    }  
+}
+
+/* ---- iPhone 6 in portrait --- */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+    .row.blog_row {
+        margin-top: 150%;
+    }
+    .xan_logo_white {
+        width: 25%;
+        position: relative;
+        top: -40px;
+    }    
+}
+
+/* ---- iPhone 6 in landscape --- */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {  
+    div#page-content-wrapper {
+        background-position-y: -75px;
+        height: 98.5vh;
+        background-position-x: 0px;
+    }
+    .row.blog_row {
+        margin-top: 45%;
+    }
+}
+
+/* ---- iPhone 6 plus in landscape --- */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+    div#page-content-wrapper {
+        background-position-y: -70px;
+        height: 98.5vh;
+        background-position-x: 0px;
+    }
+    .row.blog_row {
+        margin-top: 45%;
+    }
+    .xan_logo_white {
+        width: 14%;
+        position: relative;
+        top: -39px;
+    }    
+}
