@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+
+
+<div class="contents text-center">
+    <div class="content">
+        <h1>NEWS 1</h1>
+        <h3>Page 1 contents...</h3>
+    </div>
+    <div class="content">
+        <h1>NEWS 2</h1>
+        <h3>Page 2 contents...</h3>
+    </div>
+    <div class="content">
+        <h1>NEWS 3</h1>
+        <h3>Page 3 contents...</h3>
+    </div>
+    <div class="content">
+        <h1>NEWS 4</h1>
+        <h3>Page 4 contents...</h3>
+    </div>
+    <div class="content">
+        <h1>NEWS 5</h1>
+        <h3>Page 5 contents...</h3>
+    </div>
+</div>
+
+
+<nav class="text-center">
+    <ul class="pagination">
+        <li class="pag_prev">
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li id="pag_1"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li class="pag_next">
+            <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+
+    </ul>
+</nav>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+
+
+    pageSize = 2;
+    pagesCount = $(".content").length;
+    var currentPage = 1;
+
+    /////////// PREPARE NAV ///////////////
+    var nav = '';
+    var totalPages = Math.ceil(pagesCount / pageSize);
+    for (var s=0; s<totalPages; s++){
+        nav += '<li class="numeros"><a href="#">'+(s+1)+'</a></li>';
+    }
+    $(".pag_prev").after(nav);
+    $(".numeros").first().addClass("active");
+    //////////////////////////////////////
+
+    showPage = function() {
+        $(".content").hide().each(function(n) {
+            if (n >= pageSize * (currentPage - 1) && n < pageSize * currentPage)
+                $(this).show();
+        });
+    }
+    showPage();
+
+
+    $(".pagination li.numeros").click(function() {
+        $(".pagination li").removeClass("active");
+        $(this).addClass("active");
+        currentPage = parseInt($(this).text());
+        showPage();
+    });
+
+    $(".pagination li.pag_prev").click(function() {
+        if($(this).next().is('.active')) return;
+        $('.numeros.active').removeClass('active').prev().addClass('active');
+        currentPage = currentPage > 1 ? (currentPage-1) : 1;
+        showPage();
+    });
+
+    $(".pagination li.pag_next").click(function() {
+        if($(this).prev().is('.active')) return;
+        $('.numeros.active').removeClass('active').next().addClass('active');
+        currentPage = currentPage < totalPages ? (currentPage+1) : totalPages;
+        showPage();
+    });
+});
+
+</script>
+
+</body>
+</html>
