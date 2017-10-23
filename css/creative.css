@@ -885,6 +885,13 @@ p.tw_divider_footer{
     color: #fff;
     text-shadow: 1px 1px #000;
 }
+.social_project{
+   background:url(../img/slide/xan_projeto_big_logo_bodyboard_para.png)no-repeat center; 
+   position: relative;
+   /*background-size: contain;*/
+   padding: 350px 0px 107px;
+   top: 40px;
+}
 a.rodape{
     color: #fff;
     text-shadow: 1px 1px #000;
@@ -1081,7 +1088,8 @@ img.signature{
     }
     section.tw_divider{
       /*padding: 308px 0;*/
-      padding: 211px 0;
+      padding: 104px 0;
+      background-position-y: 0px;
     }
     /*.tw_divider{
       background-position-x: -839px;
@@ -1096,6 +1104,9 @@ img.signature{
     .tw_divider .carousel-indicators{
       top: 145%;
     }
+    .contact_info{
+        padding: 13px 0;
+    }
 }
 @media (min-width: 992px){
     a.mail.mobile_a_link {
@@ -1107,6 +1118,6 @@ img.signature{
     max-width: 30%;
   }
   section.tw_divider{
-    padding: 329px 0;
+    padding: 168px 0;
   }
 }
