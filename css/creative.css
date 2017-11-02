@@ -112,9 +112,13 @@ aside {
     border-color: rgba(34,34,34,.05);
     /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
     background-color: #fff;
-    -webkit-transition: all .35s;
+    /*-webkit-transition: all .35s;
     -moz-transition: all .35s;
-    transition: all .35s;
+    transition: all .35s;*/
+    transition: .2s ease-in-out;
+    padding: 15px 0px 0px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    /*height: 70px;*/
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -143,7 +147,7 @@ a.navbar-brand.page-scroll{
     font-size: 21px;
     font-weight: 500;
     color: #222;
-    text-shadow:1px 1px 1px rgba(44, 62, 80, .9);
+    /*text-shadow:1px 1px 1px rgba(44, 62, 80, .9);*/
 }
 
 .navbar-default .nav > li>a:hover,
@@ -195,7 +199,7 @@ a.navbar-brand.page-scroll{
     height: 2px;
     background-color: rgba(255,255,255,.8);
     margin-top: 8px;
-    box-shadow: 1px 1px 1px rgba(51,51,51,.4);
+    /*box-shadow: 1px 1px 1px rgba(51,51,51,.4);*/
     transition: width .3s;
 }
 .link_effect:hover::after{
@@ -230,7 +234,8 @@ p.pht{
         border:none;
         background-color: transparent;
         @media (min-width: 768px);
-        padding: 25px 0;
+        /*padding: 25px 0;*/
+        padding: 16px 0 0 0;
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -253,8 +258,10 @@ p.pht{
     }
 
     .navbar-default.affix {
+        transition: 0.9s ease-in-out;
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
+        box-shadow: 0px 4px 8px -3px rgba(17, 17, 17, .06);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -300,7 +307,7 @@ p.pht{
 .logo{
     position: relative;
     top: -21px;
-    transition: all .15s linear;
+    transition: 0.3s ease-in-out;
     /*background-color: rgb(38,44,60);*/
     /*background: rgb(0,0,0);*/
     /*border: 2px solid rgb(197,164,126);*/
@@ -309,8 +316,10 @@ p.pht{
     padding: 0px;
     border-radius: 50%;
     margin-left: 2px;
-    width: 90px;
-    height: 90px;
+    /*width: 90px;
+    height: 90px;*/
+    width: 70px;
+    height: 70px;
     padding: 2px;
 }
 
@@ -361,6 +370,8 @@ header .header-content .header-content-inner p {
 .my_life{
     display: inline;
     padding-bottom: 84px;
+    position: relative;
+    top: -43px;
 }
 .page-header{
   position: relative;
@@ -1086,6 +1097,10 @@ img.signature{
       position: relative;
       top: -39px;
     }
+    .small_box {
+        padding-left: 0;
+        padding-right: 0;
+    }
     section.tw_divider{
       /*padding: 308px 0;*/
       padding: 104px 0;
@@ -1106,6 +1121,12 @@ img.signature{
     }
     .contact_info{
         padding: 13px 0;
+    }
+    .social_project{
+        top: -10px;
+    }
+    .navbar-default{
+        padding: 0;
     }
 }
 @media (min-width: 992px){
