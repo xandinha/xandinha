@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"box",
 				"box-shadow"
 			],
@@ -44,10 +48,6 @@
 				"transition"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"bord",
 				"border-radius"
 			],
@@ -80,11 +80,21 @@
 	"buffers":
 	[
 		{
-			"file": "js/function.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1136,
-				"line_ending": "Windows"
+				"buffer_size": 63741,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/creative.css",
+			"settings":
+			{
+				"buffer_size": 24824,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -135,7 +145,7 @@
 	"expanded_folders":
 	[
 		"/C/Users/jnr_J/Downloads/xan/xandinha",
-		"/C/Users/jnr_J/Downloads/xan/xandinha/js"
+		"/C/Users/jnr_J/Downloads/xan/xandinha/css"
 	],
 	"file_history":
 	[
@@ -231,6 +241,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"portfolio-item",
 			"competição",
 			"collapse_nav",
 			".nav",
@@ -316,32 +327,62 @@
 			[
 				{
 					"buffer": 0,
-					"file": "js/function.js",
-					"semi_transient": true,
+					"file": "index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1136,
+						"buffer_size": 63741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1136,
-								1136
+								41252,
+								41252
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 430.0,
+						"translation.y": 20571.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/creative.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13989,
+								13989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -423,7 +464,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 201.0,
 	"status_bar_visible": true,
 	"template_settings":
